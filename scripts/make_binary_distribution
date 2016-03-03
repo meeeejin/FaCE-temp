@@ -1,0 +1,1 @@
+cd /home/mijin/mysql-5.6.26 && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake

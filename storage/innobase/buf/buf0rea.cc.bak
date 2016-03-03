@@ -1,0 +1,106 @@
+#ifdef SSD_CACHE_FACE
+        fold = buf_page_address_fold(bpage->space, bpage->offset);
+
+        /* Search SSD cache hash table. */
+ssd_cache_search:
+        rw_lock_s_lock(ssd_cache_hash_lock);
+
+        HASH_SEARCH(hash, ssd_cache, fold, ssd_meta_dir_t*, entry,
+                ut_ad(1), entry->space == bpage->space && entry->offset == bpage->offset);
+
+        if(entry)
+            fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
+
+        rw_lock_s_unlock(ssd_cache_hash_lock);
+
+        if (entry) 
+        {
+            if (entry->space == bpage->space && entry->offset == bpage->offset) 
+            {
+                /* If the page is in the SSD cache hash table, retrieve the page from the SSD cache. */
+                fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
+
+                fd = open(cache_file_name, O_RDONLY);
+                if (fd < 0) {
+                    fprintf(stderr, "Can't open SSD cache file %s.\n", cache_file_name);
+                }
+
+                if (pread(fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, entry->ssd_offset) > 0) {
+                    fprintf(stderr, "Reading SSD cache file succeeded! (SSD offset) = (%u)\n", entry->ssd_offset);
+                    *err = DB_SUCCESS;
+                } else {
+                    fprintf(stderr, "Reading SSD cache file failed.\n");
+                    *err = DB_ERROR;
+                }
+
+                entry->ref_count += 1;
+
+                close(fd);
+            }
+        } else {
+            /* Else, retrieve the page from the storage. */
+            *err = fil_io(OS_FILE_READ | wake_later
+                    | ignore_nonexistent_pages,
+                    sync, space, 0, offset, 0, UNIV_PAGE_SIZE,
+                    ((buf_block_t*) bpage)->frame, bpage);
+        }
+#endif
+#if 0
+    {
+                /* Wait until the IO in progress is finished. */
+                for (;;) {
+                    enum buf_io_fix io_fix;
+
+                    mutex_enter(&entry->mutex);
+                    io_fix = (enum buf_io_fix) entry->io_fix;
+                    mutex_exit(&entry->mutex);
+
+                    if (io_fix == BUF_IO_NONE) {
+                        mutex_enter(&entry->mutex);
+                        entry->io_fix = BUF_IO_READ;
+                        mutex_exit(&entry->mutex);
+
+                        fd = open(cache_file_name, O_RDONLY);
+                        if (fd < 0) {
+                            fprintf(stderr, "Can't open SSD cache file %s.\n", cache_file_name);
+                        }
+
+                        if (pread(fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, entry->ssd_offset) > 0) {
+                            fprintf(stderr, "Reading SSD cache file succeeded! (SSD offset) = (%u)\n", entry->ssd_offset);
+                            *err = DB_SUCCESS;
+                        } else {
+                            fprintf(stderr, "Reading SSD cache file failed.\n");
+                            *err = DB_ERROR;
+                        }
+
+                        entry->ref_count += 1;
+
+                        close(fd);
+
+                        mutex_enter(&entry->mutex);
+                        entry->io_fix = BUF_IO_NONE;
+                        mutex_exit(&entry->mutex);
+
+                        if(!sync) {
+                            fprintf(stderr, "SSD cache no sync!!\n");
+
+                            //const ibool uncompressed = (buf_page_get_state(bpage) == BUF_BLOCK_FILE_PAGE);
+                            mutex_enter(buf_page_get_mutex(bpage));
+                            buf_page_set_io_fix(bpage, BUF_IO_NONE);
+                            rw_lock_x_unlock_gen(&((buf_block_t*) bpage)->lock, BUF_IO_READ);
+                            //buf_page_monitor(bpage, BUF_IO_READ); 
+                            mutex_exit(buf_page_get_mutex(bpage));
+                            //buf_page_io_complete(bpage);
+                        }
+
+                        break;
+                    } else {
+                        os_thread_sleep(WAIT_FOR_READ);
+                    }
+                }
+            } else {
+                os_thread_sleep(WAIT_FOR_READ);
+                goto ssd_cache_search;
+            }
+}
+#endif
