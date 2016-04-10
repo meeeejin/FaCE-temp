@@ -49,7 +49,6 @@ libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysql/servic
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysql_com.h
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysql_time.h
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysql_version.h
-libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysqld_error.h
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/mysys_err.h
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/sql_common.h
 libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o: include/t_ctype.h
@@ -298,7 +297,6 @@ libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysql/services.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysql_com.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysql_time.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysql_version.h
-libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysqld_error.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/mysys_err.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/sql_common.h
 libmysql/CMakeFiles/clientlib.dir/libmysql.c.o: include/t_ctype.h
@@ -397,7 +395,6 @@ libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/mysql_com.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/mysql_com_server.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/mysql_time.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/mysql_version.h
-libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/mysqld_error.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/probes_mysql.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/probes_mysql_nodtrace.h
 libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o: include/t_ctype.h

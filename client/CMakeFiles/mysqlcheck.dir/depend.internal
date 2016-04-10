@@ -39,7 +39,6 @@ client/CMakeFiles/mysqlcheck.dir/mysqlcheck.c.o
  include/mysql_com.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/sslopt-case.h
  include/sslopt-longopts.h
  include/sslopt-vars.h

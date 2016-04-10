@@ -85,7 +85,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/mys
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_account.cc.o: include/typelib.h
@@ -238,7 +237,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/mysql_
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_host.cc.o: include/typelib.h
@@ -396,7 +394,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/mysq
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread.cc.o: include/typelib.h
@@ -551,7 +548,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o:
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_thread_connect_attr.cc.o: include/typelib.h
@@ -704,7 +700,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/mysql_
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/cursor_by_user.cc.o: include/typelib.h
@@ -863,7 +858,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/mysql_c
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/ha_perfschema.cc.o: include/typelib.h
@@ -1026,7 +1020,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/mysql_com.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs.cc.o: include/typelib.h
@@ -1285,7 +1278,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/mysql_com.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_check.cc.o: include/typelib.h
@@ -1566,7 +1558,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/mysql_com.
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_digest.cc.o: include/typelib.h
@@ -1780,7 +1771,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/mysq
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/pfs_engine_table.cc.o: include/typelib.h
@@ -2696,7 +2686,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/mysql_
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_accounts.cc.o: include/typelib.h
@@ -2854,7 +2843,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/mysql
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_all_instr.cc.o: include/typelib.h
@@ -3015,7 +3003,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_account_by_event_name.cc.o: include/typelib.h
@@ -3177,7 +3164,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_host_by_event_name.cc.o: include/typelib.h
@@ -3337,7 +3323,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_thread_by_event_name.cc.o: include/typelib.h
@@ -3499,7 +3484,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_by_user_by_event_name.cc.o: include/typelib.h
@@ -3659,7 +3643,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esgs_global_by_event_name.cc.o: include/typelib.h
@@ -3820,7 +3803,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_account_by_event_name.cc.o: include/typelib.h
@@ -3980,7 +3962,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_digest.cc.o: include/typelib.h
@@ -4142,7 +4123,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_host_by_event_name.cc.o: include/typelib.h
@@ -4302,7 +4282,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_thread_by_event_name.cc.o: include/typelib.h
@@ -4464,7 +4443,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_by_user_by_event_name.cc.o: include/typelib.h
@@ -4624,7 +4602,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_esms_global_by_event_name.cc.o: include/typelib.h
@@ -4781,7 +4758,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/m
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_stages.cc.o: include/typelib.h
@@ -4940,7 +4916,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: inclu
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_statements.cc.o: include/typelib.h
@@ -5109,7 +5084,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/my
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits.cc.o: include/typelib.h
@@ -5269,7 +5243,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: in
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_events_waits_summary.cc.o: include/typelib.h
@@ -5430,7 +5403,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_account_by_event_name.cc.o: include/typelib.h
@@ -5592,7 +5564,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_host_by_event_name.cc.o: include/typelib.h
@@ -5752,7 +5723,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.c
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_thread_by_event_name.cc.o: include/typelib.h
@@ -5914,7 +5884,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_by_user_by_event_name.cc.o: include/typelib.h
@@ -6074,7 +6043,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_ews_global_by_event_name.cc.o: include/typelib.h
@@ -6230,7 +6198,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_instances.cc.o: include/typelib.h
@@ -6390,7 +6357,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_event_name.cc.o: include/typelib.h
@@ -6549,7 +6515,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_file_summary_by_instance.cc.o: include/typelib.h
@@ -6709,7 +6674,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/mysql_co
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_helper.cc.o: include/typelib.h
@@ -6856,7 +6820,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/mysq
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_host_cache.cc.o: include/typelib.h
@@ -7020,7 +6983,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/mysql_com
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_hosts.cc.o: include/typelib.h
@@ -7179,7 +7141,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: inclu
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_os_global_by_type.cc.o: include/typelib.h
@@ -7328,7 +7289,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: incl
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_performance_timers.cc.o: include/typelib.h
@@ -7488,7 +7448,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_account_connect_attrs.cc.o: include/typelib.h
@@ -7647,7 +7606,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect.cc.o: include/typelib.h
@@ -7807,7 +7765,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: i
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_session_connect_attrs.cc.o: include/typelib.h
@@ -7956,7 +7913,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/my
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_actors.cc.o: include/typelib.h
@@ -8111,7 +8067,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_consumers.cc.o: include/typelib.h
@@ -8268,7 +8223,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: inclu
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_instruments.cc.o: include/typelib.h
@@ -8428,7 +8382,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/m
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_objects.cc.o: include/typelib.h
@@ -8578,7 +8531,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/my
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_setup_timers.cc.o: include/typelib.h
@@ -8734,7 +8686,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: includ
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_instances.cc.o: include/typelib.h
@@ -8894,7 +8845,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_event_name.cc.o: include/typelib.h
@@ -9053,7 +9003,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_socket_summary_by_instance.cc.o: include/typelib.h
@@ -9209,7 +9158,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_sync_instances.cc.o: include/typelib.h
@@ -9368,7 +9316,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/mysql_c
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_threads.cc.o: include/typelib.h
@@ -9529,7 +9476,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: inc
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_index_usage.cc.o: include/typelib.h
@@ -9689,7 +9635,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/m
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tiws_by_table.cc.o: include/typelib.h
@@ -9849,7 +9794,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/m
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_tlws_by_table.cc.o: include/typelib.h
@@ -10011,7 +9955,6 @@ storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/mysql_com
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/mysql_com_server.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/mysql_time.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/mysql_version.h
-storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/mysqld_error.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/t_ctype.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/thr_lock.h
 storage/perfschema/CMakeFiles/perfschema.dir/table_users.cc.o: include/typelib.h

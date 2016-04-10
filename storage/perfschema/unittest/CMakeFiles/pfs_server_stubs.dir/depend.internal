@@ -71,7 +71,6 @@ storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h

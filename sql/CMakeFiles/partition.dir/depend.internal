@@ -152,7 +152,6 @@ sql/CMakeFiles/partition.dir/ha_partition.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/queues.h
  include/t_ctype.h
  include/thr_lock.h

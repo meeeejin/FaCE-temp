@@ -148,7 +148,6 @@ sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/mysql_com.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/mysql_time.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/mysql_version.h
-sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/mysqld_error.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/t_ctype.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/thr_lock.h
 sql/CMakeFiles/rpl.dir/rpl_handler.cc.o: include/typelib.h

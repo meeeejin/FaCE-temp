@@ -39,7 +39,6 @@ client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/mysql/services.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/mysql_com.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/mysql_time.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/mysql_version.h
-client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/mysqld_error.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/sql_common.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/sslopt-case.h
 client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o: include/sslopt-longopts.h

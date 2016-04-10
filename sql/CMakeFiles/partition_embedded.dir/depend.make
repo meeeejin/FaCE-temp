@@ -151,7 +151,6 @@ sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/mysql_com.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/mysql_time.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/mysql_version.h
-sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/mysqld_error.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/queues.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/t_ctype.h
 sql/CMakeFiles/partition_embedded.dir/ha_partition.cc.o: include/thr_lock.h

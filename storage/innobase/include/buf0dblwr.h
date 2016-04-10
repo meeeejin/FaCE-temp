@@ -164,9 +164,10 @@ UNIV_INTERN
 ssd_meta_dir_t*
 create_new_ssd_metadata(
 /*====================*/
-    ulint space,            /*!< in: space id */
-    ulint offset,           /*!< in: page number */
-    lsn_t lsn);             /*!< in: lsn */
+    ulint space,                /*!< in: space id */
+    ulint offset,               /*!< in: page number */
+    lsn_t lsn,                  /*!< in: lsn */
+    lsn_t oldest_modification); /*!< in: oldest_modification */
 
 /**************************************************************//**
 Insert metadata entry into the metadata directory. */

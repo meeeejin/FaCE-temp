@@ -72,7 +72,6 @@ storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/mysql_com.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/mysql_com_server.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/mysql_time.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/mysql_version.h
-storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/mysqld_error.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/probes_mysql.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/probes_mysql_nodtrace.h
 storage/csv/CMakeFiles/csv_embedded.dir/ha_tina.cc.o: include/t_ctype.h

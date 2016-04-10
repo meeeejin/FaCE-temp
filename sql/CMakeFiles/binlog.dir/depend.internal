@@ -162,7 +162,6 @@ sql/CMakeFiles/binlog.dir/binlog.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -329,7 +328,6 @@ sql/CMakeFiles/binlog.dir/log_event.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -488,7 +486,6 @@ sql/CMakeFiles/binlog.dir/log_event_old.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -574,7 +571,6 @@ sql/CMakeFiles/binlog.dir/rpl_filter.cc.o
  include/mysql_com.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -712,7 +708,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -868,7 +863,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1008,7 +1002,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1146,7 +1139,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1204,7 +1196,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o
  include/mysql/service_thread_scheduler.h
  include/mysql/services.h
  include/mysql_com.h
- include/mysqld_error.h
  include/t_ctype.h
  include/typelib.h
  sql/my_decimal.h
@@ -1258,7 +1249,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o
  include/mysql/service_thread_scheduler.h
  include/mysql/services.h
  include/mysql_com.h
- include/mysqld_error.h
  include/t_ctype.h
  include/typelib.h
  sql/my_decimal.h
@@ -1312,7 +1302,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o
  include/mysql/service_thread_scheduler.h
  include/mysql/services.h
  include/mysql_com.h
- include/mysqld_error.h
  include/t_ctype.h
  include/typelib.h
  sql/my_decimal.h
@@ -1374,7 +1363,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o
  include/mysql/service_thread_scheduler.h
  include/mysql/services.h
  include/mysql_com.h
- include/mysqld_error.h
  include/t_ctype.h
  include/typelib.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o
@@ -1515,7 +1503,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1678,7 +1665,6 @@ sql/CMakeFiles/binlog.dir/rpl_injector.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1831,7 +1817,6 @@ sql/CMakeFiles/binlog.dir/rpl_record.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1985,7 +1970,6 @@ sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -2139,7 +2123,6 @@ sql/CMakeFiles/binlog.dir/rpl_utility.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -2304,7 +2287,6 @@ sql/CMakeFiles/binlog.dir/sql_binlog.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -2356,7 +2338,6 @@ sql/CMakeFiles/binlog.dir/uuid.cc.o
  include/mysql/service_thread_scheduler.h
  include/mysql/services.h
  include/mysql_com.h
- include/mysqld_error.h
  include/t_ctype.h
  include/typelib.h
  sql/my_decimal.h

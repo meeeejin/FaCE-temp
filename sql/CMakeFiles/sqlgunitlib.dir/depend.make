@@ -112,7 +112,6 @@ sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/mysql/service_thd_wait.h
 sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/mysql/services.h
 sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/mysql_com.h
-sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/mysqld_error.h
 sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/t_ctype.h
 sql/CMakeFiles/sqlgunitlib.dir/mdl.cc.o: include/typelib.h
 
@@ -190,7 +189,6 @@ sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/mysql/services.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/mysql_com.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/mysql_time.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/mysql_version.h
-sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/mysqld_error.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/t_ctype.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/thr_lock.h
 sql/CMakeFiles/sqlgunitlib.dir/sql_list.cc.o: include/typelib.h
@@ -359,7 +357,6 @@ sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/mysql_com.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/mysql_time.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/mysql_version.h
-sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/mysqld_error.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/t_ctype.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/thr_lock.h
 sql/CMakeFiles/sqlgunitlib.dir/thr_malloc.cc.o: include/typelib.h

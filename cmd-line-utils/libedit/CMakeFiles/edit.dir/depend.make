@@ -4,13 +4,9 @@
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/chared.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/keymacro.h
@@ -23,19 +19,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/se
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chared.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/chartype.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/keymacro.h
@@ -48,19 +39,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/chartype.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/chartype.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/common.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/keymacro.h
@@ -73,19 +59,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/se
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/common.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/el.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/keymacro.h
@@ -98,19 +79,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/search
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/el.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/el_terminal.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/eln.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/keymacro.h
@@ -123,19 +99,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/searc
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/eln.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/el_terminal.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/emacs.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/keymacro.h
@@ -148,45 +119,16 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/sea
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/emacs.c.o: include/my_config.h
 
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/chared.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/common.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/config.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/el.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/fcns.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/help.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/hist.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/histedit.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/keymacro.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/map.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/parse.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/prompt.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/read.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/refresh.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/search.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/sig.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/sys.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: cmd-line-utils/libedit/vi.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/fcns.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/fcns.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/filecomplete.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/filecomplete.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/keymacro.h
@@ -200,43 +142,14 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libe
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/filecomplete.c.o: include/my_config.h
 
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/chared.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/common.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/config.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/el.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/help.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/help.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/hist.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/histedit.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/keymacro.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/map.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/parse.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/prompt.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/read.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/refresh.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/search.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/sig.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/sys.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: cmd-line-utils/libedit/vi.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/help.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/hist.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/histedit.h
@@ -250,7 +163,6 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/sear
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/hist.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/history.c.o: cmd-line-utils/libedit/chartype.h
@@ -272,13 +184,9 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/historyn.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/keymacro.c
@@ -292,18 +200,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/keymacro.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/keymacro.h
@@ -317,7 +220,6 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/searc
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/map.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/np/fgetln.c.o: cmd-line-utils/libedit/np/fgetln.c
@@ -349,13 +251,9 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/np/vis.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/keymacro.h
@@ -369,18 +267,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/sea
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/parse.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/keymacro.h
@@ -394,18 +287,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/se
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/prompt.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/keymacro.h
@@ -419,20 +307,15 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/sear
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/read.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/editline/readline.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/fcns.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/filecomplete.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/keymacro.h
@@ -447,18 +330,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/readline.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/keymacro.h
@@ -472,18 +350,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/s
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/refresh.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/keymacro.h
@@ -497,18 +370,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/se
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/search.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/keymacro.h
@@ -522,18 +390,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/sig.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/sig.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/keymacro.h
@@ -547,7 +410,6 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/terminal.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/terminal.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tokenizer.c.o: cmd-line-utils/libedit/chartype.h
@@ -567,13 +429,9 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/tokenizern.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/keymacro.h
@@ -587,18 +445,13 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/tty.c
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/tty.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/tty.c.o: include/my_config.h
 
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/chared.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/chartype.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/common.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/config.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/el.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/el_terminal.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/emacs.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/fcns.h
-cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/help.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/hist.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/histedit.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/keymacro.h
@@ -612,6 +465,5 @@ cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/sig.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/sys.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/tty.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/vi.c
-cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: cmd-line-utils/libedit/vi.h
 cmd-line-utils/libedit/CMakeFiles/edit.dir/vi.c.o: include/my_config.h
 

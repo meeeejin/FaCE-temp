@@ -3,7 +3,6 @@
 
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: client/client_priv.h
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: client/mysql_upgrade.c
-client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: scripts/mysql_fix_privilege_tables_sql.c
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: include/big_endian.h
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: include/byte_order_generic.h
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o: include/byte_order_generic_x86.h

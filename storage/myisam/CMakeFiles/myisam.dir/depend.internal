@@ -2394,7 +2394,6 @@ storage/myisam/CMakeFiles/myisam.dir/ha_myisam.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/probes_mysql.h
  include/probes_mysql_nodtrace.h
  include/t_ctype.h

@@ -1033,7 +1033,6 @@ storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/mysql_com.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/mysql_com_server.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/mysql_time.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/mysql_version.h
-storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/mysqld_error.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/probes_mysql.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/probes_mysql_nodtrace.h
 storage/heap/CMakeFiles/heap_embedded.dir/ha_heap.cc.o: include/t_ctype.h

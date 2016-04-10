@@ -71,7 +71,6 @@ storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/m
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/mysql_com_server.h
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/mysql_time.h
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/mysql_version.h
-storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/mysqld_error.h
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/probes_mysql.h
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/probes_mysql_nodtrace.h
 storage/blackhole/CMakeFiles/blackhole_embedded.dir/ha_blackhole.cc.o: include/t_ctype.h

@@ -77,7 +77,6 @@ client/CMakeFiles/mysqlbinlog.dir/mysqlbinlog.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/sql_common.h
  include/t_ctype.h
  include/thr_lock.h

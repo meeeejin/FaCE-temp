@@ -1484,7 +1484,6 @@ storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/mysql/se
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/buf/buf0checksum.cc.o: sql/debug_sync.h
@@ -2551,7 +2550,6 @@ storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/mysql/serv
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/data/data0type.cc.o: sql/debug_sync.h
@@ -4668,7 +4666,6 @@ storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/mysql/service
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0ast.cc.o: sql/debug_sync.h
@@ -4772,7 +4769,6 @@ storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0blex.cc.o: sql/debug_sync.h
@@ -5421,7 +5417,6 @@ storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0pars.cc.o: sql/debug_sync.h
@@ -5848,7 +5843,6 @@ storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/fts/fts0tlex.cc.o: sql/debug_sync.h
@@ -8639,7 +8633,6 @@ storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/mem/mem0pool.cc.o: sql/debug_sync.h
@@ -9174,7 +9167,6 @@ storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/mysql/service_
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0sync.cc.o: sql/debug_sync.h
@@ -9268,7 +9260,6 @@ storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/os/os0thread.cc.o: sql/debug_sync.h
@@ -9890,7 +9881,6 @@ storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/mysql/service_
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/pars/lexyy.cc.o: sql/debug_sync.h
@@ -14532,7 +14522,6 @@ storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/srv/srv0conc.cc.o: sql/debug_sync.h
@@ -15445,7 +15434,6 @@ storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/mysql/servic
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/sync/sync0rw.cc.o: sql/debug_sync.h
@@ -17339,7 +17327,6 @@ storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/mysql/service_t
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0dbg.cc.o: sql/debug_sync.h
@@ -17440,7 +17427,6 @@ storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/mysql/service_t
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/mysql/service_thd_wait.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/mysql/services.h
-storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0mem.cc.o: sql/debug_sync.h
@@ -17602,7 +17588,6 @@ storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/mysql/service_th
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/mysql/service_thread_scheduler.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/mysql/services.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/mysql_com.h
-storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/mysqld_error.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/t_ctype.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: include/typelib.h
 storage/innobase/CMakeFiles/innobase.dir/ut/ut0ut.cc.o: sql/debug_sync.h

@@ -974,7 +974,7 @@ buf_LRU_free_from_unzip_LRU_list(
 		ut_ad(block->page.in_LRU_list);
 
 		freed = buf_LRU_free_page(&block->page, false);
-
+        if (freed) fprintf(stderr, "unzip lru list free succeeded.\n");
 		block = prev_block;
 	}
 
@@ -1108,13 +1108,12 @@ buf_LRU_get_free_only(
 	block = (buf_block_t*) UT_LIST_GET_FIRST(buf_pool->free);
 
 	if (block) {
-
 		ut_ad(block->page.in_free_list);
 		ut_d(block->page.in_free_list = FALSE);
 		ut_ad(!block->page.in_flush_list);
 		ut_ad(!block->page.in_LRU_list);
-		ut_a(!buf_page_in_file(&block->page));
-		UT_LIST_REMOVE(list, buf_pool->free, (&block->page));
+        ut_a(!buf_page_in_file(&block->page));
+        UT_LIST_REMOVE(list, buf_pool->free, (&block->page));
 
 		mutex_enter(&block->mutex);
 
@@ -1499,7 +1498,7 @@ buf_unzip_LRU_remove_block_if_needed(
 		ut_d(block->in_unzip_LRU_list = FALSE);
 
 		UT_LIST_REMOVE(unzip_LRU, buf_pool->unzip_LRU, block);
-	}
+    }
 }
 
 /******************************************************************//**
@@ -1819,7 +1818,6 @@ buf_LRU_free_page(
 	mutex_enter(block_mutex);
 
 	if (!buf_page_can_relocate(bpage)) {
-
 		/* Do not free buffer fixed or I/O-fixed blocks. */
 		goto func_exit;
 	}
@@ -2045,7 +2043,7 @@ func_exit:
 	mutex_exit(block_mutex);
 
 	buf_LRU_block_free_hashed_page((buf_block_t*) bpage);
-	return(true);
+    return(true);
 }
 
 /******************************************************************//**
@@ -2105,7 +2103,7 @@ buf_LRU_block_free_non_file_page(
 	}
 
 	UT_LIST_ADD_FIRST(list, buf_pool->free, (&block->page));
-	ut_d(block->page.in_free_list = TRUE);
+    ut_d(block->page.in_free_list = TRUE);
 
 	UNIV_MEM_ASSERT_AND_FREE(block->frame, UNIV_PAGE_SIZE);
 }
@@ -2271,7 +2269,7 @@ buf_LRU_block_remove_hashed(
 		ut_a(buf_page_get_zip_size(bpage));
 
 #if defined UNIV_DEBUG || defined UNIV_BUF_DEBUG
-		UT_LIST_REMOVE(list, buf_pool->zip_clean, bpage);
+        UT_LIST_REMOVE(list, buf_pool->zip_clean, bpage);
 #endif /* UNIV_DEBUG || UNIV_BUF_DEBUG */
 
 		mutex_exit(&buf_pool->zip_mutex);

@@ -165,7 +165,6 @@ sql/CMakeFiles/slave.dir/rpl_info.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -367,7 +366,6 @@ sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -455,7 +453,6 @@ sql/CMakeFiles/slave.dir/rpl_info_file.cc.o
  include/mysql_com.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -589,7 +586,6 @@ sql/CMakeFiles/slave.dir/rpl_info_table.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -731,7 +727,6 @@ sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -972,7 +967,6 @@ sql/CMakeFiles/slave.dir/rpl_mi.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1122,7 +1116,6 @@ sql/CMakeFiles/slave.dir/rpl_reporting.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1286,7 +1279,6 @@ sql/CMakeFiles/slave.dir/rpl_rli.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1441,7 +1433,6 @@ sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1614,7 +1605,6 @@ sql/CMakeFiles/slave.dir/rpl_slave.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/mysys_err.h
  include/sql_common.h
  include/t_ctype.h

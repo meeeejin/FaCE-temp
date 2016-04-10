@@ -70,7 +70,6 @@ storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/mysql_com_server.h
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/mysql_time.h
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/mysql_version.h
-storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/mysqld_error.h
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/t_ctype.h
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/thr_lock.h
 storage/perfschema/unittest/CMakeFiles/pfs_server_stubs.dir/pfs_server_stubs.cc.o: include/typelib.h

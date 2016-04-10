@@ -102,7 +102,6 @@ storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/mysql_com.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/mysql_com_server.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/mysql_time.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/mysql_version.h
-storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/mysqld_error.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/probes_mysql.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/probes_mysql_nodtrace.h
 storage/archive/CMakeFiles/archive.dir/ha_archive.cc.o: include/t_ctype.h

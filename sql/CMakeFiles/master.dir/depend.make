@@ -153,7 +153,6 @@ sql/CMakeFiles/master.dir/rpl_master.cc.o: include/mysql_com.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/mysql_time.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/mysql_version.h
-sql/CMakeFiles/master.dir/rpl_master.cc.o: include/mysqld_error.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/t_ctype.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/thr_lock.h
 sql/CMakeFiles/master.dir/rpl_master.cc.o: include/typelib.h

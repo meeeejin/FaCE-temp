@@ -1265,11 +1265,10 @@ buf_chunk_not_freed(
 			break;
 		case BUF_BLOCK_FILE_PAGE:
 			mutex_enter(&block->mutex);
-			ready = buf_flush_ready_for_replace(&block->page);
-			mutex_exit(&block->mutex);
+            ready = buf_flush_ready_for_replace(&block->page);
+            mutex_exit(&block->mutex);
 
 			if (!ready) {
-
 				return(block);
 			}
 
@@ -1491,14 +1490,14 @@ int fd)     /*!< in: file descriptor */
                     HASH_DELETE(ssd_meta_dir_t, hash, ssd_cache, fold, old_entry);
                     ssd_meta_dir[old_entry->ssd_offset].flags &= ~BM_VALID;
 
-                    entry = create_new_ssd_metadata(space, offset, lsn);
+                    entry = create_new_ssd_metadata(space, offset, lsn, 1);
 
                     HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, entry);
                     insert_ssd_metadata_for_recovery(entry, i);
                 }
             } else {
                 /* Create a new metadata entry. */
-                entry = create_new_ssd_metadata(space, offset, lsn);
+                entry = create_new_ssd_metadata(space, offset, lsn, 1);
 
                 HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, entry);
                 insert_ssd_metadata_for_recovery(entry, i);
@@ -1746,7 +1745,7 @@ buf_relocate(
 
 	/* relocate buf_pool->LRU */
 	b = UT_LIST_GET_PREV(LRU, bpage);
-	UT_LIST_REMOVE(LRU, buf_pool->LRU, bpage);
+    UT_LIST_REMOVE(LRU, buf_pool->LRU, bpage);
 
 	if (b) {
 		UT_LIST_INSERT_AFTER(LRU, buf_pool->LRU, b, dpage);
@@ -3004,7 +3003,7 @@ got_block:
 
 		if (buf_page_get_state(&block->page) == BUF_BLOCK_ZIP_PAGE) {
 #if defined UNIV_DEBUG || defined UNIV_BUF_DEBUG
-			UT_LIST_REMOVE(list, buf_pool->zip_clean,
+            UT_LIST_REMOVE(list, buf_pool->zip_clean,
 				       &block->page);
 #endif /* UNIV_DEBUG || UNIV_BUF_DEBUG */
 			ut_ad(!block->page.in_flush_list);

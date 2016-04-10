@@ -81,14 +81,14 @@ buf_flush_note_modification(
 
 	block->page.newest_modification = mtr->end_lsn;
 
-	if (!block->page.oldest_modification) {
-		ut_a(mtr->made_dirty);
-		ut_ad(log_flush_order_mutex_own());
-		buf_flush_insert_into_flush_list(
-			buf_pool, block, mtr->start_lsn);
-	} else {
-		ut_ad(block->page.oldest_modification <= mtr->start_lsn);
-	}
+    if (!block->page.oldest_modification) {
+        ut_a(mtr->made_dirty);
+        ut_ad(log_flush_order_mutex_own());
+        buf_flush_insert_into_flush_list(
+            buf_pool, block, mtr->start_lsn);
+    } else {
+        ut_ad(block->page.oldest_modification <= mtr->start_lsn);
+    }
 
 	mutex_exit(&block->mutex);
 

@@ -53,7 +53,6 @@ plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/mysql/servi
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/mysql_com.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o: include/typelib.h
@@ -139,7 +138,6 @@ plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/mysql
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/mysql_com.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o: include/typelib.h
@@ -225,7 +223,6 @@ plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: includ
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/mysql_com.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o: include/typelib.h

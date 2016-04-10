@@ -164,7 +164,6 @@ sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_info.cc.o: include/typelib.h
@@ -366,7 +365,6 @@ sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_info_factory.cc.o: include/typelib.h
@@ -454,7 +452,6 @@ sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/mysql/services.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_info_file.cc.o: include/typelib.h
@@ -588,7 +585,6 @@ sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_info_table.cc.o: include/typelib.h
@@ -730,7 +726,6 @@ sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_info_table_access.cc.o: include/typelib.h
@@ -971,7 +966,6 @@ sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_mi.cc.o: include/typelib.h
@@ -1121,7 +1115,6 @@ sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_reporting.cc.o: include/typelib.h
@@ -1285,7 +1278,6 @@ sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_rli.cc.o: include/typelib.h
@@ -1440,7 +1432,6 @@ sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/t_ctype.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/thr_lock.h
 sql/CMakeFiles/slave.dir/rpl_rli_pdb.cc.o: include/typelib.h
@@ -1613,7 +1604,6 @@ sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysql_com.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysql_time.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysql_version.h
-sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysqld_error.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/mysys_err.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/sql_common.h
 sql/CMakeFiles/slave.dir/rpl_slave.cc.o: include/t_ctype.h

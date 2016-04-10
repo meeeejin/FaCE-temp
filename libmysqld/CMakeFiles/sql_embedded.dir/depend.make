@@ -107,7 +107,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysql/se
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/sql_common.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/libmysql/libmysql.c.o: include/t_ctype.h
@@ -163,7 +162,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysql/se
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/sql_common.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql-common/client.c.o: include/t_ctype.h
@@ -392,7 +390,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/sql_common.h
 libmysqld/CMakeFiles/sql_embedded.dir/libmysqld.c.o: include/t_ctype.h
@@ -550,7 +547,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/m
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/abstract_query_plan.cc.o: include/thr_lock.h
@@ -721,7 +717,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/binlog.cc.o: include/typelib.h
@@ -862,7 +857,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/datadict.cc.o: include/typelib.h
@@ -1001,7 +995,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/debug_sync.cc.o: include/typelib.h
@@ -1142,7 +1135,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/derror.cc.o: include/thr_lock.h
@@ -1237,7 +1229,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/mysql/se
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/des_key_file.cc.o: include/typelib.h
@@ -1320,7 +1311,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/mysql/servic
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/discover.cc.o: include/typelib.h
@@ -1471,7 +1461,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/mysq
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/event_parse_data.cc.o: include/typelib.h
@@ -1636,7 +1625,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field.cc.o: include/thr_lock.h
@@ -1775,7 +1763,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/field_conv.cc.o: include/typelib.h
@@ -1939,7 +1926,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/filesort.cc.o: include/queues.h
@@ -2187,7 +2173,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/gcalc_tools.cc.o: include/typelib.h
@@ -2390,7 +2375,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/handler.cc.o: include/queues.h
@@ -2541,7 +2525,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/mysql/servic
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/hostname.cc.o: include/typelib.h
@@ -2624,7 +2607,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/init.cc.o: include/typelib.h
@@ -2789,7 +2771,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item.cc.o: include/thr_lock.h
@@ -2937,7 +2918,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_buff.cc.o: include/typelib.h
@@ -3097,7 +3077,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_cmpfunc.cc.o: include/thr_lock.h
@@ -3252,7 +3231,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_create.cc.o: include/typelib.h
@@ -3420,7 +3398,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_func.cc.o: include/typelib.h
@@ -3568,7 +3545,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_geofunc.cc.o: include/typelib.h
@@ -3674,7 +3650,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/mysql/s
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_inetfunc.cc.o: include/typelib.h
@@ -3820,7 +3795,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_row.cc.o: include/typelib.h
@@ -3986,7 +3960,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/password.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/sha1.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_strfunc.cc.o: include/sha2.h
@@ -4155,7 +4128,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_subselect.cc.o: include/thr_lock.h
@@ -4315,7 +4287,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_sum.cc.o: include/thr_lock.h
@@ -4466,7 +4437,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_timefunc.cc.o: include/typelib.h
@@ -4619,7 +4589,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/item_xmlfunc.cc.o: include/typelib.h
@@ -4705,7 +4674,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/key.cc.o: include/typelib.h
@@ -4882,7 +4850,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/lock.cc.o: include/typelib.h
@@ -5029,7 +4996,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log.cc.o: include/typelib.h
@@ -5194,7 +5160,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/log_event.cc.o: include/typelib.h
@@ -5239,7 +5204,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/mysql/service_thd
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mdl.cc.o: include/typelib.h
 
@@ -5371,7 +5335,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/mf_iocache.cc.o: include/typelib.h
@@ -5509,7 +5472,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/my_decimal.cc.o: include/typelib.h
@@ -5562,7 +5524,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/net_serv.cc.o: include/t_ctype.h
@@ -5725,7 +5686,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain.cc.o: include/thr_lock.h
@@ -5865,7 +5825,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/mysq
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_json.cc.o: include/typelib.h
@@ -6005,7 +5964,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: inclu
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_explain_traditional.cc.o: include/typelib.h
@@ -6171,7 +6129,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_range.cc.o: include/thr_lock.h
@@ -6326,7 +6283,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_sum.cc.o: include/thr_lock.h
@@ -6433,7 +6389,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/mysql/servi
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace.cc.o: include/typelib.h
@@ -6587,7 +6542,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/mysq
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/opt_trace2server.cc.o: include/typelib.h
@@ -6671,7 +6625,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/mysql/serv
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/parse_file.cc.o: include/typelib.h
@@ -6814,7 +6767,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/partition_info.cc.o: include/thr_lock.h
@@ -6964,7 +6916,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/procedure.cc.o: include/typelib.h
@@ -7104,7 +7055,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/protocol.cc.o: include/typelib.h
@@ -7258,7 +7208,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/records.cc.o: include/thr_lock.h
@@ -7346,7 +7295,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/mysql/serv
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_filter.cc.o: include/typelib.h
@@ -7484,7 +7432,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_cache.cc.o: include/typelib.h
@@ -7640,7 +7587,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/my
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_execution.cc.o: include/typelib.h
@@ -7780,7 +7726,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_misc.cc.o: include/typelib.h
@@ -7918,7 +7863,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: inc
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_mutex_cond_array.cc.o: include/typelib.h
@@ -7976,7 +7920,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/mysql/
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: include/typelib.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_owned.cc.o: sql/my_decimal.h
@@ -8030,7 +7973,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/mysql/se
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: include/typelib.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_set.cc.o: sql/my_decimal.h
@@ -8084,7 +8026,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/mysq
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: include/typelib.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_sid_map.cc.o: sql/my_decimal.h
@@ -8146,7 +8087,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: includ
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_specification.cc.o: include/typelib.h
 
@@ -8287,7 +8227,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_gtid_state.cc.o: include/typelib.h
@@ -8452,7 +8391,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_handler.cc.o: include/typelib.h
@@ -8606,7 +8544,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_injector.cc.o: include/typelib.h
@@ -8759,7 +8696,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_record.cc.o: include/typelib.h
@@ -8909,7 +8845,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_reporting.cc.o: include/typelib.h
@@ -9062,7 +8997,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/rpl_utility.cc.o: include/typelib.h
@@ -9140,7 +9074,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/mysql/threa
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/scheduler.cc.o: include/typelib.h
@@ -9319,7 +9252,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/set_var.cc.o: include/thr_lock.h
@@ -9472,7 +9404,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/signal_handler.cc.o: include/typelib.h
@@ -9638,7 +9569,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp.cc.o: include/typelib.h
@@ -9790,7 +9720,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_cache.cc.o: include/typelib.h
@@ -9956,7 +9885,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_head.cc.o: include/t_ctype.h
@@ -10118,7 +10046,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_instr.cc.o: include/t_ctype.h
@@ -10271,7 +10198,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_pcontext.cc.o: include/typelib.h
@@ -10427,7 +10353,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sp_rcontext.cc.o: include/typelib.h
@@ -10469,7 +10394,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/mysql/service
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/mysql/service_thd_wait.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/mysql/services.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/spatial.cc.o: include/typelib.h
 
@@ -10634,7 +10558,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/password.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/sql_common.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_acl.cc.o: include/t_ctype.h
@@ -10801,7 +10724,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_admin.cc.o: include/typelib.h
@@ -10939,7 +10861,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: inclu
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alloc_error_handler.cc.o: include/typelib.h
@@ -11081,7 +11002,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_alter.cc.o: include/typelib.h
@@ -11230,7 +11150,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_analyse.cc.o: include/typelib.h
@@ -11370,7 +11289,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_audit.cc.o: include/typelib.h
@@ -11552,7 +11470,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_base.cc.o: include/thr_lock.h
@@ -11717,7 +11634,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cache.cc.o: include/queues.h
@@ -11889,7 +11805,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_class.cc.o: include/thr_alarm.h
@@ -12039,7 +11954,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_connect.cc.o: include/t_ctype.h
@@ -12221,7 +12135,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_cursor.cc.o: include/t_ctype.h
@@ -12359,7 +12272,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/mysql
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_data_change.cc.o: include/typelib.h
@@ -12522,7 +12434,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_db.cc.o: include/thr_lock.h
@@ -12688,7 +12599,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_delete.cc.o: include/thr_lock.h
@@ -12850,7 +12760,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_derived.cc.o: include/thr_lock.h
@@ -12878,7 +12787,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/item_sum.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/item_timefunc.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/item_xmlfunc.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/lex_symbol.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/lex_token.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/log.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/mdl.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: sql/mem_root_array.h
@@ -12989,7 +12897,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_digest.cc.o: include/typelib.h
@@ -13150,7 +13057,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_do.cc.o: include/thr_lock.h
@@ -13291,7 +13197,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_error.cc.o: include/typelib.h
@@ -13455,7 +13360,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_executor.cc.o: include/thr_lock.h
@@ -13592,7 +13496,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/m
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_get_diagnostics.cc.o: include/typelib.h
@@ -13756,7 +13659,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_handler.cc.o: include/thr_lock.h
@@ -13912,7 +13814,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_help.cc.o: include/thr_lock.h
@@ -14098,7 +13999,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_insert.cc.o: include/thr_lock.h
@@ -14259,7 +14159,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/mysql
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_join_buffer.cc.o: include/thr_lock.h
@@ -14424,7 +14323,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/thr_lock.h
@@ -14432,8 +14330,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/typelib.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: include/violite.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: regex/my_regex.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: sql/custom_conf.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: sql/lex.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_lex.cc.o: sql/lex_hash.h
 
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: sql/datadict.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: sql/field.h
@@ -14509,7 +14405,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/mysql/servic
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_list.cc.o: include/typelib.h
@@ -14670,7 +14565,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_load.cc.o: include/typelib.h
@@ -14809,7 +14703,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_locale.cc.o: include/typelib.h
@@ -14949,7 +14842,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_manager.cc.o: include/typelib.h
@@ -15118,7 +15010,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_optimizer.cc.o: include/thr_lock.h
@@ -15328,7 +15219,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_parse.cc.o: include/queues.h
@@ -15497,7 +15387,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition.cc.o: include/thr_lock.h
@@ -15648,7 +15537,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/m
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_partition_admin.cc.o: include/thr_lock.h
@@ -15811,7 +15699,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_planner.cc.o: include/thr_lock.h
@@ -15977,7 +15864,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/service_versions.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_plugin.cc.o: include/thr_lock.h
@@ -16155,7 +16041,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_prepare.cc.o: include/queues.h
@@ -16297,7 +16182,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_profile.cc.o: include/typelib.h
@@ -16461,7 +16345,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_reload.cc.o: include/typelib.h
@@ -16606,7 +16489,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rename.cc.o: include/typelib.h
@@ -16767,7 +16649,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_resolver.cc.o: include/thr_lock.h
@@ -16923,7 +16804,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_rewrite.cc.o: include/typelib.h
@@ -17092,7 +16972,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_select.cc.o: include/queues.h
@@ -17254,7 +17133,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_servers.cc.o: include/typelib.h
@@ -17436,7 +17314,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_show.cc.o: include/thr_lock.h
@@ -17590,7 +17467,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_signal.cc.o: include/typelib.h
@@ -17804,7 +17680,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_table.cc.o: include/thr_lock.h
@@ -17945,7 +17820,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/mysql_
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tablespace.cc.o: include/typelib.h
@@ -18111,7 +17985,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_test.cc.o: include/thr_alarm.h
@@ -18253,7 +18126,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_time.cc.o: include/typelib.h
@@ -18413,7 +18285,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/mysql_c
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_tmp_table.cc.o: include/thr_lock.h
@@ -18574,7 +18445,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_trigger.cc.o: include/thr_lock.h
@@ -18721,7 +18591,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/mysql_co
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_truncate.cc.o: include/typelib.h
@@ -18865,7 +18734,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_udf.cc.o: include/typelib.h
@@ -19026,7 +18894,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_union.cc.o: include/thr_lock.h
@@ -19200,7 +19067,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/probes_mysql_nodtrace.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_update.cc.o: include/queues.h
@@ -19372,7 +19238,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_view.cc.o: include/thr_lock.h
@@ -19404,7 +19269,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/item_xmlfunc.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/key.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/keycaches.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/lex_symbol.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/lex_token.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/log.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/log_event.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: sql/log_event_old.h
@@ -19546,7 +19410,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/password.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sql_yacc.cc.o: include/t_ctype.h
@@ -19687,7 +19550,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/strfunc.cc.o: include/typelib.h
@@ -19770,7 +19632,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/mysql/
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/string_service.cc.o: include/typelib.h
@@ -19950,7 +19811,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/thr_alarm.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/sys_vars.cc.o: include/thr_lock.h
@@ -20123,7 +19983,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table.cc.o: include/thr_lock.h
@@ -20283,7 +20142,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/table_cache.cc.o: include/thr_lock.h
@@ -20422,7 +20280,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/mysql_com.
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/thr_malloc.cc.o: include/typelib.h
@@ -20575,7 +20432,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/mysql_com
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/transaction.cc.o: include/typelib.h
@@ -20724,7 +20580,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/tztime.cc.o: include/typelib.h
@@ -20863,7 +20718,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/queues.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uniques.cc.o: include/thr_lock.h
@@ -21006,7 +20860,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/thr_lock.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/unireg.cc.o: include/typelib.h
@@ -21056,7 +20909,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/mysql/service_th
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/mysql/service_thread_scheduler.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/mysql/services.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/mysql_com.h
-libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: include/typelib.h
 libmysqld/CMakeFiles/sql_embedded.dir/__/sql/uuid.cc.o: sql/my_decimal.h
@@ -21140,7 +20992,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/sql_common.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/t_ctype.h
 libmysqld/CMakeFiles/sql_embedded.dir/emb_qcache.cc.o: include/thr_lock.h
@@ -21413,7 +21264,6 @@ libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysql_com.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysql_com_server.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysql_time.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysql_version.h
-libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysqld_error.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/mysys_err.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/probes_mysql.h
 libmysqld/CMakeFiles/sql_embedded.dir/lib_sql.cc.o: include/probes_mysql_nodtrace.h

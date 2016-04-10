@@ -54,7 +54,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o
  include/mysql_com.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -159,7 +158,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -302,7 +300,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h

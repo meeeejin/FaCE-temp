@@ -86,7 +86,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/cursor_by_account.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -239,7 +238,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/cursor_by_host.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -397,7 +395,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/cursor_by_thread.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -552,7 +549,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/cursor_by_thread_connect_a
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -705,7 +701,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/cursor_by_user.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -864,7 +859,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/ha_perfschema.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1027,7 +1021,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/pfs.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1286,7 +1279,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/pfs_check.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1567,7 +1559,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/pfs_digest.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -1781,7 +1772,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/pfs_engine_table.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -2697,7 +2687,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_accounts.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -2855,7 +2844,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_all_instr.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3016,7 +3004,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esgs_by_account_by_e
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3178,7 +3165,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esgs_by_host_by_even
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3338,7 +3324,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esgs_by_thread_by_ev
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3500,7 +3485,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esgs_by_user_by_even
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3660,7 +3644,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esgs_global_by_event
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3821,7 +3804,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_by_account_by_e
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -3981,7 +3963,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_by_digest.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4143,7 +4124,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_by_host_by_even
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4303,7 +4283,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_by_thread_by_ev
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4465,7 +4444,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_by_user_by_even
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4625,7 +4603,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_esms_global_by_event
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4782,7 +4759,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_events_stages.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -4941,7 +4917,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_events_statements.cc
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5110,7 +5085,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_events_waits.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5270,7 +5244,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_events_waits_summary
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5431,7 +5404,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_ews_by_account_by_ev
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5593,7 +5565,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_ews_by_host_by_event
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5753,7 +5724,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_ews_by_thread_by_eve
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -5915,7 +5885,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_ews_by_user_by_event
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6075,7 +6044,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_ews_global_by_event_
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6231,7 +6199,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_file_instances.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6391,7 +6358,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_file_summary_by_even
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6550,7 +6516,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_file_summary_by_inst
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6710,7 +6675,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_helper.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -6857,7 +6821,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_host_cache.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7021,7 +6984,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_hosts.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7180,7 +7142,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_os_global_by_type.cc
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7329,7 +7290,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_performance_timers.c
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7489,7 +7449,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_session_account_conn
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7648,7 +7607,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_session_connect.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7808,7 +7766,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_session_connect_attr
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -7957,7 +7914,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_setup_actors.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8112,7 +8068,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_setup_consumers.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8269,7 +8224,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_setup_instruments.cc
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8429,7 +8383,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_setup_objects.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8579,7 +8532,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_setup_timers.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8735,7 +8687,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_socket_instances.cc.
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -8895,7 +8846,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_socket_summary_by_ev
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9054,7 +9004,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_socket_summary_by_in
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9210,7 +9159,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_sync_instances.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9369,7 +9317,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_threads.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9530,7 +9477,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_tiws_by_index_usage.
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9690,7 +9636,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_tiws_by_table.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -9850,7 +9795,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_tlws_by_table.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h
@@ -10012,7 +9956,6 @@ storage/perfschema/CMakeFiles/perfschema_embedded.dir/table_users.cc.o
  include/mysql_com_server.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/t_ctype.h
  include/thr_lock.h
  include/typelib.h

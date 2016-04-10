@@ -507,7 +507,14 @@ buf_flush_ready_for_replace(
 	ut_ad(bpage->in_LRU_list);
 
 	if (buf_page_in_file(bpage)) {
-
+#ifdef SSD_CACHE_FACE
+        if (srv_use_ssd_cache
+            && bpage->oldest_modification == 0
+            && bpage->buf_fix_count == 0
+            && buf_page_get_io_fix(bpage) == BUF_IO_NONE) {
+            return(FALSE);
+        }
+#endif
 		return(bpage->oldest_modification == 0
 		       && bpage->buf_fix_count == 0
 		       && buf_page_get_io_fix(bpage) == BUF_IO_NONE);
@@ -544,10 +551,19 @@ buf_flush_ready_for_flush(
 	ut_ad(mutex_own(buf_page_get_mutex(bpage)));
 	ut_ad(flush_type < BUF_FLUSH_N_TYPES);
 
-	if (bpage->oldest_modification == 0
-	    || buf_page_get_io_fix(bpage) != BUF_IO_NONE) {
-		return(false);
-	}
+#ifdef SSD_CACHE_FACE
+    if (srv_use_ssd_cache) {
+        if (buf_page_get_io_fix(bpage) != BUF_IO_NONE) {
+            return(false);
+        }
+    }
+#endif
+    else {
+    	if (bpage->oldest_modification == 0
+    	    || buf_page_get_io_fix(bpage) != BUF_IO_NONE) {
+    		return(false);
+    	}
+    }
 
 	ut_ad(bpage->in_flush_list);
 
@@ -594,13 +610,18 @@ buf_flush_remove(
 		return;
 	case BUF_BLOCK_ZIP_DIRTY:
 		buf_page_set_state(bpage, BUF_BLOCK_ZIP_PAGE);
-		UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
+        UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
 #if defined UNIV_DEBUG || defined UNIV_BUF_DEBUG
 		buf_LRU_insert_zip_clean(bpage);
 #endif /* UNIV_DEBUG || UNIV_BUF_DEBUG */
 		break;
 	case BUF_BLOCK_FILE_PAGE:
-		UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
+#ifdef SSD_CACHE_FACE
+        if((srv_use_ssd_cache && bpage->oldest_modification != 0)
+            || (!srv_use_ssd_cache)) {
+            UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
+        }
+#endif
 		break;
 	}
 
@@ -678,7 +699,7 @@ buf_flush_relocate_on_flush_list(
 	ut_d(bpage->in_flush_list = FALSE);
 
 	prev = UT_LIST_GET_PREV(list, bpage);
-	UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
+    UT_LIST_REMOVE(list, buf_pool->flush_list, bpage);
 
 	if (prev) {
 		ut_ad(prev->in_flush_list);
@@ -1454,8 +1475,8 @@ buf_flush_LRU_list_batch(
 		ibool	 evict;
 
 		mutex_enter(block_mutex);
-		evict = buf_flush_ready_for_replace(bpage);
-		mutex_exit(block_mutex);
+        evict = buf_flush_ready_for_replace(bpage);
+        mutex_exit(block_mutex);
 
 		++scanned;
 
@@ -2009,8 +2030,8 @@ buf_flush_single_page_from_LRU(
 
 	if (bpage == NULL) {
 		/* Can't find a single flushable page. */
-		buf_pool_mutex_exit(buf_pool);
-		return(FALSE);
+        buf_pool_mutex_exit(buf_pool);
+        return(FALSE);
 	}
 
 
@@ -2029,12 +2050,10 @@ buf_flush_single_page_from_LRU(
 	     bpage != NULL;
 	     bpage = UT_LIST_GET_PREV(LRU, bpage)) {
 
-		ib_mutex_t*	block_mutex = buf_page_get_mutex(bpage);
+		/*ib_mutex_t*	block_mutex = buf_page_get_mutex(bpage);
 
 		mutex_enter(block_mutex);
-
-		ibool	ready = buf_flush_ready_for_replace(bpage);
-
+        ibool ready = buf_flush_ready_for_replace(bpage);
 		mutex_exit(block_mutex);
 
 		if (ready) {
@@ -2045,7 +2064,21 @@ buf_flush_single_page_from_LRU(
 			freed = buf_LRU_free_page(bpage, evict_zip);
 
 			break;
-		}
+		}*/
+
+#ifdef SSD_CACHE_FACE
+        if (srv_use_ssd_cache) {
+            if(bpage->oldest_modification == 0
+                && bpage->buf_fix_count == 0
+                && buf_page_get_io_fix(bpage) == BUF_IO_NONE) {
+                bool    evict_zip;
+
+                evict_zip = !buf_LRU_evict_from_unzip_LRU(buf_pool);
+                freed = buf_LRU_free_page(bpage, evict_zip);
+                break;
+            }
+        }
+#endif
 	}
 
 	buf_pool_mutex_exit(buf_pool);

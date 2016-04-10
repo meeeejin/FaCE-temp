@@ -53,7 +53,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/mysql/serv
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/mysql_com.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: include/typelib.h
@@ -158,7 +157,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/mys
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/mysql_com_server.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: include/typelib.h
@@ -301,7 +299,6 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: incl
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/mysql_com_server.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/mysql_time.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/mysql_version.h
-plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/mysqld_error.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/t_ctype.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/thr_lock.h
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: include/typelib.h

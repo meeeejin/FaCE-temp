@@ -40,7 +40,6 @@ client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o
  include/mysql_com.h
  include/mysql_time.h
  include/mysql_version.h
- include/mysqld_error.h
  include/sql_common.h
  include/sslopt-case.h
  include/sslopt-longopts.h

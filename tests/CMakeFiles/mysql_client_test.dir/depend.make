@@ -41,7 +41,6 @@ tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/mysql/serv
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/mysql_com.h
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/mysql_time.h
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/mysql_version.h
-tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/mysqld_error.h
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/sql_common.h
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/t_ctype.h
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: include/typelib.h

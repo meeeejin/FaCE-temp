@@ -72,7 +72,6 @@ storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/mysql_com.
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/mysql_com_server.h
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/mysql_time.h
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/mysql_version.h
-storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/mysqld_error.h
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/probes_mysql.h
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/probes_mysql_nodtrace.h
 storage/federated/CMakeFiles/federated.dir/ha_federated.cc.o: include/t_ctype.h

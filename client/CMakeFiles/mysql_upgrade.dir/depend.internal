@@ -4,7 +4,6 @@
 client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o
  /home/mijin/mysql-5.6.26/client/client_priv.h
  /home/mijin/mysql-5.6.26/client/mysql_upgrade.c
- /home/mijin/mysql-5.6.26/scripts/mysql_fix_privilege_tables_sql.c
  include/big_endian.h
  include/byte_order_generic.h
  include/byte_order_generic_x86.h

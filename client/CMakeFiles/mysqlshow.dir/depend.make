@@ -38,7 +38,6 @@ client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/mysql/services.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/mysql_com.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/mysql_time.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/mysql_version.h
-client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/mysqld_error.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/sslopt-case.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/sslopt-longopts.h
 client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o: include/sslopt-vars.h

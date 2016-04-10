@@ -161,7 +161,6 @@ sql/CMakeFiles/binlog.dir/binlog.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/binlog.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/binlog.cc.o: include/typelib.h
@@ -328,7 +327,6 @@ sql/CMakeFiles/binlog.dir/log_event.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/log_event.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/log_event.cc.o: include/typelib.h
@@ -487,7 +485,6 @@ sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/log_event_old.cc.o: include/typelib.h
@@ -573,7 +570,6 @@ sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_filter.cc.o: include/typelib.h
@@ -711,7 +707,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_cache.cc.o: include/typelib.h
@@ -867,7 +862,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_execution.cc.o: include/typelib.h
@@ -1007,7 +1001,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_misc.cc.o: include/typelib.h
@@ -1145,7 +1138,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_mutex_cond_array.cc.o: include/typelib.h
@@ -1203,7 +1195,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/mysql/service_thd_wait.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/mysql_com.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: include/typelib.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_owned.cc.o: sql/my_decimal.h
@@ -1257,7 +1248,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/mysql/service_thd_wait.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/mysql_com.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: include/typelib.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_set.cc.o: sql/my_decimal.h
@@ -1311,7 +1301,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/mysql/service_thd_wait.
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/mysql_com.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: include/typelib.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_sid_map.cc.o: sql/my_decimal.h
@@ -1373,7 +1362,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/mysql/service_thd
 sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/mysql_com.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_specification.cc.o: include/typelib.h
 
@@ -1514,7 +1502,6 @@ sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_gtid_state.cc.o: include/typelib.h
@@ -1677,7 +1664,6 @@ sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_injector.cc.o: include/typelib.h
@@ -1830,7 +1816,6 @@ sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_record.cc.o: include/typelib.h
@@ -1984,7 +1969,6 @@ sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_record_old.cc.o: include/typelib.h
@@ -2138,7 +2122,6 @@ sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/rpl_utility.cc.o: include/typelib.h
@@ -2303,7 +2286,6 @@ sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/mysql_com.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/mysql_com_server.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/mysql_time.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/mysql_version.h
-sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/thr_lock.h
 sql/CMakeFiles/binlog.dir/sql_binlog.cc.o: include/typelib.h
@@ -2355,7 +2337,6 @@ sql/CMakeFiles/binlog.dir/uuid.cc.o: include/mysql/service_thd_wait.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: include/mysql/service_thread_scheduler.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: include/mysql/services.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: include/mysql_com.h
-sql/CMakeFiles/binlog.dir/uuid.cc.o: include/mysqld_error.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: include/t_ctype.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: include/typelib.h
 sql/CMakeFiles/binlog.dir/uuid.cc.o: sql/my_decimal.h
