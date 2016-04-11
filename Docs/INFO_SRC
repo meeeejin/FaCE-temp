@@ -1,8 +1,8 @@
-commit: 0c7a2ac233e8d3c353aea9686a8e6ee6757c7dcc
-date: 2016-03-03 22:19:31 +0900
-build-date: 2016-04-10 20:39:44 +0900 
-short: 0c7a2ac
-branch: face
+commit: f4fce2a6eba4c95cd45912e7dc82d7b2a04a4c73
+date: 2016-04-11 00:39:50 +0900
+build-date: 2016-04-11 15:45:28 +0900 
+short: f4fce2a
+branch: face_mixed
 
 
 MySQL source 5.6.26
