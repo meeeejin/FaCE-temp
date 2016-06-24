@@ -25,7 +25,7 @@
 # Description: MySQL is a very fast and reliable SQL database engine.
 ### END INIT INFO
  
-# If you install MySQL on some other places than /home/mijin/mysql_bin_face, then you
+# If you install MySQL on some other places than /home/mijin/mysql-5.6.26, then you
 # have to do one of the following things for this script to work:
 #
 # - Run this script from within the MySQL installation directory
@@ -63,14 +63,14 @@ lock_file_path="$lockdir/mysql"
 mysqld_pid_file_path=
 if test -z "$basedir"
 then
-  basedir=/home/mijin/mysql_bin_face
-  bindir=/home/mijin/mysql_bin_face/bin
+  basedir=/home/mijin/mysql-5.6.26
+  bindir=/home/mijin/mysql-5.6.26/bin
   if test -z "$datadir"
   then
     datadir=/home/mijin/mysql_bin_face/data
   fi
-  sbindir=/home/mijin/mysql_bin_face/bin
-  libexecdir=/home/mijin/mysql_bin_face/bin
+  sbindir=/home/mijin/mysql-5.6.26/bin
+  libexecdir=/home/mijin/mysql-5.6.26/bin
 else
   bindir="$basedir/bin"
   if test -z "$datadir"

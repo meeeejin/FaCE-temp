@@ -7336,7 +7336,7 @@ innobase_srv_conc_enter_innodb	handler/ha_innodb.cc	/^innobase_srv_conc_enter_in
 innobase_srv_conc_exit_innodb	handler/ha_innodb.cc	/^innobase_srv_conc_exit_innodb($/;"	f	file:
 innobase_srv_conc_force_exit_innodb	handler/ha_innodb.cc	/^innobase_srv_conc_force_exit_innodb($/;"	f	file:
 innobase_ssd_cache_file	handler/ha_innodb.cc	/^static char*        innobase_ssd_cache_file = NULL;$/;"	v	file:
-innobase_ssd_cache_size	handler/ha_innodb.cc	/^static long long    innobase_ssd_cache_size;$/;"	v	file:
+innobase_ssd_cache_size	handler/ha_innodb.cc	/^static long long   innobase_ssd_cache_size;$/;"	v	file:
 innobase_start_or_create_for_mysql	srv/srv0start.cc	/^innobase_start_or_create_for_mysql(void)$/;"	f
 innobase_start_trx_and_assign_read_view	handler/ha_innodb.cc	/^innobase_start_trx_and_assign_read_view($/;"	f	file:
 innobase_stats_on_metadata	handler/ha_innodb.cc	/^static my_bool	innobase_stats_on_metadata		= TRUE;$/;"	v	file:
@@ -8745,7 +8745,7 @@ num_to_drop_index	handler/handler0alter.cc	/^	const ulint	num_to_drop_index;$/;"
 num_write_row	handler/ha_innodb.h	/^	uint		num_write_row;	\/*!< number of write_row() calls *\/$/;"	m	class:ha_innobase
 object	include/mtr0mtr.h	/^	void*	object;	\/*!< pointer to the object *\/$/;"	m	struct:mtr_memo_slot_t
 offset	include/buf0buf.h	/^	ib_uint32_t	offset;		\/*!< page number; also protected$/;"	m	struct:buf_page_t
-offset	include/face0face.h	/^	ib_uint32_t     offset;		\/* page number *\/$/;"	m	struct:ssd_meta_dir_t
+offset	include/face0face.h	/^    ib_uint32_t     offset;		\/* page number *\/$/;"	m	struct:ssd_meta_dir_t
 offset	include/row0merge.h	/^	ulint		offset;		\/*!< file offset (end of file) *\/$/;"	m	struct:merge_file_t
 offset	include/trx0purge.h	/^	ulint		offset;		\/*!< Page offset for the next undo$/;"	m	struct:trx_purge_t
 offset	os/os0file.cc	/^	os_offset_t	offset;		\/*!< file offset in bytes *\/$/;"	m	struct:os_aio_slot_t	file:
@@ -10935,10 +10935,10 @@ srv_slot_get_type	srv/srv0srv.cc	/^srv_slot_get_type($/;"	f	file:
 srv_slot_t	include/srv0srv.h	/^struct srv_slot_t{$/;"	s
 srv_sort_buf_size	srv/srv0srv.cc	/^UNIV_INTERN ulong	srv_sort_buf_size = 1048576;$/;"	v
 srv_spin_wait_delay	srv/srv0srv.cc	/^UNIV_INTERN ulong	srv_spin_wait_delay	= 6;$/;"	v
-srv_ssd_cache_file	srv/srv0srv.cc	/^UNIV_INTERN char*       srv_ssd_cache_file = NULL;$/;"	v
-srv_ssd_cache_hit_ref	srv/srv0srv.cc	/^UNIV_INTERN ulint       srv_ssd_cache_hit_ref = 0;$/;"	v
-srv_ssd_cache_size	srv/srv0srv.cc	/^UNIV_INTERN long long   srv_ssd_cache_size = 2*1024*1024*1024L;$/;"	v
-srv_ssd_cache_total_ref	srv/srv0srv.cc	/^UNIV_INTERN ulint       srv_ssd_cache_total_ref = 0;$/;"	v
+srv_ssd_cache_file	srv/srv0srv.cc	/^UNIV_INTERN char*               srv_ssd_cache_file = NULL;$/;"	v
+srv_ssd_cache_hit_ref	srv/srv0srv.cc	/^UNIV_INTERN ulint               srv_ssd_cache_hit_ref = 0;$/;"	v
+srv_ssd_cache_size	srv/srv0srv.cc	/^UNIV_INTERN ib_uint64_t         srv_ssd_cache_size = 2*1024*1024*1024L;$/;"	v
+srv_ssd_cache_total_ref	srv/srv0srv.cc	/^UNIV_INTERN ulint               srv_ssd_cache_total_ref = 0;$/;"	v
 srv_start_has_been_called	srv/srv0start.cc	/^static ibool		srv_start_has_been_called = FALSE;$/;"	v	file:
 srv_start_lsn	srv/srv0start.cc	/^UNIV_INTERN lsn_t	srv_start_lsn;$/;"	v
 srv_start_raw_disk_in_use	include/srv0srv.h	893;"	d
@@ -10984,7 +10984,7 @@ srv_use_doublewrite_buf	srv/srv0srv.cc	/^UNIV_INTERN ibool	srv_use_doublewrite_b
 srv_use_native_aio	include/srv0srv.h	886;"	d
 srv_use_native_aio	srv/srv0srv.cc	/^UNIV_INTERN my_bool	srv_use_native_aio = TRUE;$/;"	v
 srv_use_native_conditions	srv/srv0srv.cc	/^UNIV_INTERN ibool	srv_use_native_conditions = FALSE;$/;"	v
-srv_use_ssd_cache	srv/srv0srv.cc	/^UNIV_INTERN ibool       srv_use_ssd_cache = FALSE;$/;"	v
+srv_use_ssd_cache	srv/srv0srv.cc	/^UNIV_INTERN ibool               srv_use_ssd_cache = FALSE;$/;"	v
 srv_use_sys_malloc	srv/srv0srv.cc	/^UNIV_INTERN my_bool	srv_use_sys_malloc	= TRUE;$/;"	v
 srv_wake_master_thread	srv/srv0srv.cc	/^srv_wake_master_thread(void)$/;"	f
 srv_wake_purge_thread_if_not_active	srv/srv0srv.cc	/^srv_wake_purge_thread_if_not_active(void)$/;"	f
@@ -10997,7 +10997,7 @@ ssd_cache_block_to_datafile	buf/buf0dblwr.cc	/^ssd_cache_block_to_datafile($/;"	
 ssd_cache_hash_lock	buf/buf0buf.cc	/^UNIV_INTERN rw_lock_t*		ssd_cache_hash_lock;$/;"	v
 ssd_cache_meta_free_idx	buf/buf0buf.cc	/^UNIV_INTERN ulint		    ssd_cache_meta_free_idx = 0;$/;"	v
 ssd_cache_meta_idx_lock	buf/buf0buf.cc	/^UNIV_INTERN rw_lock_t*      ssd_cache_meta_idx_lock;$/;"	v
-ssd_cache_size	buf/buf0buf.cc	/^UNIV_INTERN ulint		    ssd_cache_size = 0;$/;"	v
+ssd_cache_size	buf/buf0buf.cc	/^UNIV_INTERN ib_uint64_t		ssd_cache_size = 0;$/;"	v
 ssd_cache_size_over	buf/buf0buf.cc	/^UNIV_INTERN bool            ssd_cache_size_over;$/;"	v
 ssd_cache_writeback	buf/buf0dblwr.cc	/^ssd_cache_writeback(void)$/;"	f	file:
 ssd_meta_dir	buf/buf0buf.cc	/^UNIV_INTERN ssd_meta_dir_t	*ssd_meta_dir;$/;"	v

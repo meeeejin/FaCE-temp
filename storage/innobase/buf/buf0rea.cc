@@ -214,7 +214,7 @@ buf_read_page_low(
 
             srv_ssd_cache_total_ref += 1;
 
-            if (entry) {
+            if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID)) {
                 ut_ad((entry->space == bpage->space) && (entry->offset == bpage->offset));
 
                 fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
@@ -232,15 +232,15 @@ buf_read_page_low(
                         ssd_meta_dir[entry->ssd_offset].io_fix = BUF_IO_READ;
                         mutex_exit(&ssd_meta_dir[entry->ssd_offset].mutex);
 
-                        ulint ssd_offset = (ulint) entry->ssd_offset * UNIV_PAGE_SIZE;
+                        ulint ssd_offset = entry->ssd_offset * UNIV_PAGE_SIZE;
 
                         fd = open(srv_ssd_cache_file, O_RDONLY | O_DIRECT);
                         if (fd < 0) {
                             fprintf(stderr, "Can't open SSD cache file %s.\n", srv_ssd_cache_file);
                         }
 
-                        if ((ulint) pread(fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, (off_t) ssd_offset) == UNIV_PAGE_SIZE) {
-                            fprintf(stderr, "Reading SSD cache file succeeded! (metadata index) = (%u)\n", entry->ssd_offset);
+                        if ((ulint) pread(fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, ssd_offset) == UNIV_PAGE_SIZE) {
+                            fprintf(stderr, "Reading SSD cache file succeeded! (metadata index) = (%lu)\n", entry->ssd_offset);
                             srv_ssd_cache_hit_ref += 1;
                             *err = DB_SUCCESS;
                         } else {

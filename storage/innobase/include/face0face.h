@@ -17,11 +17,11 @@ Created JAN/14/2016 Mijin Ahn
 /* The structure of SSD cache metadata directory */
 struct ssd_meta_dir_t {
 	ib_uint32_t     space;		/* tablespace id */
-	ib_uint32_t     offset;		/* page number */
+    ib_uint32_t     offset;		/* page number */
     lsn_t           lsn;        /* lsn */ 
 	uint8_t         flags;		/* flag byte (valid, dirty) */
 	ssd_meta_dir_t* hash;		/* node used in chaining to ssd_cache */
-	ib_uint32_t     ssd_offset;	/* ssd offset */
+	ulint           ssd_offset;	/* ssd offset */
 	int		        ref_count;	/* reference count */
 	ib_mutex_t	    mutex;		/* mutex for metadata entry */
 	byte		    io_fix;		/* type of pending I/O operation */

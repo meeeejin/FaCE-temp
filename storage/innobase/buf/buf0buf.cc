@@ -255,7 +255,7 @@ UNIV_INTERN buf_pool_t*	buf_pool_ptr;
 #ifdef SSD_CACHE_FACE
 UNIV_INTERN hash_table_t*	ssd_cache;
 UNIV_INTERN ssd_meta_dir_t	*ssd_meta_dir;
-UNIV_INTERN ulint		    ssd_cache_size = 0;
+UNIV_INTERN ulint   		ssd_cache_size = 0;
 UNIV_INTERN ulint		    ssd_cache_meta_free_idx = 0;
 UNIV_INTERN rw_lock_t*		ssd_cache_hash_lock;
 UNIV_INTERN rw_lock_t*      ssd_cache_meta_idx_lock;
@@ -1448,14 +1448,14 @@ rebuild_meta_and_hash_from_ssd_cache(
 int fd)     /*!< in: file descriptor */
 {
     byte*           tmp_buf;
-    ulint           i;
+    ib_uint64_t     i;
     ulint           space;
     ulint           offset;
     lsn_t           lsn;
     ssd_meta_dir_t* entry = NULL;
     ssd_meta_dir_t* old_entry = NULL;
     ulint           fold;
-    ulint           ssd_offset = 0;
+    ib_uint64_t     ssd_offset = 0;
 
     tmp_buf = static_cast<byte*>(mem_alloc(UNIV_PAGE_SIZE));
 
@@ -1527,7 +1527,7 @@ buf_pool_init(
 	ulint	total_size,	/*!< in: size of the total pool in bytes */
 	ulint	n_instances)	/*!< in: number of instances */
 {
-	ulint		i;
+	ulint i;
 	const ulint	size	= total_size / n_instances;
 #ifdef SSD_CACHE_FACE
 	int		fd;
@@ -1564,6 +1564,7 @@ buf_pool_init(
 
     	/* Calculate ssd_cache_size. (= FaCE cache size / page size = 2GB (default) / 16KB) */
         ssd_cache_size = srv_ssd_cache_size / UNIV_PAGE_SIZE;
+        fprintf(stderr, "SSD CACHE SIZE (=num. of cache entry) = %lu\n", ssd_cache_size);
         ssd_cache_size_over = false;
 
         /* Create a SSD cache hash table. */

@@ -28,10 +28,10 @@
         compress
     postrotate
 	# just if mysqld is really running
-	if test -x /home/mijin/mysql_bin_face/bin/mysqladmin && \
-	   /home/mijin/mysql_bin_face/bin/mysqladmin ping &>/dev/null
+	if test -x /home/mijin/mysql-5.6.26/bin/mysqladmin && \
+	   /home/mijin/mysql-5.6.26/bin/mysqladmin ping &>/dev/null
 	then
-	   /home/mijin/mysql_bin_face/bin/mysqladmin flush-logs
+	   /home/mijin/mysql-5.6.26/bin/mysqladmin flush-logs
 	fi
     endscript
 }

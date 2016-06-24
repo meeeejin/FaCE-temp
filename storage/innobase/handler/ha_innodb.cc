@@ -159,7 +159,7 @@ static char*	innobase_reset_all_monitor_counter	= NULL;
 #if SSD_CACHE_FACE
 static my_bool      innobase_use_ssd_cache  = FALSE;
 static char*        innobase_ssd_cache_file = NULL;
-static long long    innobase_ssd_cache_size;
+static long long    innobase_ssd_cache_size = 0;
 #endif
 
 /* The highest file format being used in the database. The value can be
@@ -2934,7 +2934,7 @@ mem_free_and_error:
 #if SSD_CACHE_FACE
     srv_use_ssd_cache = (ibool) innobase_use_ssd_cache;
     srv_ssd_cache_file = innobase_ssd_cache_file;
-    srv_ssd_cache_size = innobase_ssd_cache_size;
+    srv_ssd_cache_size = (ulint) innobase_ssd_cache_size;
 #endif
 
 	/* -------------- All log files ---------------------------*/

@@ -96,7 +96,7 @@ extern const int	WAIT_FOR_READ;
 
 extern	hash_table_t*	ssd_cache;
 extern	ssd_meta_dir_t* ssd_meta_dir;
-extern	ulint		    ssd_cache_size;
+extern	ulint           ssd_cache_size;
 extern	ulint		    ssd_cache_meta_free_idx;
 extern	rw_lock_t*	    ssd_cache_hash_lock;
 extern  rw_lock_t*      ssd_cache_meta_idx_lock;

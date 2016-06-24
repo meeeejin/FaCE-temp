@@ -149,17 +149,17 @@ my $me = get_full_path($0);
 $basedir = dirname(dirname($me)); # Remove "/bin/mysql_config" part
 
 my $ldata   = '/home/mijin/mysql_bin_face/data';
-my $execdir = '/home/mijin/mysql_bin_face/bin';
-my $bindir  = '/home/mijin/mysql_bin_face/bin';
+my $execdir = '/home/mijin/mysql-5.6.26/bin';
+my $bindir  = '/home/mijin/mysql-5.6.26/bin';
 
 # ----------------------------------------------------------------------
 # If installed, search for the compiled in directory first (might be "lib64")
 # ----------------------------------------------------------------------
 
-my $pkglibdir = fix_path('/home/mijin/mysql_bin_face/lib',"libmysql/relwithdebinfo",
+my $pkglibdir = fix_path('/home/mijin/mysql-5.6.26/lib',"libmysql/relwithdebinfo",
                          "libmysql/release","libmysql/debug","lib/mysql","lib");
 
-my $pkgincludedir = fix_path('/home/mijin/mysql_bin_face/include', "include/mysql", "include");
+my $pkgincludedir = fix_path('/home/mijin/mysql-5.6.26/include', "include/mysql", "include");
 
 # Assume no argument with space in it
 my @ldflags = split(" ",'');

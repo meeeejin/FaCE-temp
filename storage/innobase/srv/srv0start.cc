@@ -1976,7 +1976,7 @@ innobase_start_or_create_for_mysql(void)
         fprintf(stderr, "InnoDB: This option is for experts only. Don't use it unless you understand WELL what it is.\n");
 
         ut_print_timestamp(stderr);
-        fprintf(stderr, "InnoDB: SSD cache size = %lld, SSD cache file = %s\n",
+        fprintf(stderr, "InnoDB: SSD cache size = %lu, SSD cache file = %s\n",
                         srv_ssd_cache_size, srv_ssd_cache_file);
     }
 #endif

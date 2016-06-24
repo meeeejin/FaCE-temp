@@ -50,12 +50,6 @@ m_ctype.h
 
 /home/mijin/mysql-5.6.26/regex/regex2.h
 
-/home/mijin/mysql-5.6.26/regex/split.c
-stdio.h
--
-string.h
--
-
 /home/mijin/mysql-5.6.26/regex/tests_include.h
 
 /home/mijin/mysql-5.6.26/regex/utils.h

@@ -826,7 +826,7 @@ ssd_cache_block_to_datafile(
 {
     byte*       ssd_cache_gc_buf;
     int         fd;
-    ib_uint32_t ssd_offset;
+    ulint       ssd_offset = 0;
 
     const ulint flags = sync
         ? OS_FILE_WRITE
@@ -843,7 +843,7 @@ ssd_cache_block_to_datafile(
 
     ssd_offset = entry->ssd_offset * UNIV_PAGE_SIZE;
     if ((ulint) pread(fd, ssd_cache_gc_buf, UNIV_PAGE_SIZE, ssd_offset) == UNIV_PAGE_SIZE) {
-        fprintf(stderr, "Reading SSD cache file for overwriting succeeded! (metadata index) = (%u)\n",
+        fprintf(stderr, "Reading SSD cache file for overwriting succeeded! (metadata index) = (%lu)\n",
                         entry->ssd_offset);
     } else {
         fprintf(stderr, "Reading SSD cache file for overwriting failed.\n");
@@ -1030,7 +1030,7 @@ flush:
 
     	/* Wake possible simulated aio thread to actually post the
     	writes to the operating system. We don't flush the files
-    	at this point. We leave it to the IO helper thread to flush
+        at this point. We leave it to the IO helper thread to flush
     	datafiles when the whole batch has been processed. */
     	os_aio_simulated_wake_handler_threads();
     }
@@ -1154,28 +1154,6 @@ create_new_ssd_metadata(
 	return(entry);
 }
 
-#if 0
-/**************************************************************//**
-Insert metadata entry into the metadata directory. */
-UNIV_INTERN
-void
-insert_ssd_metadata(
-/*================*/
-    ssd_meta_dir_t* metadata_entry, /*!< in: metadata entry */
-    ulint fold,                     /*!< in: fold value */
-    ulint meta_idx)                 /*!< in: metadata index */
-{
-    meta_idx = ssd_cache_writeback();
-
-    HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, metadata_entry);
-
-	metadata_entry->ssd_offset = meta_idx;
-
-	memcpy(&ssd_meta_dir[meta_idx], metadata_entry, sizeof(ssd_meta_dir_t));
-	fprintf(stderr, "metadata index: %lu, (space id, offset) = (%u, %u)\n", meta_idx, ssd_meta_dir[meta_idx].space, ssd_meta_dir[meta_idx].offset);
-}
-#endif
-
 /**************************************************************//**
 Insert metadata entry into the metadata directory with no lock
 for recovery. */
@@ -1208,6 +1186,7 @@ ssd_cache_writeback(void)
     ulint           meta_idx = 0;
     ulint           fold;
     ssd_meta_dir_t* old_entry = NULL;
+    ssd_meta_dir_t* check_entry = NULL;
 
     rw_lock_x_lock(ssd_cache_meta_idx_lock);
 
@@ -1234,30 +1213,45 @@ ssd_cache_writeback(void)
             rw_lock_s_unlock(ssd_cache_hash_lock);
 
             if (old_entry) {
-                for (;;) {
-                    enum buf_io_fix io_fix;
+                if (ssd_meta_dir[old_entry->ssd_offset].flags & BM_VALID) {
+                    for (;;) {
+                        enum buf_io_fix io_fix;
 
-                    mutex_enter(&ssd_meta_dir[meta_idx].mutex);
-                    io_fix = (enum buf_io_fix) ssd_meta_dir[meta_idx].io_fix;
-                    mutex_exit(&ssd_meta_dir[meta_idx].mutex);
+                        mutex_enter(&ssd_meta_dir[meta_idx].mutex);
+                        io_fix = (enum buf_io_fix) ssd_meta_dir[meta_idx].io_fix;
+                        mutex_exit(&ssd_meta_dir[meta_idx].mutex);
 
-                    if (io_fix == BUF_IO_NONE) {
-                        /* Flush the page to be overwritten to the storage. */
-                        ssd_cache_block_to_datafile(old_entry, true);
+                        if (io_fix == BUF_IO_NONE) {
+                            /*mutex_enter(&ssd_meta_dir[old_entry->ssd_offset].mutex);
+                            ssd_meta_dir[old_entry->ssd_offset].io_fix = BUF_IO_WRITE;
+                            mutex_exit(&ssd_meta_dir[old_entry->ssd_offset].mutex);
+*/
+                            /* Flush the page to be overwritten to the storage. */
+                            ssd_cache_block_to_datafile(old_entry, true);
 
-                        if (ssd_meta_dir[old_entry->ssd_offset].flags & BM_VALID) {
-                            rw_lock_x_lock(ssd_cache_hash_lock);
+                            /*mutex_enter(&ssd_meta_dir[old_entry->ssd_offset].mutex);
+                            ssd_meta_dir[old_entry->ssd_offset].io_fix = BUF_IO_NONE;
+                            mutex_exit(&ssd_meta_dir[old_entry->ssd_offset].mutex);
+*/
+                            if (ssd_meta_dir[old_entry->ssd_offset].flags & BM_VALID) {
+                                rw_lock_x_lock(ssd_cache_hash_lock);
 
-                            ssd_meta_dir[old_entry->ssd_offset].flags &= ~BM_VALID;                        
-                            /* Delete metadata entry of the page to be overwritten. */
-                            HASH_DELETE(ssd_meta_dir_t, hash, ssd_cache, fold, old_entry);
+                                ssd_meta_dir[old_entry->ssd_offset].flags &= ~BM_VALID;
+                                HASH_SEARCH(hash, ssd_cache, fold, ssd_meta_dir_t*, check_entry, ut_ad(1),
+                                            check_entry->space == ssd_meta_dir[meta_idx].space && check_entry->offset == ssd_meta_dir[meta_idx].offset);
+                                if (check_entry) {
+                                    /* Delete metadata entry of the page to be overwritten. */
+                                    HASH_DELETE(ssd_meta_dir_t, hash, ssd_cache, fold, check_entry);
+                                }
 
-                            rw_lock_x_unlock(ssd_cache_hash_lock);                    
+                                rw_lock_x_unlock(ssd_cache_hash_lock);
+                            }
+
+                            break;
+                        } else {
+                            fprintf(stderr, "wait the turn = %lu\n", meta_idx);
+                            os_thread_sleep(WAIT_FOR_READ);
                         }
-
-                        break;
-                    } else {
-                        os_thread_sleep(WAIT_FOR_READ);
                     }
                 }
             }
@@ -1277,8 +1271,6 @@ insert_ssd_metadata(
     ulint fold,                     /*!< in: fold value */
     ulint meta_idx)                 /*!< in: metadata index */
 {
-//    meta_idx = ssd_cache_writeback();
-
     HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, metadata_entry);
 
     metadata_entry->ssd_offset = meta_idx;
@@ -1303,9 +1295,6 @@ update_ssd_cache_info(
 
 	fold = buf_page_address_fold(bpage->space, bpage->offset);
   
-    /* Write back SSD cache data, if necessary. */ 
-//    meta_idx = ssd_cache_writeback();
- 
 	/* Create a SSD cache metadata entry. */
 	new_entry = create_new_ssd_metadata(bpage->space, bpage->offset, bpage->newest_modification);
 
@@ -1331,7 +1320,7 @@ update_ssd_cache_info(
 
 			    ssd_meta_dir[old_entry->ssd_offset].flags &= ~BM_VALID;
 				HASH_DELETE(ssd_meta_dir_t, hash, ssd_cache, fold, old_entry);
-
+                
 				rw_lock_x_unlock(ssd_cache_hash_lock);
 				break;
 			} else {
@@ -1340,6 +1329,7 @@ update_ssd_cache_info(
 		}
 	}
 
+    /* Write back SSD cache data, if necessary. */
     meta_idx = ssd_cache_writeback();
 
 	/* Update SSD cache hash table and SSD metadata directory. */
@@ -1373,7 +1363,7 @@ insert_page_in_ssd_cache(
 {
 	int	        fd;
 	ssize_t     r;
-    ib_uint32_t ssd_offset = 0;
+    ulint       ssd_offset = 0;
 
     ssd_offset = metadata_entry->ssd_offset * UNIV_PAGE_SIZE;
 
@@ -1398,7 +1388,7 @@ insert_page_in_ssd_cache(
     }
 
     if ((ulint) r == (UNIV_PAGE_SIZE)) {
-        fprintf(stderr, "Insertion in SSD cache succeeded! (metadata index) = (%u)\n", metadata_entry->ssd_offset);
+        fprintf(stderr, "Insertion in SSD cache succeeded! (metadata index) = (%lu)\n", metadata_entry->ssd_offset);
 	} else {
         fprintf(stderr, "Insertion in SSD cache failed.\n");
 	}
