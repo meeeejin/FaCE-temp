@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ auth/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/auth.dir/build.make plugin/auth/CMakeFiles/auth.dir/build
 .PHONY : auth/fast
 
+# Manual pre-install relink rule for target.
+auth/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/auth.dir/preinstall
+.PHONY : auth/preinstall
+
 # Convenience name for target.
 plugin/auth/CMakeFiles/auth_socket.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/auth_socket.dir/rule
@@ -196,6 +191,11 @@ auth_socket: plugin/auth/CMakeFiles/auth_socket.dir/rule
 auth_socket/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/auth_socket.dir/build.make plugin/auth/CMakeFiles/auth_socket.dir/build
 .PHONY : auth_socket/fast
+
+# Manual pre-install relink rule for target.
+auth_socket/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+.PHONY : auth_socket/preinstall
 
 # Convenience name for target.
 plugin/auth/CMakeFiles/auth_test_plugin.dir/rule:
@@ -211,6 +211,11 @@ auth_test_plugin/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/auth_test_plugin.dir/build.make plugin/auth/CMakeFiles/auth_test_plugin.dir/build
 .PHONY : auth_test_plugin/fast
 
+# Manual pre-install relink rule for target.
+auth_test_plugin/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+.PHONY : auth_test_plugin/preinstall
+
 # Convenience name for target.
 plugin/auth/CMakeFiles/mysql_no_login.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/mysql_no_login.dir/rule
@@ -224,6 +229,11 @@ mysql_no_login: plugin/auth/CMakeFiles/mysql_no_login.dir/rule
 mysql_no_login/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/mysql_no_login.dir/build.make plugin/auth/CMakeFiles/mysql_no_login.dir/build
 .PHONY : mysql_no_login/fast
+
+# Manual pre-install relink rule for target.
+mysql_no_login/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+.PHONY : mysql_no_login/preinstall
 
 # Convenience name for target.
 plugin/auth/CMakeFiles/qa_auth_client.dir/rule:
@@ -239,6 +249,11 @@ qa_auth_client/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/qa_auth_client.dir/build.make plugin/auth/CMakeFiles/qa_auth_client.dir/build
 .PHONY : qa_auth_client/fast
 
+# Manual pre-install relink rule for target.
+qa_auth_client/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall
+.PHONY : qa_auth_client/preinstall
+
 # Convenience name for target.
 plugin/auth/CMakeFiles/qa_auth_interface.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/qa_auth_interface.dir/rule
@@ -253,6 +268,11 @@ qa_auth_interface/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/qa_auth_interface.dir/build.make plugin/auth/CMakeFiles/qa_auth_interface.dir/build
 .PHONY : qa_auth_interface/fast
 
+# Manual pre-install relink rule for target.
+qa_auth_interface/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall
+.PHONY : qa_auth_interface/preinstall
+
 # Convenience name for target.
 plugin/auth/CMakeFiles/qa_auth_server.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/qa_auth_server.dir/rule
@@ -266,6 +286,11 @@ qa_auth_server: plugin/auth/CMakeFiles/qa_auth_server.dir/rule
 qa_auth_server/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/auth/CMakeFiles/qa_auth_server.dir/build.make plugin/auth/CMakeFiles/qa_auth_server.dir/build
 .PHONY : qa_auth_server/fast
+
+# Manual pre-install relink rule for target.
+qa_auth_server/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
+.PHONY : qa_auth_server/preinstall
 
 auth_socket.o: auth_socket.c.o
 .PHONY : auth_socket.o
@@ -447,7 +472,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... mysql_no_login"
 	@echo "... package"

@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ ftexample/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/build
 .PHONY : ftexample/fast
 
+# Manual pre-install relink rule for target.
+ftexample/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
+.PHONY : ftexample/preinstall
+
 plugin_example.o: plugin_example.c.o
 .PHONY : plugin_example.o
 
@@ -217,7 +212,6 @@ help:
 	@echo "... ftexample"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"

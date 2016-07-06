@@ -90,6 +90,24 @@ client/mysqlcheck: client/CMakeFiles/mysqlcheck.dir/link.txt
 client/CMakeFiles/mysqlcheck.dir/build: client/mysqlcheck
 .PHONY : client/CMakeFiles/mysqlcheck.dir/build
 
+# Object files for target mysqlcheck
+mysqlcheck_OBJECTS = \
+"CMakeFiles/mysqlcheck.dir/mysqlcheck.c.o"
+
+# External object files for target mysqlcheck
+mysqlcheck_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqlcheck: client/CMakeFiles/mysqlcheck.dir/mysqlcheck.c.o
+client/CMakeFiles/CMakeRelink.dir/mysqlcheck: client/CMakeFiles/mysqlcheck.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqlcheck: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqlcheck: client/CMakeFiles/mysqlcheck.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqlcheck"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqlcheck.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqlcheck.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqlcheck
+.PHONY : client/CMakeFiles/mysqlcheck.dir/preinstall
+
 client/CMakeFiles/mysqlcheck.dir/requires: client/CMakeFiles/mysqlcheck.dir/mysqlcheck.c.o.requires
 .PHONY : client/CMakeFiles/mysqlcheck.dir/requires
 

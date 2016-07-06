@@ -47,9 +47,6 @@ ENDIF()
 # Enable InnoDB's UNIV_DEBUG and UNIV_SYNC_DEBUG in debug builds
 SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DUNIV_DEBUG -DUNIV_SYNC_DEBUG")
 
-#woonhak add this to sync debug
-#ADD_DEFINITIONS(" -DUNIV_DEBUG -DUNIV_SYNC_DEBUG")
-
 # Add -Wconversion if compiling with GCC
 ## As of Mar 15 2011 this flag causes 3573+ warnings. If you are reading this
 ## please fix them and enable the following code:

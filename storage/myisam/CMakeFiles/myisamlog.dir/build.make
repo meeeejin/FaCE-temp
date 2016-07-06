@@ -96,6 +96,30 @@ storage/myisam/myisamlog: storage/myisam/CMakeFiles/myisamlog.dir/link.txt
 storage/myisam/CMakeFiles/myisamlog.dir/build: storage/myisam/myisamlog
 .PHONY : storage/myisam/CMakeFiles/myisamlog.dir/build
 
+# Object files for target myisamlog
+myisamlog_OBJECTS = \
+"CMakeFiles/myisamlog.dir/myisamlog.c.o"
+
+# External object files for target myisamlog
+myisamlog_EXTERNAL_OBJECTS =
+
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: storage/myisam/CMakeFiles/myisamlog.dir/myisamlog.c.o
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: storage/myisam/CMakeFiles/myisamlog.dir/build.make
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: storage/myisam/libmyisam.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: strings/libstrings.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: zlib/libzlib.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog: storage/myisam/CMakeFiles/myisamlog.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/myisamlog"
+	cd /home/mijin/mysql-5.6.26/storage/myisam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myisamlog.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+storage/myisam/CMakeFiles/myisamlog.dir/preinstall: storage/myisam/CMakeFiles/CMakeRelink.dir/myisamlog
+.PHONY : storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+
 storage/myisam/CMakeFiles/myisamlog.dir/requires: storage/myisam/CMakeFiles/myisamlog.dir/myisamlog.c.o.requires
 .PHONY : storage/myisam/CMakeFiles/myisamlog.dir/requires
 

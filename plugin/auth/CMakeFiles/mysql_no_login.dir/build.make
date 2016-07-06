@@ -90,6 +90,24 @@ plugin/auth/mysql_no_login.so: plugin/auth/CMakeFiles/mysql_no_login.dir/link.tx
 plugin/auth/CMakeFiles/mysql_no_login.dir/build: plugin/auth/mysql_no_login.so
 .PHONY : plugin/auth/CMakeFiles/mysql_no_login.dir/build
 
+# Object files for target mysql_no_login
+mysql_no_login_OBJECTS = \
+"CMakeFiles/mysql_no_login.dir/mysql_no_login.c.o"
+
+# External object files for target mysql_no_login
+mysql_no_login_EXTERNAL_OBJECTS =
+
+plugin/auth/CMakeFiles/CMakeRelink.dir/mysql_no_login.so: plugin/auth/CMakeFiles/mysql_no_login.dir/mysql_no_login.c.o
+plugin/auth/CMakeFiles/CMakeRelink.dir/mysql_no_login.so: plugin/auth/CMakeFiles/mysql_no_login.dir/build.make
+plugin/auth/CMakeFiles/CMakeRelink.dir/mysql_no_login.so: libservices/libmysqlservices.a
+plugin/auth/CMakeFiles/CMakeRelink.dir/mysql_no_login.so: plugin/auth/CMakeFiles/mysql_no_login.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/mysql_no_login.so"
+	cd /home/mijin/mysql-5.6.26/plugin/auth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_no_login.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall: plugin/auth/CMakeFiles/CMakeRelink.dir/mysql_no_login.so
+.PHONY : plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+
 plugin/auth/CMakeFiles/mysql_no_login.dir/requires: plugin/auth/CMakeFiles/mysql_no_login.dir/mysql_no_login.c.o.requires
 .PHONY : plugin/auth/CMakeFiles/mysql_no_login.dir/requires
 

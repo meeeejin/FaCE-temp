@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ mysql/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysql.dir/build.make client/CMakeFiles/mysql.dir/build
 .PHONY : mysql/fast
 
+# Manual pre-install relink rule for target.
+mysql/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql.dir/preinstall
+.PHONY : mysql/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysql_config_editor.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql_config_editor.dir/rule
@@ -196,6 +191,11 @@ mysql_config_editor: client/CMakeFiles/mysql_config_editor.dir/rule
 mysql_config_editor/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysql_config_editor.dir/build.make client/CMakeFiles/mysql_config_editor.dir/build
 .PHONY : mysql_config_editor/fast
+
+# Manual pre-install relink rule for target.
+mysql_config_editor/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql_config_editor.dir/preinstall
+.PHONY : mysql_config_editor/preinstall
 
 # Convenience name for target.
 client/CMakeFiles/mysql_plugin.dir/rule:
@@ -211,6 +211,11 @@ mysql_plugin/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysql_plugin.dir/build.make client/CMakeFiles/mysql_plugin.dir/build
 .PHONY : mysql_plugin/fast
 
+# Manual pre-install relink rule for target.
+mysql_plugin/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql_plugin.dir/preinstall
+.PHONY : mysql_plugin/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysql_upgrade.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql_upgrade.dir/rule
@@ -224,6 +229,11 @@ mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/rule
 mysql_upgrade/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysql_upgrade.dir/build.make client/CMakeFiles/mysql_upgrade.dir/build
 .PHONY : mysql_upgrade/fast
+
+# Manual pre-install relink rule for target.
+mysql_upgrade/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysql_upgrade.dir/preinstall
+.PHONY : mysql_upgrade/preinstall
 
 # Convenience name for target.
 client/CMakeFiles/mysqladmin.dir/rule:
@@ -239,6 +249,11 @@ mysqladmin/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqladmin.dir/build.make client/CMakeFiles/mysqladmin.dir/build
 .PHONY : mysqladmin/fast
 
+# Manual pre-install relink rule for target.
+mysqladmin/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqladmin.dir/preinstall
+.PHONY : mysqladmin/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysqlbinlog.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlbinlog.dir/rule
@@ -252,6 +267,11 @@ mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/rule
 mysqlbinlog/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqlbinlog.dir/build.make client/CMakeFiles/mysqlbinlog.dir/build
 .PHONY : mysqlbinlog/fast
+
+# Manual pre-install relink rule for target.
+mysqlbinlog/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlbinlog.dir/preinstall
+.PHONY : mysqlbinlog/preinstall
 
 # Convenience name for target.
 client/CMakeFiles/mysqlcheck.dir/rule:
@@ -267,6 +287,11 @@ mysqlcheck/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqlcheck.dir/build.make client/CMakeFiles/mysqlcheck.dir/build
 .PHONY : mysqlcheck/fast
 
+# Manual pre-install relink rule for target.
+mysqlcheck/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlcheck.dir/preinstall
+.PHONY : mysqlcheck/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysqldump.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqldump.dir/rule
@@ -280,6 +305,11 @@ mysqldump: client/CMakeFiles/mysqldump.dir/rule
 mysqldump/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqldump.dir/build.make client/CMakeFiles/mysqldump.dir/build
 .PHONY : mysqldump/fast
+
+# Manual pre-install relink rule for target.
+mysqldump/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqldump.dir/preinstall
+.PHONY : mysqldump/preinstall
 
 # Convenience name for target.
 client/CMakeFiles/mysqlimport.dir/rule:
@@ -295,6 +325,11 @@ mysqlimport/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqlimport.dir/build.make client/CMakeFiles/mysqlimport.dir/build
 .PHONY : mysqlimport/fast
 
+# Manual pre-install relink rule for target.
+mysqlimport/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlimport.dir/preinstall
+.PHONY : mysqlimport/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysqlshow.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlshow.dir/rule
@@ -308,6 +343,11 @@ mysqlshow: client/CMakeFiles/mysqlshow.dir/rule
 mysqlshow/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqlshow.dir/build.make client/CMakeFiles/mysqlshow.dir/build
 .PHONY : mysqlshow/fast
+
+# Manual pre-install relink rule for target.
+mysqlshow/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlshow.dir/preinstall
+.PHONY : mysqlshow/preinstall
 
 # Convenience name for target.
 client/CMakeFiles/mysqlslap.dir/rule:
@@ -323,6 +363,11 @@ mysqlslap/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqlslap.dir/build.make client/CMakeFiles/mysqlslap.dir/build
 .PHONY : mysqlslap/fast
 
+# Manual pre-install relink rule for target.
+mysqlslap/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqlslap.dir/preinstall
+.PHONY : mysqlslap/preinstall
+
 # Convenience name for target.
 client/CMakeFiles/mysqltest.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqltest.dir/rule
@@ -336,6 +381,11 @@ mysqltest: client/CMakeFiles/mysqltest.dir/rule
 mysqltest/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f client/CMakeFiles/mysqltest.dir/build.make client/CMakeFiles/mysqltest.dir/build
 .PHONY : mysqltest/fast
+
+# Manual pre-install relink rule for target.
+mysqltest/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 client/CMakeFiles/mysqltest.dir/preinstall
+.PHONY : mysqltest/preinstall
 
 __/sql-common/my_user.o: __/sql-common/my_user.c.o
 .PHONY : __/sql-common/my_user.o
@@ -730,7 +780,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... mysql"
 	@echo "... mysql_config_editor"

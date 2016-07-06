@@ -90,6 +90,24 @@ plugin/password_validation/validate_password.so: plugin/password_validation/CMak
 plugin/password_validation/CMakeFiles/validate_password.dir/build: plugin/password_validation/validate_password.so
 .PHONY : plugin/password_validation/CMakeFiles/validate_password.dir/build
 
+# Object files for target validate_password
+validate_password_OBJECTS = \
+"CMakeFiles/validate_password.dir/validate_password.cc.o"
+
+# External object files for target validate_password
+validate_password_EXTERNAL_OBJECTS =
+
+plugin/password_validation/CMakeFiles/CMakeRelink.dir/validate_password.so: plugin/password_validation/CMakeFiles/validate_password.dir/validate_password.cc.o
+plugin/password_validation/CMakeFiles/CMakeRelink.dir/validate_password.so: plugin/password_validation/CMakeFiles/validate_password.dir/build.make
+plugin/password_validation/CMakeFiles/CMakeRelink.dir/validate_password.so: libservices/libmysqlservices.a
+plugin/password_validation/CMakeFiles/CMakeRelink.dir/validate_password.so: plugin/password_validation/CMakeFiles/validate_password.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module CMakeFiles/CMakeRelink.dir/validate_password.so"
+	cd /home/mijin/mysql-5.6.26/plugin/password_validation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/validate_password.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/password_validation/CMakeFiles/validate_password.dir/preinstall: plugin/password_validation/CMakeFiles/CMakeRelink.dir/validate_password.so
+.PHONY : plugin/password_validation/CMakeFiles/validate_password.dir/preinstall
+
 plugin/password_validation/CMakeFiles/validate_password.dir/requires: plugin/password_validation/CMakeFiles/validate_password.dir/validate_password.cc.o.requires
 .PHONY : plugin/password_validation/CMakeFiles/validate_password.dir/requires
 

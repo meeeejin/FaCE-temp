@@ -90,6 +90,24 @@ client/mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/link.txt
 client/CMakeFiles/mysql_upgrade.dir/build: client/mysql_upgrade
 .PHONY : client/CMakeFiles/mysql_upgrade.dir/build
 
+# Object files for target mysql_upgrade
+mysql_upgrade_OBJECTS = \
+"CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o"
+
+# External object files for target mysql_upgrade
+mysql_upgrade_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o
+client/CMakeFiles/CMakeRelink.dir/mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysql_upgrade: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_upgrade"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_upgrade.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysql_upgrade.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysql_upgrade
+.PHONY : client/CMakeFiles/mysql_upgrade.dir/preinstall
+
 client/CMakeFiles/mysql_upgrade.dir/requires: client/CMakeFiles/mysql_upgrade.dir/mysql_upgrade.c.o.requires
 .PHONY : client/CMakeFiles/mysql_upgrade.dir/requires
 

@@ -1,6 +1,6 @@
 /**************************************************//**
 @file include/face0face.h
-The simple face utilities
+The simple FaCE utilities
 
 Created JAN/14/2016 Mijin Ahn
 *******************************************************/
@@ -14,7 +14,7 @@ Created JAN/14/2016 Mijin Ahn
 #define FACE_DEBUG_PRINT(fmt, args...) fprintf(stderr, "FACE DEBUG: %s:%d:%s(): " fmt, \
         __FILE__, __LINE__, __func__, ##args)
 
-/* The structure of SSD cache metadata directory */
+/* The data structure of SSD cache metadata directory */
 struct ssd_meta_dir_t {
 	ib_uint32_t     space;		/* tablespace id */
     ib_uint32_t     offset;		/* page number */

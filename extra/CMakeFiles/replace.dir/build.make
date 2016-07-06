@@ -95,6 +95,29 @@ extra/replace: extra/CMakeFiles/replace.dir/link.txt
 extra/CMakeFiles/replace.dir/build: extra/replace
 .PHONY : extra/CMakeFiles/replace.dir/build
 
+# Object files for target replace
+replace_OBJECTS = \
+"CMakeFiles/replace.dir/replace.c.o"
+
+# External object files for target replace
+replace_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/replace: extra/CMakeFiles/replace.dir/replace.c.o
+extra/CMakeFiles/CMakeRelink.dir/replace: extra/CMakeFiles/replace.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/replace: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/replace: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/replace: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/replace: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/replace: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/replace: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/replace: extra/CMakeFiles/replace.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable CMakeFiles/CMakeRelink.dir/replace"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/replace.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/replace.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/replace
+.PHONY : extra/CMakeFiles/replace.dir/preinstall
+
 extra/CMakeFiles/replace.dir/requires: extra/CMakeFiles/replace.dir/replace.c.o.requires
 .PHONY : extra/CMakeFiles/replace.dir/requires
 

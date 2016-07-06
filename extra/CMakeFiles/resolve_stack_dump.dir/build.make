@@ -99,6 +99,33 @@ extra/resolve_stack_dump: extra/CMakeFiles/resolve_stack_dump.dir/link.txt
 extra/CMakeFiles/resolve_stack_dump.dir/build: extra/resolve_stack_dump
 .PHONY : extra/CMakeFiles/resolve_stack_dump.dir/build
 
+# Object files for target resolve_stack_dump
+resolve_stack_dump_OBJECTS = \
+"CMakeFiles/resolve_stack_dump.dir/resolve_stack_dump.c.o"
+
+# External object files for target resolve_stack_dump
+resolve_stack_dump_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: extra/CMakeFiles/resolve_stack_dump.dir/resolve_stack_dump.c.o
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: extra/CMakeFiles/resolve_stack_dump.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump: extra/CMakeFiles/resolve_stack_dump.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/resolve_stack_dump"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resolve_stack_dump.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/resolve_stack_dump.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/resolve_stack_dump
+.PHONY : extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+
 extra/CMakeFiles/resolve_stack_dump.dir/requires: extra/CMakeFiles/resolve_stack_dump.dir/resolve_stack_dump.c.o.requires
 .PHONY : extra/CMakeFiles/resolve_stack_dump.dir/requires
 

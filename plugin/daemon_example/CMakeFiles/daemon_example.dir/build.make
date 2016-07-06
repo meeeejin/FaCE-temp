@@ -90,6 +90,24 @@ plugin/daemon_example/libdaemon_example.so: plugin/daemon_example/CMakeFiles/dae
 plugin/daemon_example/CMakeFiles/daemon_example.dir/build: plugin/daemon_example/libdaemon_example.so
 .PHONY : plugin/daemon_example/CMakeFiles/daemon_example.dir/build
 
+# Object files for target daemon_example
+daemon_example_OBJECTS = \
+"CMakeFiles/daemon_example.dir/daemon_example.cc.o"
+
+# External object files for target daemon_example
+daemon_example_EXTERNAL_OBJECTS =
+
+plugin/daemon_example/CMakeFiles/CMakeRelink.dir/libdaemon_example.so: plugin/daemon_example/CMakeFiles/daemon_example.dir/daemon_example.cc.o
+plugin/daemon_example/CMakeFiles/CMakeRelink.dir/libdaemon_example.so: plugin/daemon_example/CMakeFiles/daemon_example.dir/build.make
+plugin/daemon_example/CMakeFiles/CMakeRelink.dir/libdaemon_example.so: libservices/libmysqlservices.a
+plugin/daemon_example/CMakeFiles/CMakeRelink.dir/libdaemon_example.so: plugin/daemon_example/CMakeFiles/daemon_example.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module CMakeFiles/CMakeRelink.dir/libdaemon_example.so"
+	cd /home/mijin/mysql-5.6.26/plugin/daemon_example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/daemon_example.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall: plugin/daemon_example/CMakeFiles/CMakeRelink.dir/libdaemon_example.so
+.PHONY : plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall
+
 plugin/daemon_example/CMakeFiles/daemon_example.dir/requires: plugin/daemon_example/CMakeFiles/daemon_example.dir/daemon_example.cc.o.requires
 .PHONY : plugin/daemon_example/CMakeFiles/daemon_example.dir/requires
 

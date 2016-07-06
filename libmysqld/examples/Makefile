@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ mysql_client_test_embedded/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build
 .PHONY : mysql_client_test_embedded/fast
 
+# Manual pre-install relink rule for target.
+mysql_client_test_embedded/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+.PHONY : mysql_client_test_embedded/preinstall
+
 # Convenience name for target.
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 libmysqld/examples/CMakeFiles/mysql_embedded.dir/rule
@@ -197,6 +192,11 @@ mysql_embedded/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f libmysqld/examples/CMakeFiles/mysql_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysql_embedded.dir/build
 .PHONY : mysql_embedded/fast
 
+# Manual pre-install relink rule for target.
+mysql_embedded/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+.PHONY : mysql_embedded/preinstall
+
 # Convenience name for target.
 libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/rule
@@ -210,6 +210,11 @@ mysqltest_embedded: libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/rule
 mysqltest_embedded/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/build
 .PHONY : mysqltest_embedded/fast
+
+# Manual pre-install relink rule for target.
+mysqltest_embedded/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall
+.PHONY : mysqltest_embedded/preinstall
 
 __/__/client/completion_hash.o: __/__/client/completion_hash.cc.o
 .PHONY : __/__/client/completion_hash.o
@@ -340,7 +345,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... mysql_client_test_embedded"
 	@echo "... mysql_embedded"

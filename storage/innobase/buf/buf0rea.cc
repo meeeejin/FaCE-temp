@@ -127,7 +127,6 @@ buf_read_page_low(
 #ifdef SSD_CACHE_FACE
 	ssd_meta_dir_t* entry = NULL;
 	ulint           fold;
-	int             fd;
 #endif	
 
 	*err = DB_SUCCESS;
@@ -214,11 +213,13 @@ buf_read_page_low(
 
             srv_ssd_cache_total_ref += 1;
 
-            if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID)) {
-                ut_ad((entry->space == bpage->space) && (entry->offset == bpage->offset));
+            /* If the page to read is in the SSD cache and the page is valid, retrieve the page from SSD cache.
+            Else, retrieve the page from the storage. */
+            if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID) && !(ssd_meta_dir[entry->ssd_offset].flags & BM_VICTIM)) {
+                ut_a((entry->space == bpage->space) && (entry->offset == bpage->offset));
 
                 fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
-            
+
                 /* Wait until the IO in progress is finished. */
                 for (;;) {
                     enum buf_io_fix io_fix;
@@ -234,12 +235,7 @@ buf_read_page_low(
 
                         ulint ssd_offset = entry->ssd_offset * UNIV_PAGE_SIZE;
 
-                        fd = open(srv_ssd_cache_file, O_RDONLY | O_DIRECT);
-                        if (fd < 0) {
-                            fprintf(stderr, "Can't open SSD cache file %s.\n", srv_ssd_cache_file);
-                        }
-
-                        if ((ulint) pread(fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, ssd_offset) == UNIV_PAGE_SIZE) {
+                        if ((ulint) pread(ssd_cache_fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, ssd_offset) == UNIV_PAGE_SIZE) {
                             fprintf(stderr, "Reading SSD cache file succeeded! (metadata index) = (%lu)\n", entry->ssd_offset);
                             srv_ssd_cache_hit_ref += 1;
                             *err = DB_SUCCESS;
@@ -249,8 +245,6 @@ buf_read_page_low(
                         }
 
                         ssd_meta_dir[entry->ssd_offset].ref_count += 1;
-
-                        close(fd);
 
                         mutex_enter(&ssd_meta_dir[entry->ssd_offset].mutex);
                         ssd_meta_dir[entry->ssd_offset].io_fix = BUF_IO_NONE;
@@ -262,7 +256,6 @@ buf_read_page_low(
                     }
                 }
             } else {
-                /* Else, retrieve the page from the storage. */
                 *err = fil_io(OS_FILE_READ | wake_later
                         | ignore_nonexistent_pages,
                         sync, space, 0, offset, 0, UNIV_PAGE_SIZE,

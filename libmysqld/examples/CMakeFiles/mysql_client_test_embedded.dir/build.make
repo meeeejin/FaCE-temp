@@ -90,6 +90,24 @@ libmysqld/examples/mysql_client_test_embedded: libmysqld/examples/CMakeFiles/mys
 libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build: libmysqld/examples/mysql_client_test_embedded
 .PHONY : libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build
 
+# Object files for target mysql_client_test_embedded
+mysql_client_test_embedded_OBJECTS = \
+"CMakeFiles/mysql_client_test_embedded.dir/__/__/tests/mysql_client_test.c.o"
+
+# External object files for target mysql_client_test_embedded
+mysql_client_test_embedded_EXTERNAL_OBJECTS =
+
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/__/__/tests/mysql_client_test.c.o
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build.make
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded: libmysqld/libmysqld.a
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded"
+	cd /home/mijin/mysql-5.6.26/libmysqld/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_client_test_embedded.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall: libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_client_test_embedded
+.PHONY : libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+
 libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/requires: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/__/__/tests/mysql_client_test.c.o.requires
 .PHONY : libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/requires
 

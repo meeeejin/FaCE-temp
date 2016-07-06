@@ -99,6 +99,33 @@ sql/mysql_tzinfo_to_sql: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/link.txt
 sql/CMakeFiles/mysql_tzinfo_to_sql.dir/build: sql/mysql_tzinfo_to_sql
 .PHONY : sql/CMakeFiles/mysql_tzinfo_to_sql.dir/build
 
+# Object files for target mysql_tzinfo_to_sql
+mysql_tzinfo_to_sql_OBJECTS = \
+"CMakeFiles/mysql_tzinfo_to_sql.dir/tztime.cc.o"
+
+# External object files for target mysql_tzinfo_to_sql
+mysql_tzinfo_to_sql_EXTERNAL_OBJECTS =
+
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/tztime.cc.o
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/build.make
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: mysys_ssl/libmysys_ssl.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: dbug/libdbug.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: dbug/libdbug.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: strings/libstrings.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: zlib/libzlib.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: extra/yassl/libyassl.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: extra/yassl/taocrypt/libtaocrypt.a
+sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql"
+	cd /home/mijin/mysql-5.6.26/sql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_tzinfo_to_sql.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall: sql/CMakeFiles/CMakeRelink.dir/mysql_tzinfo_to_sql
+.PHONY : sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall
+
 sql/CMakeFiles/mysql_tzinfo_to_sql.dir/requires: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/tztime.cc.o.requires
 .PHONY : sql/CMakeFiles/mysql_tzinfo_to_sql.dir/requires
 

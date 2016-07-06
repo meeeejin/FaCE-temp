@@ -90,6 +90,24 @@ plugin/fulltext/mypluglib.so: plugin/fulltext/CMakeFiles/ftexample.dir/link.txt
 plugin/fulltext/CMakeFiles/ftexample.dir/build: plugin/fulltext/mypluglib.so
 .PHONY : plugin/fulltext/CMakeFiles/ftexample.dir/build
 
+# Object files for target ftexample
+ftexample_OBJECTS = \
+"CMakeFiles/ftexample.dir/plugin_example.c.o"
+
+# External object files for target ftexample
+ftexample_EXTERNAL_OBJECTS =
+
+plugin/fulltext/CMakeFiles/CMakeRelink.dir/mypluglib.so: plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.o
+plugin/fulltext/CMakeFiles/CMakeRelink.dir/mypluglib.so: plugin/fulltext/CMakeFiles/ftexample.dir/build.make
+plugin/fulltext/CMakeFiles/CMakeRelink.dir/mypluglib.so: libservices/libmysqlservices.a
+plugin/fulltext/CMakeFiles/CMakeRelink.dir/mypluglib.so: plugin/fulltext/CMakeFiles/ftexample.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/mypluglib.so"
+	cd /home/mijin/mysql-5.6.26/plugin/fulltext && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ftexample.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/fulltext/CMakeFiles/ftexample.dir/preinstall: plugin/fulltext/CMakeFiles/CMakeRelink.dir/mypluglib.so
+.PHONY : plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
+
 plugin/fulltext/CMakeFiles/ftexample.dir/requires: plugin/fulltext/CMakeFiles/ftexample.dir/plugin_example.c.o.requires
 .PHONY : plugin/fulltext/CMakeFiles/ftexample.dir/requires
 

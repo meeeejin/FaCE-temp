@@ -140,6 +140,28 @@ plugin/semisync/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.d
 plugin/semisync/CMakeFiles/semisync_master.dir/build: plugin/semisync/semisync_master.so
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/build
 
+# Object files for target semisync_master
+semisync_master_OBJECTS = \
+"CMakeFiles/semisync_master.dir/semisync.cc.o" \
+"CMakeFiles/semisync_master.dir/semisync_master.cc.o" \
+"CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o"
+
+# External object files for target semisync_master
+semisync_master_EXTERNAL_OBJECTS =
+
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.dir/build.make
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: libservices/libmysqlservices.a
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so: plugin/semisync/CMakeFiles/semisync_master.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module CMakeFiles/CMakeRelink.dir/semisync_master.so"
+	cd /home/mijin/mysql-5.6.26/plugin/semisync && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/semisync_master.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/semisync/CMakeFiles/semisync_master.dir/preinstall: plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_master.so
+.PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+
 plugin/semisync/CMakeFiles/semisync_master.dir/requires: plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o.requires
 plugin/semisync/CMakeFiles/semisync_master.dir/requires: plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o.requires
 plugin/semisync/CMakeFiles/semisync_master.dir/requires: plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o.requires

@@ -633,10 +633,10 @@
 #define DEFAULT_MYSQL_HOME "/home/mijin/mysql-5.6.26"
 #define SHAREDIR "/home/mijin/mysql-5.6.26/share"
 #define DEFAULT_BASEDIR "/home/mijin/mysql-5.6.26"
-#define MYSQL_DATADIR "/home/mijin/mysql_bin_face/data"
+#define MYSQL_DATADIR "/home/mijin/mysql-5.6.26/data"
 #define DEFAULT_CHARSET_HOME "/home/mijin/mysql-5.6.26"
 #define PLUGINDIR "/home/mijin/mysql-5.6.26/lib/plugin"
-#define DEFAULT_SYSCONFDIR "/home/mijin/mysql_bin_face/etc"
+#define DEFAULT_SYSCONFDIR "/home/mijin/mysql-5.6.26/etc"
 #define DEFAULT_TMPDIR P_tmpdir
 
 /* #undef SO_EXT */

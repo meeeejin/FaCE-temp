@@ -90,6 +90,24 @@ plugin/auth/qa_auth_server.so: plugin/auth/CMakeFiles/qa_auth_server.dir/link.tx
 plugin/auth/CMakeFiles/qa_auth_server.dir/build: plugin/auth/qa_auth_server.so
 .PHONY : plugin/auth/CMakeFiles/qa_auth_server.dir/build
 
+# Object files for target qa_auth_server
+qa_auth_server_OBJECTS = \
+"CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o"
+
+# External object files for target qa_auth_server
+qa_auth_server_EXTERNAL_OBJECTS =
+
+plugin/auth/CMakeFiles/CMakeRelink.dir/qa_auth_server.so: plugin/auth/CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o
+plugin/auth/CMakeFiles/CMakeRelink.dir/qa_auth_server.so: plugin/auth/CMakeFiles/qa_auth_server.dir/build.make
+plugin/auth/CMakeFiles/CMakeRelink.dir/qa_auth_server.so: libservices/libmysqlservices.a
+plugin/auth/CMakeFiles/CMakeRelink.dir/qa_auth_server.so: plugin/auth/CMakeFiles/qa_auth_server.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/qa_auth_server.so"
+	cd /home/mijin/mysql-5.6.26/plugin/auth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qa_auth_server.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall: plugin/auth/CMakeFiles/CMakeRelink.dir/qa_auth_server.so
+.PHONY : plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
+
 plugin/auth/CMakeFiles/qa_auth_server.dir/requires: plugin/auth/CMakeFiles/qa_auth_server.dir/qa_auth_server.c.o.requires
 .PHONY : plugin/auth/CMakeFiles/qa_auth_server.dir/requires
 

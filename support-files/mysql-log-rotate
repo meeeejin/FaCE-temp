@@ -4,7 +4,7 @@
 # follows:
 #
 # [mysqld]
-# log-error=/home/mijin/mysql_bin_face/data/mysqld.log
+# log-error=/home/mijin/mysql-5.6.26/data/mysqld.log
 #
 # In case the root user has a password, then you
 # have to create a /root/.my.cnf configuration file
@@ -19,7 +19,7 @@
 # ATTENTION: The /root/.my.cnf file should be readable
 # _ONLY_ by root !
 
-/home/mijin/mysql_bin_face/data/mysqld.log {
+/home/mijin/mysql-5.6.26/data/mysqld.log {
         # create 600 mysql mysql
         notifempty
         daily

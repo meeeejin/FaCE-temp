@@ -99,6 +99,33 @@ extra/perror: extra/CMakeFiles/perror.dir/link.txt
 extra/CMakeFiles/perror.dir/build: extra/perror
 .PHONY : extra/CMakeFiles/perror.dir/build
 
+# Object files for target perror
+perror_OBJECTS = \
+"CMakeFiles/perror.dir/perror.c.o"
+
+# External object files for target perror
+perror_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/perror: extra/CMakeFiles/perror.dir/perror.c.o
+extra/CMakeFiles/CMakeRelink.dir/perror: extra/CMakeFiles/perror.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/perror: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/perror: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/perror: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/perror: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/perror: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/perror: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/perror: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/perror: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/perror: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/perror: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/perror: extra/CMakeFiles/perror.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/perror"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/perror.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/perror.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/perror
+.PHONY : extra/CMakeFiles/perror.dir/preinstall
+
 extra/CMakeFiles/perror.dir/requires: extra/CMakeFiles/perror.dir/perror.c.o.requires
 .PHONY : extra/CMakeFiles/perror.dir/requires
 

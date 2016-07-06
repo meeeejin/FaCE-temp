@@ -99,6 +99,33 @@ storage/myisam/myisam_ftdump: storage/myisam/CMakeFiles/myisam_ftdump.dir/link.t
 storage/myisam/CMakeFiles/myisam_ftdump.dir/build: storage/myisam/myisam_ftdump
 .PHONY : storage/myisam/CMakeFiles/myisam_ftdump.dir/build
 
+# Object files for target myisam_ftdump
+myisam_ftdump_OBJECTS = \
+"CMakeFiles/myisam_ftdump.dir/myisam_ftdump.c.o"
+
+# External object files for target myisam_ftdump
+myisam_ftdump_EXTERNAL_OBJECTS =
+
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: storage/myisam/CMakeFiles/myisam_ftdump.dir/myisam_ftdump.c.o
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: storage/myisam/CMakeFiles/myisam_ftdump.dir/build.make
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: storage/myisam/libmyisam.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: mysys_ssl/libmysys_ssl.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: strings/libstrings.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: extra/yassl/libyassl.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: extra/yassl/taocrypt/libtaocrypt.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: zlib/libzlib.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump: storage/myisam/CMakeFiles/myisam_ftdump.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/myisam_ftdump"
+	cd /home/mijin/mysql-5.6.26/storage/myisam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myisam_ftdump.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall: storage/myisam/CMakeFiles/CMakeRelink.dir/myisam_ftdump
+.PHONY : storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+
 storage/myisam/CMakeFiles/myisam_ftdump.dir/requires: storage/myisam/CMakeFiles/myisam_ftdump.dir/myisam_ftdump.c.o.requires
 .PHONY : storage/myisam/CMakeFiles/myisam_ftdump.dir/requires
 

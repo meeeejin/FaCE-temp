@@ -90,6 +90,24 @@ plugin/auth/auth_socket.so: plugin/auth/CMakeFiles/auth_socket.dir/link.txt
 plugin/auth/CMakeFiles/auth_socket.dir/build: plugin/auth/auth_socket.so
 .PHONY : plugin/auth/CMakeFiles/auth_socket.dir/build
 
+# Object files for target auth_socket
+auth_socket_OBJECTS = \
+"CMakeFiles/auth_socket.dir/auth_socket.c.o"
+
+# External object files for target auth_socket
+auth_socket_EXTERNAL_OBJECTS =
+
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_socket.so: plugin/auth/CMakeFiles/auth_socket.dir/auth_socket.c.o
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_socket.so: plugin/auth/CMakeFiles/auth_socket.dir/build.make
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_socket.so: libservices/libmysqlservices.a
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_socket.so: plugin/auth/CMakeFiles/auth_socket.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/auth_socket.so"
+	cd /home/mijin/mysql-5.6.26/plugin/auth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/auth_socket.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/auth/CMakeFiles/auth_socket.dir/preinstall: plugin/auth/CMakeFiles/CMakeRelink.dir/auth_socket.so
+.PHONY : plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+
 plugin/auth/CMakeFiles/auth_socket.dir/requires: plugin/auth/CMakeFiles/auth_socket.dir/auth_socket.c.o.requires
 .PHONY : plugin/auth/CMakeFiles/auth_socket.dir/requires
 

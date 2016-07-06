@@ -99,6 +99,33 @@ extra/my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/link.txt
 extra/CMakeFiles/my_print_defaults.dir/build: extra/my_print_defaults
 .PHONY : extra/CMakeFiles/my_print_defaults.dir/build
 
+# Object files for target my_print_defaults
+my_print_defaults_OBJECTS = \
+"CMakeFiles/my_print_defaults.dir/my_print_defaults.c.o"
+
+# External object files for target my_print_defaults
+my_print_defaults_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/my_print_defaults.c.o
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/my_print_defaults"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_print_defaults.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/my_print_defaults.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/my_print_defaults
+.PHONY : extra/CMakeFiles/my_print_defaults.dir/preinstall
+
 extra/CMakeFiles/my_print_defaults.dir/requires: extra/CMakeFiles/my_print_defaults.dir/my_print_defaults.c.o.requires
 .PHONY : extra/CMakeFiles/my_print_defaults.dir/requires
 

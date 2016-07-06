@@ -90,6 +90,24 @@ client/mysqladmin: client/CMakeFiles/mysqladmin.dir/link.txt
 client/CMakeFiles/mysqladmin.dir/build: client/mysqladmin
 .PHONY : client/CMakeFiles/mysqladmin.dir/build
 
+# Object files for target mysqladmin
+mysqladmin_OBJECTS = \
+"CMakeFiles/mysqladmin.dir/mysqladmin.cc.o"
+
+# External object files for target mysqladmin
+mysqladmin_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqladmin: client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysqladmin: client/CMakeFiles/mysqladmin.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqladmin: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqladmin: client/CMakeFiles/mysqladmin.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqladmin"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqladmin.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqladmin.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqladmin
+.PHONY : client/CMakeFiles/mysqladmin.dir/preinstall
+
 client/CMakeFiles/mysqladmin.dir/requires: client/CMakeFiles/mysqladmin.dir/mysqladmin.cc.o.requires
 .PHONY : client/CMakeFiles/mysqladmin.dir/requires
 

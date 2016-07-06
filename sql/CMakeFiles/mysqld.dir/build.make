@@ -117,6 +117,51 @@ sql/mysqld: sql/CMakeFiles/mysqld.dir/link.txt
 sql/CMakeFiles/mysqld.dir/build: sql/mysqld
 .PHONY : sql/CMakeFiles/mysqld.dir/build
 
+# Object files for target mysqld
+mysqld_OBJECTS = \
+"CMakeFiles/mysqld.dir/main.cc.o"
+
+# External object files for target mysqld
+mysqld_EXTERNAL_OBJECTS =
+
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/CMakeFiles/mysqld.dir/main.cc.o
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/CMakeFiles/mysqld.dir/build.make
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libsql.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libbinlog.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/librpl.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libmaster.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libslave.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libsql.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: mysys_ssl/libmysys_ssl.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/myisammrg/libmyisammrg.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/blackhole/libblackhole.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/heap/libheap.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/myisam/libmyisam.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/archive/libarchive.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/federated/libfederated.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/csv/libcsv.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/perfschema/libperfschema.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: storage/innobase/libinnobase.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/libpartition.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: dbug/libdbug.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: mysys/libmysys.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: dbug/libdbug.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: zlib/libzlib.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: strings/libstrings.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: vio/libvio.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: regex/libregex.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: extra/yassl/libyassl.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: extra/yassl/taocrypt/libtaocrypt.a
+sql/CMakeFiles/CMakeRelink.dir/mysqld: sql/CMakeFiles/mysqld.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqld"
+	cd /home/mijin/mysql-5.6.26/sql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqld.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+sql/CMakeFiles/mysqld.dir/preinstall: sql/CMakeFiles/CMakeRelink.dir/mysqld
+.PHONY : sql/CMakeFiles/mysqld.dir/preinstall
+
 sql/CMakeFiles/mysqld.dir/requires: sql/CMakeFiles/mysqld.dir/main.cc.o.requires
 .PHONY : sql/CMakeFiles/mysqld.dir/requires
 

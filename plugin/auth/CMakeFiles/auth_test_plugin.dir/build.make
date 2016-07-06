@@ -90,6 +90,24 @@ plugin/auth/auth_test_plugin.so: plugin/auth/CMakeFiles/auth_test_plugin.dir/lin
 plugin/auth/CMakeFiles/auth_test_plugin.dir/build: plugin/auth/auth_test_plugin.so
 .PHONY : plugin/auth/CMakeFiles/auth_test_plugin.dir/build
 
+# Object files for target auth_test_plugin
+auth_test_plugin_OBJECTS = \
+"CMakeFiles/auth_test_plugin.dir/test_plugin.c.o"
+
+# External object files for target auth_test_plugin
+auth_test_plugin_EXTERNAL_OBJECTS =
+
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_test_plugin.so: plugin/auth/CMakeFiles/auth_test_plugin.dir/test_plugin.c.o
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_test_plugin.so: plugin/auth/CMakeFiles/auth_test_plugin.dir/build.make
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_test_plugin.so: libservices/libmysqlservices.a
+plugin/auth/CMakeFiles/CMakeRelink.dir/auth_test_plugin.so: plugin/auth/CMakeFiles/auth_test_plugin.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/auth_test_plugin.so"
+	cd /home/mijin/mysql-5.6.26/plugin/auth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/auth_test_plugin.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall: plugin/auth/CMakeFiles/CMakeRelink.dir/auth_test_plugin.so
+.PHONY : plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+
 plugin/auth/CMakeFiles/auth_test_plugin.dir/requires: plugin/auth/CMakeFiles/auth_test_plugin.dir/test_plugin.c.o.requires
 .PHONY : plugin/auth/CMakeFiles/auth_test_plugin.dir/requires
 

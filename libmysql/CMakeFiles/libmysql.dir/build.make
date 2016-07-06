@@ -109,6 +109,43 @@ libmysql/libmysqlclient.so: libmysql/libmysqlclient.so.18.1.0
 libmysql/CMakeFiles/libmysql.dir/build: libmysql/libmysqlclient.so
 .PHONY : libmysql/CMakeFiles/libmysql.dir/build
 
+# Object files for target libmysql
+libmysql_OBJECTS = \
+"CMakeFiles/libmysql.dir/libmysql_exports_file.cc.o"
+
+# External object files for target libmysql
+libmysql_EXTERNAL_OBJECTS =
+
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: libmysql/CMakeFiles/libmysql.dir/libmysql_exports_file.cc.o
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: libmysql/CMakeFiles/libmysql.dir/build.make
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: libmysql/libclientlib.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: dbug/libdbug.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: strings/libstrings.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: vio/libvio.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: mysys/libmysys.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: mysys_ssl/libmysys_ssl.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: zlib/libzlib.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: extra/yassl/libyassl.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: extra/yassl/taocrypt/libtaocrypt.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: dbug/libdbug.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: mysys/libmysys.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: dbug/libdbug.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: mysys/libmysys.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: strings/libstrings.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: zlib/libzlib.a
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0: libmysql/CMakeFiles/libmysql.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library CMakeFiles/CMakeRelink.dir/libmysqlclient.so"
+	cd /home/mijin/mysql-5.6.26/libmysql && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmysql.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/mijin/mysql-5.6.26/libmysql && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0 CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18 CMakeFiles/CMakeRelink.dir/libmysqlclient.so
+
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18: libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0
+
+libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so: libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0
+
+# Rule to relink during preinstall.
+libmysql/CMakeFiles/libmysql.dir/preinstall: libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so
+.PHONY : libmysql/CMakeFiles/libmysql.dir/preinstall
+
 libmysql/CMakeFiles/libmysql.dir/requires: libmysql/CMakeFiles/libmysql.dir/libmysql_exports_file.cc.o.requires
 .PHONY : libmysql/CMakeFiles/libmysql.dir/requires
 

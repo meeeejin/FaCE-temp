@@ -858,7 +858,10 @@ storage/myisam/clean: storage/myisam/CMakeFiles/myisampack.dir/clean
 .PHONY : storage/myisam/clean
 
 # Convenience name for "preinstall" pass in the directory.
-storage/myisam/preinstall:
+storage/myisam/preinstall: storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+storage/myisam/preinstall: storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+storage/myisam/preinstall: storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+storage/myisam/preinstall: storage/myisam/CMakeFiles/myisampack.dir/preinstall
 .PHONY : storage/myisam/preinstall
 
 #=============================================================================
@@ -966,6 +969,15 @@ storage/myisam/CMakeFiles/myisam_ftdump.dir/rule: cmake_check_build_system
 myisam_ftdump: storage/myisam/CMakeFiles/myisam_ftdump.dir/rule
 .PHONY : myisam_ftdump
 
+# Pre-install relink rule for target.
+storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall:
+	$(MAKE) -f storage/myisam/CMakeFiles/myisam_ftdump.dir/build.make storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+.PHONY : storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+
+# Prepare target for install.
+preinstall: storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 storage/myisam/CMakeFiles/myisam_ftdump.dir/clean:
 	$(MAKE) -f storage/myisam/CMakeFiles/myisam_ftdump.dir/build.make storage/myisam/CMakeFiles/myisam_ftdump.dir/clean
@@ -1007,6 +1019,15 @@ storage/myisam/CMakeFiles/myisamchk.dir/rule: cmake_check_build_system
 myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/rule
 .PHONY : myisamchk
 
+# Pre-install relink rule for target.
+storage/myisam/CMakeFiles/myisamchk.dir/preinstall:
+	$(MAKE) -f storage/myisam/CMakeFiles/myisamchk.dir/build.make storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+.PHONY : storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+
+# Prepare target for install.
+preinstall: storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 storage/myisam/CMakeFiles/myisamchk.dir/clean:
 	$(MAKE) -f storage/myisam/CMakeFiles/myisamchk.dir/build.make storage/myisam/CMakeFiles/myisamchk.dir/clean
@@ -1044,6 +1065,15 @@ storage/myisam/CMakeFiles/myisamlog.dir/rule: cmake_check_build_system
 # Convenience name for target.
 myisamlog: storage/myisam/CMakeFiles/myisamlog.dir/rule
 .PHONY : myisamlog
+
+# Pre-install relink rule for target.
+storage/myisam/CMakeFiles/myisamlog.dir/preinstall:
+	$(MAKE) -f storage/myisam/CMakeFiles/myisamlog.dir/build.make storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+.PHONY : storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+
+# Prepare target for install.
+preinstall: storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 storage/myisam/CMakeFiles/myisamlog.dir/clean:
@@ -1085,6 +1115,15 @@ storage/myisam/CMakeFiles/myisampack.dir/rule: cmake_check_build_system
 # Convenience name for target.
 myisampack: storage/myisam/CMakeFiles/myisampack.dir/rule
 .PHONY : myisampack
+
+# Pre-install relink rule for target.
+storage/myisam/CMakeFiles/myisampack.dir/preinstall:
+	$(MAKE) -f storage/myisam/CMakeFiles/myisampack.dir/build.make storage/myisam/CMakeFiles/myisampack.dir/preinstall
+.PHONY : storage/myisam/CMakeFiles/myisampack.dir/preinstall
+
+# Prepare target for install.
+preinstall: storage/myisam/CMakeFiles/myisampack.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 storage/myisam/CMakeFiles/myisampack.dir/clean:
@@ -1571,8 +1610,8 @@ storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: zlib/CMakeFil
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/blackhole/CMakeFiles/blackhole.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/myisammrg/CMakeFiles/myisammrg.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/heap/CMakeFiles/heap.dir/all
-storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/archive/CMakeFiles/archive.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/myisam/CMakeFiles/myisam.dir/all
+storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/archive/CMakeFiles/archive.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/federated/CMakeFiles/federated.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/csv/CMakeFiles/csv.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: storage/perfschema/CMakeFiles/perfschema.dir/all
@@ -1583,8 +1622,8 @@ storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: regex/CMakeFi
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: vio/CMakeFiles/vio.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: mysys_ssl/CMakeFiles/mysys_ssl.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
-storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/sql.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/partition.dir/all
+storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/sql.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/binlog.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/rpl.dir/all
 storage/perfschema/unittest/CMakeFiles/pfs_connect_attr-t.dir/all: sql/CMakeFiles/master.dir/all
@@ -2037,7 +2076,8 @@ plugin/semisync/clean: plugin/semisync/CMakeFiles/semisync_slave.dir/clean
 .PHONY : plugin/semisync/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/semisync/preinstall:
+plugin/semisync/preinstall: plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+plugin/semisync/preinstall: plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
 .PHONY : plugin/semisync/preinstall
 
 #=============================================================================
@@ -2066,6 +2106,15 @@ plugin/semisync/CMakeFiles/semisync_master.dir/rule: cmake_check_build_system
 # Convenience name for target.
 semisync_master: plugin/semisync/CMakeFiles/semisync_master.dir/rule
 .PHONY : semisync_master
+
+# Pre-install relink rule for target.
+plugin/semisync/CMakeFiles/semisync_master.dir/preinstall:
+	$(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+.PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/semisync/CMakeFiles/semisync_master.dir/clean:
@@ -2103,6 +2152,15 @@ plugin/semisync/CMakeFiles/semisync_slave.dir/rule: cmake_check_build_system
 semisync_slave: plugin/semisync/CMakeFiles/semisync_slave.dir/rule
 .PHONY : semisync_slave
 
+# Pre-install relink rule for target.
+plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall:
+	$(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
+.PHONY : plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/semisync/CMakeFiles/semisync_slave.dir/clean:
 	$(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/clean
@@ -2136,7 +2194,13 @@ plugin/auth/clean: plugin/auth/CMakeFiles/qa_auth_server.dir/clean
 .PHONY : plugin/auth/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/auth/preinstall:
+plugin/auth/preinstall: plugin/auth/CMakeFiles/auth.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall
+plugin/auth/preinstall: plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
 .PHONY : plugin/auth/preinstall
 
 #=============================================================================
@@ -2165,6 +2229,15 @@ plugin/auth/CMakeFiles/auth.dir/rule: cmake_check_build_system
 # Convenience name for target.
 auth: plugin/auth/CMakeFiles/auth.dir/rule
 .PHONY : auth
+
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/auth.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/auth.dir/build.make plugin/auth/CMakeFiles/auth.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/auth.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/auth.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/auth/CMakeFiles/auth.dir/clean:
@@ -2202,6 +2275,15 @@ plugin/auth/CMakeFiles/auth_socket.dir/rule: cmake_check_build_system
 auth_socket: plugin/auth/CMakeFiles/auth_socket.dir/rule
 .PHONY : auth_socket
 
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/auth_socket.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/auth_socket.dir/build.make plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/auth_socket.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/auth/CMakeFiles/auth_socket.dir/clean:
 	$(MAKE) -f plugin/auth/CMakeFiles/auth_socket.dir/build.make plugin/auth/CMakeFiles/auth_socket.dir/clean
@@ -2237,6 +2319,15 @@ plugin/auth/CMakeFiles/auth_test_plugin.dir/rule: cmake_check_build_system
 # Convenience name for target.
 auth_test_plugin: plugin/auth/CMakeFiles/auth_test_plugin.dir/rule
 .PHONY : auth_test_plugin
+
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/auth_test_plugin.dir/build.make plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/auth_test_plugin.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/auth/CMakeFiles/auth_test_plugin.dir/clean:
@@ -2274,6 +2365,15 @@ plugin/auth/CMakeFiles/mysql_no_login.dir/rule: cmake_check_build_system
 mysql_no_login: plugin/auth/CMakeFiles/mysql_no_login.dir/rule
 .PHONY : mysql_no_login
 
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/mysql_no_login.dir/build.make plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/mysql_no_login.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/auth/CMakeFiles/mysql_no_login.dir/clean:
 	$(MAKE) -f plugin/auth/CMakeFiles/mysql_no_login.dir/build.make plugin/auth/CMakeFiles/mysql_no_login.dir/clean
@@ -2309,6 +2409,15 @@ plugin/auth/CMakeFiles/qa_auth_client.dir/rule: cmake_check_build_system
 # Convenience name for target.
 qa_auth_client: plugin/auth/CMakeFiles/qa_auth_client.dir/rule
 .PHONY : qa_auth_client
+
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/qa_auth_client.dir/build.make plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/qa_auth_client.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/auth/CMakeFiles/qa_auth_client.dir/clean:
@@ -2346,6 +2455,15 @@ plugin/auth/CMakeFiles/qa_auth_interface.dir/rule: cmake_check_build_system
 qa_auth_interface: plugin/auth/CMakeFiles/qa_auth_interface.dir/rule
 .PHONY : qa_auth_interface
 
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/qa_auth_interface.dir/build.make plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/qa_auth_interface.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/auth/CMakeFiles/qa_auth_interface.dir/clean:
 	$(MAKE) -f plugin/auth/CMakeFiles/qa_auth_interface.dir/build.make plugin/auth/CMakeFiles/qa_auth_interface.dir/clean
@@ -2382,6 +2500,15 @@ plugin/auth/CMakeFiles/qa_auth_server.dir/rule: cmake_check_build_system
 qa_auth_server: plugin/auth/CMakeFiles/qa_auth_server.dir/rule
 .PHONY : qa_auth_server
 
+# Pre-install relink rule for target.
+plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall:
+	$(MAKE) -f plugin/auth/CMakeFiles/qa_auth_server.dir/build.make plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
+.PHONY : plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/auth/CMakeFiles/qa_auth_server.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/auth/CMakeFiles/qa_auth_server.dir/clean:
 	$(MAKE) -f plugin/auth/CMakeFiles/qa_auth_server.dir/build.make plugin/auth/CMakeFiles/qa_auth_server.dir/clean
@@ -2403,7 +2530,7 @@ plugin/audit_null/clean: plugin/audit_null/CMakeFiles/audit_null.dir/clean
 .PHONY : plugin/audit_null/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/audit_null/preinstall:
+plugin/audit_null/preinstall: plugin/audit_null/CMakeFiles/audit_null.dir/preinstall
 .PHONY : plugin/audit_null/preinstall
 
 #=============================================================================
@@ -2432,6 +2559,15 @@ plugin/audit_null/CMakeFiles/audit_null.dir/rule: cmake_check_build_system
 # Convenience name for target.
 audit_null: plugin/audit_null/CMakeFiles/audit_null.dir/rule
 .PHONY : audit_null
+
+# Pre-install relink rule for target.
+plugin/audit_null/CMakeFiles/audit_null.dir/preinstall:
+	$(MAKE) -f plugin/audit_null/CMakeFiles/audit_null.dir/build.make plugin/audit_null/CMakeFiles/audit_null.dir/preinstall
+.PHONY : plugin/audit_null/CMakeFiles/audit_null.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/audit_null/CMakeFiles/audit_null.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/audit_null/CMakeFiles/audit_null.dir/clean:
@@ -2469,7 +2605,7 @@ plugin/fulltext/clean: plugin/fulltext/CMakeFiles/ftexample.dir/clean
 .PHONY : plugin/fulltext/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/fulltext/preinstall:
+plugin/fulltext/preinstall: plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
 .PHONY : plugin/fulltext/preinstall
 
 #=============================================================================
@@ -2499,6 +2635,15 @@ plugin/fulltext/CMakeFiles/ftexample.dir/rule: cmake_check_build_system
 ftexample: plugin/fulltext/CMakeFiles/ftexample.dir/rule
 .PHONY : ftexample
 
+# Pre-install relink rule for target.
+plugin/fulltext/CMakeFiles/ftexample.dir/preinstall:
+	$(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
+.PHONY : plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/fulltext/CMakeFiles/ftexample.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/fulltext/CMakeFiles/ftexample.dir/clean:
 	$(MAKE) -f plugin/fulltext/CMakeFiles/ftexample.dir/build.make plugin/fulltext/CMakeFiles/ftexample.dir/clean
@@ -2520,7 +2665,7 @@ plugin/daemon_example/clean: plugin/daemon_example/CMakeFiles/daemon_example.dir
 .PHONY : plugin/daemon_example/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/daemon_example/preinstall:
+plugin/daemon_example/preinstall: plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall
 .PHONY : plugin/daemon_example/preinstall
 
 #=============================================================================
@@ -2550,6 +2695,15 @@ plugin/daemon_example/CMakeFiles/daemon_example.dir/rule: cmake_check_build_syst
 daemon_example: plugin/daemon_example/CMakeFiles/daemon_example.dir/rule
 .PHONY : daemon_example
 
+# Pre-install relink rule for target.
+plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall:
+	$(MAKE) -f plugin/daemon_example/CMakeFiles/daemon_example.dir/build.make plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall
+.PHONY : plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/daemon_example/CMakeFiles/daemon_example.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 plugin/daemon_example/CMakeFiles/daemon_example.dir/clean:
 	$(MAKE) -f plugin/daemon_example/CMakeFiles/daemon_example.dir/build.make plugin/daemon_example/CMakeFiles/daemon_example.dir/clean
@@ -2571,7 +2725,7 @@ plugin/password_validation/clean: plugin/password_validation/CMakeFiles/validate
 .PHONY : plugin/password_validation/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plugin/password_validation/preinstall:
+plugin/password_validation/preinstall: plugin/password_validation/CMakeFiles/validate_password.dir/preinstall
 .PHONY : plugin/password_validation/preinstall
 
 #=============================================================================
@@ -2600,6 +2754,15 @@ plugin/password_validation/CMakeFiles/validate_password.dir/rule: cmake_check_bu
 # Convenience name for target.
 validate_password: plugin/password_validation/CMakeFiles/validate_password.dir/rule
 .PHONY : validate_password
+
+# Pre-install relink rule for target.
+plugin/password_validation/CMakeFiles/validate_password.dir/preinstall:
+	$(MAKE) -f plugin/password_validation/CMakeFiles/validate_password.dir/build.make plugin/password_validation/CMakeFiles/validate_password.dir/preinstall
+.PHONY : plugin/password_validation/CMakeFiles/validate_password.dir/preinstall
+
+# Prepare target for install.
+preinstall: plugin/password_validation/CMakeFiles/validate_password.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 plugin/password_validation/CMakeFiles/validate_password.dir/clean:
@@ -3143,7 +3306,7 @@ libmysql/clean: libmysql/CMakeFiles/symlink_libmysqlclient_r.so.18.1.0.dir/clean
 .PHONY : libmysql/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libmysql/preinstall:
+libmysql/preinstall: libmysql/CMakeFiles/libmysql.dir/preinstall
 .PHONY : libmysql/preinstall
 
 #=============================================================================
@@ -3213,6 +3376,15 @@ libmysql/CMakeFiles/libmysql.dir/rule: cmake_check_build_system
 # Convenience name for target.
 libmysql: libmysql/CMakeFiles/libmysql.dir/rule
 .PHONY : libmysql
+
+# Pre-install relink rule for target.
+libmysql/CMakeFiles/libmysql.dir/preinstall:
+	$(MAKE) -f libmysql/CMakeFiles/libmysql.dir/build.make libmysql/CMakeFiles/libmysql.dir/preinstall
+.PHONY : libmysql/CMakeFiles/libmysql.dir/preinstall
+
+# Prepare target for install.
+preinstall: libmysql/CMakeFiles/libmysql.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 libmysql/CMakeFiles/libmysql.dir/clean:
@@ -3812,7 +3984,13 @@ extra/clean: extra/CMakeFiles/resolveip.dir/clean
 .PHONY : extra/clean
 
 # Convenience name for "preinstall" pass in the directory.
-extra/preinstall:
+extra/preinstall: extra/CMakeFiles/innochecksum.dir/preinstall
+extra/preinstall: extra/CMakeFiles/my_print_defaults.dir/preinstall
+extra/preinstall: extra/CMakeFiles/mysql_waitpid.dir/preinstall
+extra/preinstall: extra/CMakeFiles/perror.dir/preinstall
+extra/preinstall: extra/CMakeFiles/replace.dir/preinstall
+extra/preinstall: extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+extra/preinstall: extra/CMakeFiles/resolveip.dir/preinstall
 .PHONY : extra/preinstall
 
 #=============================================================================
@@ -3921,6 +4099,15 @@ extra/CMakeFiles/innochecksum.dir/rule: cmake_check_build_system
 innochecksum: extra/CMakeFiles/innochecksum.dir/rule
 .PHONY : innochecksum
 
+# Pre-install relink rule for target.
+extra/CMakeFiles/innochecksum.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/innochecksum.dir/build.make extra/CMakeFiles/innochecksum.dir/preinstall
+.PHONY : extra/CMakeFiles/innochecksum.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/innochecksum.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 extra/CMakeFiles/innochecksum.dir/clean:
 	$(MAKE) -f extra/CMakeFiles/innochecksum.dir/build.make extra/CMakeFiles/innochecksum.dir/clean
@@ -3961,6 +4148,15 @@ extra/CMakeFiles/my_print_defaults.dir/rule: cmake_check_build_system
 my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/rule
 .PHONY : my_print_defaults
 
+# Pre-install relink rule for target.
+extra/CMakeFiles/my_print_defaults.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/my_print_defaults.dir/build.make extra/CMakeFiles/my_print_defaults.dir/preinstall
+.PHONY : extra/CMakeFiles/my_print_defaults.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/my_print_defaults.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 extra/CMakeFiles/my_print_defaults.dir/clean:
 	$(MAKE) -f extra/CMakeFiles/my_print_defaults.dir/build.make extra/CMakeFiles/my_print_defaults.dir/clean
@@ -4000,6 +4196,15 @@ extra/CMakeFiles/mysql_waitpid.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysql_waitpid: extra/CMakeFiles/mysql_waitpid.dir/rule
 .PHONY : mysql_waitpid
+
+# Pre-install relink rule for target.
+extra/CMakeFiles/mysql_waitpid.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/mysql_waitpid.dir/build.make extra/CMakeFiles/mysql_waitpid.dir/preinstall
+.PHONY : extra/CMakeFiles/mysql_waitpid.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/mysql_waitpid.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 extra/CMakeFiles/mysql_waitpid.dir/clean:
@@ -4042,6 +4247,15 @@ extra/CMakeFiles/perror.dir/rule: cmake_check_build_system
 perror: extra/CMakeFiles/perror.dir/rule
 .PHONY : perror
 
+# Pre-install relink rule for target.
+extra/CMakeFiles/perror.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/perror.dir/build.make extra/CMakeFiles/perror.dir/preinstall
+.PHONY : extra/CMakeFiles/perror.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/perror.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 extra/CMakeFiles/perror.dir/clean:
 	$(MAKE) -f extra/CMakeFiles/perror.dir/build.make extra/CMakeFiles/perror.dir/clean
@@ -4078,6 +4292,15 @@ extra/CMakeFiles/replace.dir/rule: cmake_check_build_system
 # Convenience name for target.
 replace: extra/CMakeFiles/replace.dir/rule
 .PHONY : replace
+
+# Pre-install relink rule for target.
+extra/CMakeFiles/replace.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/replace.dir/build.make extra/CMakeFiles/replace.dir/preinstall
+.PHONY : extra/CMakeFiles/replace.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/replace.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 extra/CMakeFiles/replace.dir/clean:
@@ -4119,6 +4342,15 @@ extra/CMakeFiles/resolve_stack_dump.dir/rule: cmake_check_build_system
 resolve_stack_dump: extra/CMakeFiles/resolve_stack_dump.dir/rule
 .PHONY : resolve_stack_dump
 
+# Pre-install relink rule for target.
+extra/CMakeFiles/resolve_stack_dump.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/resolve_stack_dump.dir/build.make extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+.PHONY : extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 extra/CMakeFiles/resolve_stack_dump.dir/clean:
 	$(MAKE) -f extra/CMakeFiles/resolve_stack_dump.dir/build.make extra/CMakeFiles/resolve_stack_dump.dir/clean
@@ -4158,6 +4390,15 @@ extra/CMakeFiles/resolveip.dir/rule: cmake_check_build_system
 # Convenience name for target.
 resolveip: extra/CMakeFiles/resolveip.dir/rule
 .PHONY : resolveip
+
+# Pre-install relink rule for target.
+extra/CMakeFiles/resolveip.dir/preinstall:
+	$(MAKE) -f extra/CMakeFiles/resolveip.dir/build.make extra/CMakeFiles/resolveip.dir/preinstall
+.PHONY : extra/CMakeFiles/resolveip.dir/preinstall
+
+# Prepare target for install.
+preinstall: extra/CMakeFiles/resolveip.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 extra/CMakeFiles/resolveip.dir/clean:
@@ -4202,7 +4443,18 @@ client/clean: client/CMakeFiles/mysqltest.dir/clean
 .PHONY : client/clean
 
 # Convenience name for "preinstall" pass in the directory.
-client/preinstall:
+client/preinstall: client/CMakeFiles/mysql.dir/preinstall
+client/preinstall: client/CMakeFiles/mysql_config_editor.dir/preinstall
+client/preinstall: client/CMakeFiles/mysql_plugin.dir/preinstall
+client/preinstall: client/CMakeFiles/mysql_upgrade.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqladmin.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqlbinlog.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqlcheck.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqldump.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqlimport.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqlshow.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqlslap.dir/preinstall
+client/preinstall: client/CMakeFiles/mysqltest.dir/preinstall
 .PHONY : client/preinstall
 
 #=============================================================================
@@ -4231,6 +4483,15 @@ client/CMakeFiles/mysql.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysql: client/CMakeFiles/mysql.dir/rule
 .PHONY : mysql
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysql.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysql.dir/build.make client/CMakeFiles/mysql.dir/preinstall
+.PHONY : client/CMakeFiles/mysql.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysql.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysql.dir/clean:
@@ -4267,6 +4528,15 @@ client/CMakeFiles/mysql_config_editor.dir/rule: cmake_check_build_system
 mysql_config_editor: client/CMakeFiles/mysql_config_editor.dir/rule
 .PHONY : mysql_config_editor
 
+# Pre-install relink rule for target.
+client/CMakeFiles/mysql_config_editor.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysql_config_editor.dir/build.make client/CMakeFiles/mysql_config_editor.dir/preinstall
+.PHONY : client/CMakeFiles/mysql_config_editor.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysql_config_editor.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 client/CMakeFiles/mysql_config_editor.dir/clean:
 	$(MAKE) -f client/CMakeFiles/mysql_config_editor.dir/build.make client/CMakeFiles/mysql_config_editor.dir/clean
@@ -4301,6 +4571,15 @@ client/CMakeFiles/mysql_plugin.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysql_plugin: client/CMakeFiles/mysql_plugin.dir/rule
 .PHONY : mysql_plugin
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysql_plugin.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysql_plugin.dir/build.make client/CMakeFiles/mysql_plugin.dir/preinstall
+.PHONY : client/CMakeFiles/mysql_plugin.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysql_plugin.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysql_plugin.dir/clean:
@@ -4338,6 +4617,15 @@ client/CMakeFiles/mysql_upgrade.dir/rule: cmake_check_build_system
 mysql_upgrade: client/CMakeFiles/mysql_upgrade.dir/rule
 .PHONY : mysql_upgrade
 
+# Pre-install relink rule for target.
+client/CMakeFiles/mysql_upgrade.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysql_upgrade.dir/build.make client/CMakeFiles/mysql_upgrade.dir/preinstall
+.PHONY : client/CMakeFiles/mysql_upgrade.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysql_upgrade.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 client/CMakeFiles/mysql_upgrade.dir/clean:
 	$(MAKE) -f client/CMakeFiles/mysql_upgrade.dir/build.make client/CMakeFiles/mysql_upgrade.dir/clean
@@ -4372,6 +4660,15 @@ client/CMakeFiles/mysqladmin.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqladmin: client/CMakeFiles/mysqladmin.dir/rule
 .PHONY : mysqladmin
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqladmin.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqladmin.dir/build.make client/CMakeFiles/mysqladmin.dir/preinstall
+.PHONY : client/CMakeFiles/mysqladmin.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqladmin.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysqladmin.dir/clean:
@@ -4408,6 +4705,15 @@ client/CMakeFiles/mysqlbinlog.dir/rule: cmake_check_build_system
 mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/rule
 .PHONY : mysqlbinlog
 
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqlbinlog.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqlbinlog.dir/build.make client/CMakeFiles/mysqlbinlog.dir/preinstall
+.PHONY : client/CMakeFiles/mysqlbinlog.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqlbinlog.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 client/CMakeFiles/mysqlbinlog.dir/clean:
 	$(MAKE) -f client/CMakeFiles/mysqlbinlog.dir/build.make client/CMakeFiles/mysqlbinlog.dir/clean
@@ -4442,6 +4748,15 @@ client/CMakeFiles/mysqlcheck.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqlcheck: client/CMakeFiles/mysqlcheck.dir/rule
 .PHONY : mysqlcheck
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqlcheck.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqlcheck.dir/build.make client/CMakeFiles/mysqlcheck.dir/preinstall
+.PHONY : client/CMakeFiles/mysqlcheck.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqlcheck.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysqlcheck.dir/clean:
@@ -4478,6 +4793,15 @@ client/CMakeFiles/mysqldump.dir/rule: cmake_check_build_system
 mysqldump: client/CMakeFiles/mysqldump.dir/rule
 .PHONY : mysqldump
 
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqldump.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqldump.dir/build.make client/CMakeFiles/mysqldump.dir/preinstall
+.PHONY : client/CMakeFiles/mysqldump.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqldump.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 client/CMakeFiles/mysqldump.dir/clean:
 	$(MAKE) -f client/CMakeFiles/mysqldump.dir/build.make client/CMakeFiles/mysqldump.dir/clean
@@ -4512,6 +4836,15 @@ client/CMakeFiles/mysqlimport.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqlimport: client/CMakeFiles/mysqlimport.dir/rule
 .PHONY : mysqlimport
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqlimport.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqlimport.dir/build.make client/CMakeFiles/mysqlimport.dir/preinstall
+.PHONY : client/CMakeFiles/mysqlimport.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqlimport.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysqlimport.dir/clean:
@@ -4548,6 +4881,15 @@ client/CMakeFiles/mysqlshow.dir/rule: cmake_check_build_system
 mysqlshow: client/CMakeFiles/mysqlshow.dir/rule
 .PHONY : mysqlshow
 
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqlshow.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqlshow.dir/build.make client/CMakeFiles/mysqlshow.dir/preinstall
+.PHONY : client/CMakeFiles/mysqlshow.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqlshow.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 client/CMakeFiles/mysqlshow.dir/clean:
 	$(MAKE) -f client/CMakeFiles/mysqlshow.dir/build.make client/CMakeFiles/mysqlshow.dir/clean
@@ -4582,6 +4924,15 @@ client/CMakeFiles/mysqlslap.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqlslap: client/CMakeFiles/mysqlslap.dir/rule
 .PHONY : mysqlslap
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqlslap.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqlslap.dir/build.make client/CMakeFiles/mysqlslap.dir/preinstall
+.PHONY : client/CMakeFiles/mysqlslap.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqlslap.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysqlslap.dir/clean:
@@ -4618,6 +4969,15 @@ client/CMakeFiles/mysqltest.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqltest: client/CMakeFiles/mysqltest.dir/rule
 .PHONY : mysqltest
+
+# Pre-install relink rule for target.
+client/CMakeFiles/mysqltest.dir/preinstall:
+	$(MAKE) -f client/CMakeFiles/mysqltest.dir/build.make client/CMakeFiles/mysqltest.dir/preinstall
+.PHONY : client/CMakeFiles/mysqltest.dir/preinstall
+
+# Prepare target for install.
+preinstall: client/CMakeFiles/mysqltest.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 client/CMakeFiles/mysqltest.dir/clean:
@@ -4722,7 +5082,7 @@ tests/clean: tests/CMakeFiles/mysql_client_test.dir/clean
 .PHONY : tests/clean
 
 # Convenience name for "preinstall" pass in the directory.
-tests/preinstall:
+tests/preinstall: tests/CMakeFiles/mysql_client_test.dir/preinstall
 .PHONY : tests/preinstall
 
 #=============================================================================
@@ -4786,6 +5146,15 @@ tests/CMakeFiles/mysql_client_test.dir/rule: cmake_check_build_system
 mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/rule
 .PHONY : mysql_client_test
 
+# Pre-install relink rule for target.
+tests/CMakeFiles/mysql_client_test.dir/preinstall:
+	$(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/preinstall
+.PHONY : tests/CMakeFiles/mysql_client_test.dir/preinstall
+
+# Prepare target for install.
+preinstall: tests/CMakeFiles/mysql_client_test.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 tests/CMakeFiles/mysql_client_test.dir/clean:
 	$(MAKE) -f tests/CMakeFiles/mysql_client_test.dir/build.make tests/CMakeFiles/mysql_client_test.dir/clean
@@ -4836,7 +5205,8 @@ sql/clean: sql/CMakeFiles/udf_example.dir/clean
 .PHONY : sql/clean
 
 # Convenience name for "preinstall" pass in the directory.
-sql/preinstall:
+sql/preinstall: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall
+sql/preinstall: sql/CMakeFiles/mysqld.dir/preinstall
 .PHONY : sql/preinstall
 
 #=============================================================================
@@ -5134,6 +5504,15 @@ sql/CMakeFiles/mysql_tzinfo_to_sql.dir/rule: cmake_check_build_system
 mysql_tzinfo_to_sql: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/rule
 .PHONY : mysql_tzinfo_to_sql
 
+# Pre-install relink rule for target.
+sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall:
+	$(MAKE) -f sql/CMakeFiles/mysql_tzinfo_to_sql.dir/build.make sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall
+.PHONY : sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall
+
+# Prepare target for install.
+preinstall: sql/CMakeFiles/mysql_tzinfo_to_sql.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 sql/CMakeFiles/mysql_tzinfo_to_sql.dir/clean:
 	$(MAKE) -f sql/CMakeFiles/mysql_tzinfo_to_sql.dir/build.make sql/CMakeFiles/mysql_tzinfo_to_sql.dir/clean
@@ -5153,8 +5532,8 @@ sql/CMakeFiles/mysqld.dir/all: zlib/CMakeFiles/zlib.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/blackhole/CMakeFiles/blackhole.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/myisammrg/CMakeFiles/myisammrg.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/heap/CMakeFiles/heap.dir/all
-sql/CMakeFiles/mysqld.dir/all: storage/archive/CMakeFiles/archive.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/myisam/CMakeFiles/myisam.dir/all
+sql/CMakeFiles/mysqld.dir/all: storage/archive/CMakeFiles/archive.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/federated/CMakeFiles/federated.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/csv/CMakeFiles/csv.dir/all
 sql/CMakeFiles/mysqld.dir/all: storage/perfschema/CMakeFiles/perfschema.dir/all
@@ -5164,8 +5543,8 @@ sql/CMakeFiles/mysqld.dir/all: strings/CMakeFiles/strings.dir/all
 sql/CMakeFiles/mysqld.dir/all: regex/CMakeFiles/regex.dir/all
 sql/CMakeFiles/mysqld.dir/all: vio/CMakeFiles/vio.dir/all
 sql/CMakeFiles/mysqld.dir/all: mysys_ssl/CMakeFiles/mysys_ssl.dir/all
-sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/sql.dir/all
 sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/partition.dir/all
+sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/sql.dir/all
 sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/binlog.dir/all
 sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/rpl.dir/all
 sql/CMakeFiles/mysqld.dir/all: sql/CMakeFiles/master.dir/all
@@ -5190,6 +5569,15 @@ sql/CMakeFiles/mysqld.dir/rule: cmake_check_build_system
 # Convenience name for target.
 mysqld: sql/CMakeFiles/mysqld.dir/rule
 .PHONY : mysqld
+
+# Pre-install relink rule for target.
+sql/CMakeFiles/mysqld.dir/preinstall:
+	$(MAKE) -f sql/CMakeFiles/mysqld.dir/build.make sql/CMakeFiles/mysqld.dir/preinstall
+.PHONY : sql/CMakeFiles/mysqld.dir/preinstall
+
+# Prepare target for install.
+preinstall: sql/CMakeFiles/mysqld.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 sql/CMakeFiles/mysqld.dir/clean:
@@ -5381,8 +5769,8 @@ sql/CMakeFiles/sql.dir/all: zlib/CMakeFiles/zlib.dir/all
 sql/CMakeFiles/sql.dir/all: storage/blackhole/CMakeFiles/blackhole.dir/all
 sql/CMakeFiles/sql.dir/all: storage/myisammrg/CMakeFiles/myisammrg.dir/all
 sql/CMakeFiles/sql.dir/all: storage/heap/CMakeFiles/heap.dir/all
-sql/CMakeFiles/sql.dir/all: storage/archive/CMakeFiles/archive.dir/all
 sql/CMakeFiles/sql.dir/all: storage/myisam/CMakeFiles/myisam.dir/all
+sql/CMakeFiles/sql.dir/all: storage/archive/CMakeFiles/archive.dir/all
 sql/CMakeFiles/sql.dir/all: storage/federated/CMakeFiles/federated.dir/all
 sql/CMakeFiles/sql.dir/all: storage/csv/CMakeFiles/csv.dir/all
 sql/CMakeFiles/sql.dir/all: storage/perfschema/CMakeFiles/perfschema.dir/all
@@ -5619,7 +6007,9 @@ libmysqld/examples/clean: libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/c
 .PHONY : libmysqld/examples/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libmysqld/examples/preinstall:
+libmysqld/examples/preinstall: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+libmysqld/examples/preinstall: libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+libmysqld/examples/preinstall: libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall
 .PHONY : libmysqld/examples/preinstall
 
 #=============================================================================
@@ -5647,6 +6037,15 @@ libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/rule: cmake_check_b
 # Convenience name for target.
 mysql_client_test_embedded: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/rule
 .PHONY : mysql_client_test_embedded
+
+# Pre-install relink rule for target.
+libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall:
+	$(MAKE) -f libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+.PHONY : libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+
+# Prepare target for install.
+preinstall: libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 libmysqld/examples/CMakeFiles/mysql_client_test_embedded.dir/clean:
@@ -5684,6 +6083,15 @@ libmysqld/examples/CMakeFiles/mysql_embedded.dir/rule: cmake_check_build_system
 mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/rule
 .PHONY : mysql_embedded
 
+# Pre-install relink rule for target.
+libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall:
+	$(MAKE) -f libmysqld/examples/CMakeFiles/mysql_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+.PHONY : libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+
+# Prepare target for install.
+preinstall: libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/clean:
 	$(MAKE) -f libmysqld/examples/CMakeFiles/mysql_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysql_embedded.dir/clean
@@ -5718,6 +6126,15 @@ libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/rule: cmake_check_build_sys
 # Convenience name for target.
 mysqltest_embedded: libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/rule
 .PHONY : mysqltest_embedded
+
+# Pre-install relink rule for target.
+libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall:
+	$(MAKE) -f libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/build.make libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall
+.PHONY : libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall
+
+# Prepare target for install.
+preinstall: libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 libmysqld/examples/CMakeFiles/mysqltest_embedded.dir/clean:
@@ -5873,7 +6290,7 @@ mysql-test/lib/My/SafeProcess/clean: mysql-test/lib/My/SafeProcess/CMakeFiles/my
 .PHONY : mysql-test/lib/My/SafeProcess/clean
 
 # Convenience name for "preinstall" pass in the directory.
-mysql-test/lib/My/SafeProcess/preinstall:
+mysql-test/lib/My/SafeProcess/preinstall: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
 .PHONY : mysql-test/lib/My/SafeProcess/preinstall
 
 #=============================================================================
@@ -5901,6 +6318,15 @@ mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/rule: cmake_check_b
 # Convenience name for target.
 my_safe_process: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/rule
 .PHONY : my_safe_process
+
+# Pre-install relink rule for target.
+mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall:
+	$(MAKE) -f mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build.make mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
+.PHONY : mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
+
+# Prepare target for install.
+preinstall: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
+.PHONY : preinstall
 
 # clean rule for target.
 mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/clean:

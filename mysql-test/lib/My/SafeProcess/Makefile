@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ my_safe_process/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build.make mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build
 .PHONY : my_safe_process/fast
 
+# Manual pre-install relink rule for target.
+my_safe_process/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
+.PHONY : my_safe_process/preinstall
+
 safe_process.o: safe_process.cc.o
 .PHONY : safe_process.o
 
@@ -216,7 +211,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... my_safe_process"
 	@echo "... package"

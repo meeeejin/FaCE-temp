@@ -1,0 +1,228 @@
+btr/btr0btr.cc <unknown> 1730 	btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 1812 		btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 2082 	btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 3604 	btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 3795 		btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 3851 		btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 3999 		btr_search_drop_page_hash_index(block);
+btr/btr0btr.cc <unknown> 4105 	btr_search_drop_page_hash_index(block);
+btr/btr0cur.cc <unknown> 800 		btr_search_build_page_hash_index() before building a
+btr/btr0sea.cc <unknown> 103 btr_search_build_page_hash_index(
+btr/btr0sea.cc <unknown> 684 		btr_search_build_page_hash_index(cursor->index,
+btr/btr0sea.cc <unknown> 1053 btr_search_drop_page_hash_index(
+btr/btr0sea.cc <unknown> 1060 				removed from the buf_pool->page_hash
+btr/btr0sea.cc <unknown> 1258 btr_search_drop_page_hash_when_freed(
+btr/btr0sea.cc <unknown> 1284 		btr_search_drop_page_hash_index(block);
+btr/btr0sea.cc <unknown> 1297 btr_search_build_page_hash_index(
+btr/btr0sea.cc <unknown> 1347 		btr_search_drop_page_hash_index(block);
+btr/btr0sea.cc <unknown> 1527 		btr_search_drop_page_hash_index(block);
+btr/btr0sea.cc <unknown> 1546 		btr_search_build_page_hash_index(index, new_block, n_fields,
+btr/btr0sea.cc <unknown> 1925 				buf_pool->page_hash by calling
+btr/btr0sea.cc <unknown> 1928 				btr_search_drop_page_hash_index() to
+buf/buf0buddy.cc <unknown> 378 			  && bpage->in_zip_hash && !bpage->in_page_hash),
+buf/buf0buddy.cc <unknown> 382 	ut_ad(!bpage->in_page_hash);
+buf/buf0buddy.cc <unknown> 418 	ut_ad(!block->page.in_page_hash);
+buf/buf0buddy.cc <unknown> 559 	rw_lock_t*	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buddy.cc <unknown> 563 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buddy.cc <unknown> 568 		added to buf_pool->page_hash yet.  Obviously,
+buf/buf0buf.cc <unknown> 1057 	block->page.in_page_hash = FALSE;
+buf/buf0buf.cc <unknown> 1354 		/* Number of locks protecting page_hash must be a
+buf/buf0buf.cc <unknown> 1356 		srv_n_page_hash_locks = static_cast<ulong>(
+buf/buf0buf.cc <unknown> 1357 				 ut_2_power_up(srv_n_page_hash_locks));
+buf/buf0buf.cc <unknown> 1358 		ut_a(srv_n_page_hash_locks != 0);
+buf/buf0buf.cc <unknown> 1359 		ut_a(srv_n_page_hash_locks <= MAX_PAGE_HASH_LOCKS);
+buf/buf0buf.cc <unknown> 1361 		buf_pool->page_hash = ha_create(2 * buf_pool->curr_size,
+buf/buf0buf.cc <unknown> 1362 						srv_n_page_hash_locks,
+buf/buf0buf.cc <unknown> 1436 	ha_clear(buf_pool->page_hash);
+buf/buf0buf.cc <unknown> 1437 	hash_table_free(buf_pool->page_hash);
+buf/buf0buf.cc <unknown> 1572                 srv_n_page_hash_locks,
+buf/buf0buf.cc <unknown> 1698 and in buf_pool->page_hash.  Does not relocate bpage->list.
+buf/buf0buf.cc <unknown> 1716 	ut_ad(buf_page_hash_lock_held_x(buf_pool, bpage));
+buf/buf0buf.cc <unknown> 1722 	ut_ad(bpage->in_page_hash);
+buf/buf0buf.cc <unknown> 1723 	ut_ad(bpage == buf_page_hash_get_low(buf_pool,
+buf/buf0buf.cc <unknown> 1747 	ut_d(bpage->in_page_hash = FALSE);
+buf/buf0buf.cc <unknown> 1779 	/* relocate buf_pool->page_hash */
+buf/buf0buf.cc <unknown> 1780 	HASH_DELETE(buf_page_t, hash, buf_pool->page_hash, fold, bpage);
+buf/buf0buf.cc <unknown> 1781 	HASH_INSERT(buf_page_t, hash, buf_pool->page_hash, fold, dpage);
+buf/buf0buf.cc <unknown> 1795 	ut_ad(buf_page_hash_lock_held_s_or_x(buf_pool, bpage));
+buf/buf0buf.cc <unknown> 1809 	ut_ad(bpage->in_page_hash);
+buf/buf0buf.cc <unknown> 1833 	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 1839 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 1860 	the page_hash must be covered by it and hash_locks are needed
+buf/buf0buf.cc <unknown> 1870 	hash_lock_x_all(buf_pool->page_hash);
+buf/buf0buf.cc <unknown> 1878 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 1881 		hash_unlock_x_all_but(buf_pool->page_hash, hash_lock);
+buf/buf0buf.cc <unknown> 1899 			ut_ad(!bpage->in_page_hash);
+buf/buf0buf.cc <unknown> 1912 			ut_d(bpage->in_page_hash = TRUE);
+buf/buf0buf.cc <unknown> 1913 			HASH_INSERT(buf_page_t, hash, buf_pool->page_hash,
+buf/buf0buf.cc <unknown> 1917 			/* Once the sentinel is in the page_hash we can
+buf/buf0buf.cc <unknown> 1920 			hash_unlock_x_all_but(buf_pool->page_hash,
+buf/buf0buf.cc <unknown> 1925 			ut_ad(bpage->in_page_hash);
+buf/buf0buf.cc <unknown> 1959 	rw_lock_t* hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 1965 	HASH_DELETE(buf_page_t, hash, buf_pool->page_hash, fold, watch);
+buf/buf0buf.cc <unknown> 1966 	ut_d(watch->in_page_hash = FALSE);
+buf/buf0buf.cc <unknown> 1984 	rw_lock_t*	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 1998 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 2037 	rw_lock_t*	hash_lock = buf_page_hash_lock_get(buf_pool,
+buf/buf0buf.cc <unknown> 2044 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 2110 	block = (buf_block_t*) buf_page_hash_get(buf_pool, space, offset);
+buf/buf0buf.cc <unknown> 2138 	bpage = buf_page_hash_get_s_locked(buf_pool, space, offset,
+buf/buf0buf.cc <unknown> 2172 	bpage = buf_page_hash_get_s_locked(buf_pool, space, offset,
+buf/buf0buf.cc <unknown> 2202 	the uncompressed frame and because page_hash mutex resides
+buf/buf0buf.cc <unknown> 2204 	first release the page_hash mutex. This means that the
+buf/buf0buf.cc <unknown> 2205 	block in question can move out of page_hash. Therefore
+buf/buf0buf.cc <unknown> 2206 	we need to check again if the block is still in page_hash. */
+buf/buf0buf.cc <unknown> 2209 	bpage = buf_page_hash_get(buf_pool, space, offset);
+buf/buf0buf.cc <unknown> 2247 		/* The following call will also grab the page_hash
+buf/buf0buf.cc <unknown> 2249 		bpage = buf_page_hash_get_s_locked(buf_pool, space,
+buf/buf0buf.cc <unknown> 2266 	ut_ad(buf_page_hash_lock_held_s(buf_pool, bpage));
+buf/buf0buf.cc <unknown> 2762 	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 2788 		block = (buf_block_t*) buf_page_hash_get_low(
+buf/buf0buf.cc <unknown> 2812 				/* Now safe to release page_hash mutex */
+buf/buf0buf.cc <unknown> 2871 	/* Now safe to release page_hash mutex */
+buf/buf0buf.cc <unknown> 2952 		/* Buffer-fixing prevents the page_hash from changing. */
+buf/buf0buf.cc <unknown> 2953 		ut_ad(bpage == buf_page_hash_get_low(
+buf/buf0buf.cc <unknown> 3130 				block = (buf_block_t*) buf_page_hash_get_low(
+buf/buf0buf.cc <unknown> 3612 	ut_ad(rw_lock_own(buf_page_hash_lock_get(buf_pool, fold),
+buf/buf0buf.cc <unknown> 3636 	hash_page = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 3672 	ut_ad(!block->page.in_page_hash);
+buf/buf0buf.cc <unknown> 3673 	ut_d(block->page.in_page_hash = TRUE);
+buf/buf0buf.cc <unknown> 3675 	HASH_INSERT(buf_page_t, hash, buf_pool->page_hash, fold, &block->page);
+buf/buf0buf.cc <unknown> 3749 	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 3754 	watch_page = buf_page_hash_get_low(buf_pool, space, offset, fold);
+buf/buf0buf.cc <unknown> 3824 			buf_pool->page_hash. */
+buf/buf0buf.cc <unknown> 3853 		check the page_hash again, as it may have been modified. */
+buf/buf0buf.cc <unknown> 3856 			watch_page = buf_page_hash_get_low(
+buf/buf0buf.cc <unknown> 3894 		bpage->in_page_hash = FALSE;
+buf/buf0buf.cc <unknown> 3901 		ut_d(bpage->in_page_hash = TRUE);
+buf/buf0buf.cc <unknown> 3923 		HASH_INSERT(buf_page_t, hash, buf_pool->page_hash, fold,
+buf/buf0buf.cc <unknown> 3989 	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0buf.cc <unknown> 3994 	block = (buf_block_t*) buf_page_hash_get_low(
+buf/buf0buf.cc <unknown> 4056 		has been added to buf_pool->LRU and buf_pool->page_hash. */
+buf/buf0buf.cc <unknown> 4644 	hash_lock_x_all(buf_pool->page_hash);
+buf/buf0buf.cc <unknown> 4672 				ut_a(buf_page_hash_get_low(buf_pool,
+buf/buf0buf.cc <unknown> 4768 		ut_a(buf_page_hash_get_low(buf_pool, b->space, b->offset,
+buf/buf0buf.cc <unknown> 4822 		ut_a(buf_page_hash_get_low(buf_pool, b->space, b->offset,
+buf/buf0buf.cc <unknown> 4828 	hash_unlock_x_all(buf_pool->page_hash);
+buf/buf0flu.cc <unknown> 422 	page_hash or from the LRU list.  At most, the uncompressed
+buf/buf0flu.cc <unknown> 430 	ut_ad(block->page.in_page_hash);
+buf/buf0flu.cc <unknown> 1126 	bpage = buf_page_hash_get(buf_pool, space, offset);
+buf/buf0flu.cc <unknown> 1252 		buf_page_t*	bpage = buf_page_hash_get(buf_pool, space, i);
+buf/buf0flu.cc <unknown> 1513 					prev_bpage = buf_page_hash_get(
+buf/buf0flu.cc <unknown> 1961 list, flushes it, removes it from page_hash and LRU list and puts
+buf/buf0lru.cc <unknown> 141 @retval true if BUF_BLOCK_FILE_PAGE was removed from page_hash. The
+buf/buf0lru.cc <unknown> 143 @retval false if BUF_BLOCK_ZIP_PAGE was removed from page_hash. In
+buf/buf0lru.cc <unknown> 232 buf_LRU_drop_page_hash_batch(
+buf/buf0lru.cc <unknown> 246 		btr_search_drop_page_hash_when_freed(space_id, zip_size,
+buf/buf0lru.cc <unknown> 258 buf_LRU_drop_page_hash_for_tablespace(
+buf/buf0lru.cc <unknown> 327 		buf_LRU_drop_page_hash_batch(
+buf/buf0lru.cc <unknown> 336 		page_hash_batch (i.e.: when the array was full).
+buf/buf0lru.cc <unknown> 359 	buf_LRU_drop_page_hash_batch(id, zip_size, page_arr, num_entries);
+buf/buf0lru.cc <unknown> 727 			hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0lru.cc <unknown> 780 			btr_search_drop_page_hash_when_freed(
+buf/buf0lru.cc <unknown> 887 			buf_LRU_drop_page_hash_for_tablespace(buf_pool, id);
+buf/buf0lru.cc <unknown> 1364 	removing the block from page_hash and LRU_list is fairly
+buf/buf0lru.cc <unknown> 1810 	rw_lock_t*	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0lru.cc <unknown> 1886 	into the LRU and page_hash (and possibly flush_list).
+buf/buf0lru.cc <unknown> 1895 		ut_a(!buf_page_hash_get_low(
+buf/buf0lru.cc <unknown> 1904 		/* The fields in_page_hash and in_LRU_list of
+buf/buf0lru.cc <unknown> 1909 		ut_ad(!bpage->in_page_hash);
+buf/buf0lru.cc <unknown> 1918 		ut_ad(b->in_page_hash);
+buf/buf0lru.cc <unknown> 1922 			    buf_pool->page_hash, fold, b);
+buf/buf0lru.cc <unknown> 1999 		replacement. This block is already out of page_hash
+buf/buf0lru.cc <unknown> 2017 	btr_search_drop_page_hash_index((buf_block_t*) bpage);
+buf/buf0lru.cc <unknown> 2027 		buf_pool->page_hash, thus inaccessible by any
+buf/buf0lru.cc <unknown> 2123 @retval true if BUF_BLOCK_FILE_PAGE was removed from page_hash. The
+buf/buf0lru.cc <unknown> 2125 @retval false if BUF_BLOCK_ZIP_PAGE was removed from page_hash. In
+buf/buf0lru.cc <unknown> 2147 	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0lru.cc <unknown> 2230 	hashed_bpage = buf_page_hash_get_low(buf_pool, bpage->space,
+buf/buf0lru.cc <unknown> 2262 	ut_ad(bpage->in_page_hash);
+buf/buf0lru.cc <unknown> 2263 	ut_d(bpage->in_page_hash = FALSE);
+buf/buf0lru.cc <unknown> 2264 	HASH_DELETE(buf_page_t, hash, buf_pool->page_hash, fold, bpage);
+buf/buf0lru.cc <unknown> 2311 		page_hash. Only possibility is when while invalidating
+buf/buf0lru.cc <unknown> 2317 		we do a look up of page_hash while holding buf_pool
+buf/buf0lru.cc <unknown> 2321 		page_hash. */
+buf/buf0lru.cc <unknown> 2392 	rw_lock_t*	hash_lock = buf_page_hash_lock_get(buf_pool, fold);
+buf/buf0rea.cc <unknown> 56 removes it from page_hash and removes it from LRU. */
+buf/buf0rea.cc <unknown> 383 			buf_page_hash_get(buf_pool, space, i);
+buf/buf0rea.cc <unknown> 671 		bpage = buf_page_hash_get(buf_pool, space, i);
+buf/buf0rea.cc <unknown> 709 	bpage = buf_page_hash_get(buf_pool, space, offset);
+fsp/fsp0fsp.cc <unknown> 1284 	/* Mimic buf_page_get(), but avoid the buf_pool->page_hash lookup. */
+fsp/fsp0fsp.cc <unknown> 3023 	btr_search_drop_page_hash_when_freed(space, zip_size, page);
+fsp/fsp0fsp.cc <unknown> 3241 			btr_search_drop_page_hash_when_freed(
+ha/ha0ha.cc <unknown> 82 		buf_pool->page_hash. */
+handler/ha_innodb.cc <unknown> 16021 static MYSQL_SYSVAR_ULONG(page_hash_locks, srv_n_page_hash_locks,
+handler/ha_innodb.cc <unknown> 16023   "Number of rw_locks protecting buffer pool page_hash. Rounded up to the next power of 2",
+handler/ha_innodb.cc <unknown> 16642   MYSQL_SYSVAR(page_hash_locks),
+include/btr0sea.h <unknown> 138 btr_search_drop_page_hash_index(
+include/btr0sea.h <unknown> 149 btr_search_drop_page_hash_when_freed(
+include/buf0buf.h <unknown> 85 					page_hash locks */
+include/buf0buf.h <unknown> 271 and in buf_pool->page_hash.  Does not relocate bpage->list.
+include/buf0buf.h <unknown> 1281 buf_page_hash_get_low(
+include/buf0buf.h <unknown> 1290 page_hash lock is acquired in the specified lock mode. Otherwise,
+include/buf0buf.h <unknown> 1292 lock. If the block is found and the lock is NULL then the page_hash
+include/buf0buf.h <unknown> 1297 buf_page_hash_get_locked(
+include/buf0buf.h <unknown> 1318 page_hash lock is acquired in the specified lock mode. Otherwise,
+include/buf0buf.h <unknown> 1320 lock. If the block is found and the lock is NULL then the page_hash
+include/buf0buf.h <unknown> 1344 buf_page_hash_get_low() function.
+include/buf0buf.h <unknown> 1348 #define buf_page_hash_get_s_locked(b, s, o, l)			\
+include/buf0buf.h <unknown> 1349 	buf_page_hash_get_locked(b, s, o, l, RW_LOCK_SHARED)
+include/buf0buf.h <unknown> 1350 #define buf_page_hash_get_x_locked(b, s, o, l)			\
+include/buf0buf.h <unknown> 1351 	buf_page_hash_get_locked(b, s, o, l, RW_LOCK_EX)
+include/buf0buf.h <unknown> 1352 #define buf_page_hash_get(b, s, o)				\
+include/buf0buf.h <unknown> 1353 	buf_page_hash_get_locked(b, s, o, NULL, 0)
+include/buf0buf.h <unknown> 1355 	buf_page_hash_get_locked(b, s, o, NULL, 0, true)
+include/buf0buf.h <unknown> 1499 	State changes that are relevant to page_hash are additionally protected
+include/buf0buf.h <unknown> 1500 	by the appropriate page_hash mutex i.e.: if a page is in page_hash or
+include/buf0buf.h <unknown> 1501 	is being added to/removed from page_hash then the corresponding changes
+include/buf0buf.h <unknown> 1502 	must also be protected by page_hash mutex. */
+include/buf0buf.h <unknown> 1527 					buf_pool->page_hash or
+include/buf0buf.h <unknown> 1530 	ibool		in_page_hash;	/*!< TRUE if in buf_pool->page_hash */
+include/buf0buf.h <unknown> 1648 					buf_pool->page_hash can point
+include/buf0buf.h <unknown> 1873 	hash_table_t*	page_hash;	/*!< hash table of buf_page_t or
+include/buf0buf.h <unknown> 1877 					page_hash is protected by an
+include/buf0buf.h <unknown> 1879 					Changes in page_hash are protected
+include/buf0buf.h <unknown> 1881 					page_hash mutex. Lookups can happen
+include/buf0buf.h <unknown> 1883 					the relevant page_hash mutex. */
+include/buf0buf.h <unknown> 2056 /** Get appropriate page_hash_lock. */
+include/buf0buf.h <unknown> 2057 # define buf_page_hash_lock_get(b, f)			\
+include/buf0buf.h <unknown> 2058 	hash_get_lock(b->page_hash, f)
+include/buf0buf.h <unknown> 2061 /** Test if page_hash lock is held in s-mode. */
+include/buf0buf.h <unknown> 2062 # define buf_page_hash_lock_held_s(b, p)		\
+include/buf0buf.h <unknown> 2063 	rw_lock_own(buf_page_hash_lock_get(b,		\
+include/buf0buf.h <unknown> 2068 /** Test if page_hash lock is held in x-mode. */
+include/buf0buf.h <unknown> 2069 # define buf_page_hash_lock_held_x(b, p)		\
+include/buf0buf.h <unknown> 2070 	rw_lock_own(buf_page_hash_lock_get(b,		\
+include/buf0buf.h <unknown> 2075 /** Test if page_hash lock is held in x or s-mode. */
+include/buf0buf.h <unknown> 2076 # define buf_page_hash_lock_held_s_or_x(b, p)		\
+include/buf0buf.h <unknown> 2077 	(buf_page_hash_lock_held_s(b, p)		\
+include/buf0buf.h <unknown> 2078 	 || buf_page_hash_lock_held_x(b, p))
+include/buf0buf.h <unknown> 2081 	buf_page_hash_lock_held_s(b, &(p->page))
+include/buf0buf.h <unknown> 2084 	buf_page_hash_lock_held_x(b, &(p->page))
+include/buf0buf.h <unknown> 2087 	buf_page_hash_lock_held_s_or_x(b, &(p->page))
+include/buf0buf.h <unknown> 2089 # define buf_page_hash_lock_held_s(b, p)	(TRUE)
+include/buf0buf.h <unknown> 2090 # define buf_page_hash_lock_held_x(b, p)	(TRUE)
+include/buf0buf.h <unknown> 2091 # define buf_page_hash_lock_held_s_or_x(b, p)	(TRUE)
+include/buf0buf.ic <unknown> 1132 buf_page_hash_get_low(
+include/buf0buf.ic <unknown> 1148 	hash_lock = hash_get_lock(buf_pool->page_hash, fold);
+include/buf0buf.ic <unknown> 1155 	HASH_SEARCH(hash, buf_pool->page_hash, fold, buf_page_t*, bpage,
+include/buf0buf.ic <unknown> 1156 		    ut_ad(bpage->in_page_hash && !bpage->in_zip_hash
+include/buf0buf.ic <unknown> 1161 		ut_ad(bpage->in_page_hash);
+include/buf0buf.ic <unknown> 1171 page_hash lock is acquired in the specified lock mode. Otherwise,
+include/buf0buf.ic <unknown> 1173 lock. If the block is found and the lock is NULL then the page_hash
+include/buf0buf.ic <unknown> 1178 buf_page_hash_get_locked(
+include/buf0buf.ic <unknown> 1210 	hash_lock = hash_get_lock(buf_pool->page_hash, fold);
+include/buf0buf.ic <unknown> 1223 	bpage = buf_page_hash_get_low(buf_pool, space, offset, fold);
+include/buf0buf.ic <unknown> 1237 		/* The caller wants us to release the page_hash lock */
+include/buf0buf.ic <unknown> 1258 page_hash lock is acquired in the specified lock mode. Otherwise,
+include/buf0buf.ic <unknown> 1260 lock. If the block is found and the lock is NULL then the page_hash
+include/buf0buf.ic <unknown> 1282 	buf_page_t*	bpage = buf_page_hash_get_locked(buf_pool,
+include/buf0buf.ic <unknown> 1331 	return(buf_page_hash_get(buf_pool, space, offset) != NULL);
+include/buf0flu.h <unknown> 114 list, flushes it, removes it from page_hash and LRU list and puts
+include/srv0srv.h <unknown> 284 extern ulong	srv_n_page_hash_locks;	/*!< number of locks to
+include/srv0srv.h <unknown> 285 					protect buf_pool->page_hash */
+include/sync0sync.h <unknown> 728 #define	SYNC_BUF_PAGE_HASH	149	/* buf_pool->page_hash rw_lock */
+page/page0zip.cc <unknown> 4611 	btr_search_drop_page_hash_index(block);
+srv/srv0srv.cc <unknown> 229 /* number of locks to protect buf_pool->page_hash */
+srv/srv0srv.cc <unknown> 230 UNIV_INTERN ulong	srv_n_page_hash_locks = 16;
+sync/sync0sync.cc <unknown> 1197 		/* Multiple page_hash locks are only allowed during

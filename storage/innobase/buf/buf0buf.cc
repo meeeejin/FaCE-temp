@@ -260,6 +260,7 @@ UNIV_INTERN ulint		    ssd_cache_meta_free_idx = 0;
 UNIV_INTERN rw_lock_t*		ssd_cache_hash_lock;
 UNIV_INTERN rw_lock_t*      ssd_cache_meta_idx_lock;
 UNIV_INTERN bool            ssd_cache_size_over;
+UNIV_INTERN int             ssd_cache_fd = 0;
 #endif
 
 #if defined UNIV_DEBUG || defined UNIV_BUF_DEBUG
@@ -1491,14 +1492,14 @@ int fd)     /*!< in: file descriptor */
                     HASH_DELETE(ssd_meta_dir_t, hash, ssd_cache, fold, old_entry);
                     ssd_meta_dir[old_entry->ssd_offset].flags &= ~BM_VALID;
 
-                    entry = create_new_ssd_metadata(space, offset, lsn);
+                    //entry = create_new_ssd_metadata(space, offset, lsn);
 
                     HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, entry);
                     insert_ssd_metadata_for_recovery(entry, i);
                 }
             } else {
                 /* Create a new metadata entry. */
-                entry = create_new_ssd_metadata(space, offset, lsn);
+                //entry = create_new_ssd_metadata(space, offset, lsn);
 
                 HASH_INSERT(ssd_meta_dir_t, hash, ssd_cache, fold, entry);
                 insert_ssd_metadata_for_recovery(entry, i);
@@ -1530,7 +1531,6 @@ buf_pool_init(
 	ulint i;
 	const ulint	size	= total_size / n_instances;
 #ifdef SSD_CACHE_FACE
-	int		fd;
 	byte*   invalid_page = NULL;
 #endif
 
@@ -1577,6 +1577,10 @@ buf_pool_init(
         ssd_meta_dir = (ssd_meta_dir_t*) malloc(sizeof(ssd_meta_dir_t) * ssd_cache_size);
         memset(ssd_meta_dir, 0, sizeof(ssd_meta_dir_t) * ssd_cache_size);
 
+        for (i = 0; i < ssd_cache_size; i++) {
+            mutex_create(buffer_block_mutex_key, &ssd_meta_dir[i].mutex, SYNC_BUF_BLOCK);
+        }
+
         /* Create a rw_lock for SSD cache hash table. */
         ssd_cache_hash_lock = static_cast<rw_lock_t*>(mem_alloc(sizeof(rw_lock_t)));
         rw_lock_create(buf_block_lock_key, ssd_cache_hash_lock, SYNC_LEVEL_VARYING);
@@ -1587,13 +1591,13 @@ buf_pool_init(
 
     	/* If there is an existing SSD cache file, rebuild SSD metadata directory and SSD cache hash table
         from existing SSD cache file. Otherwise, Create a SSD cache file. */
-        fd = open(srv_ssd_cache_file, O_RDWR | O_DIRECT, S_IRUSR | S_IWUSR);
-    	if (fd == -1) {
+        ssd_cache_fd = open(srv_ssd_cache_file, O_RDWR | O_DIRECT, S_IRUSR | S_IWUSR);
+    	if (ssd_cache_fd == -1) {
     		fprintf(stderr, "Create a SSD cache file %s.\n", srv_ssd_cache_file);
-    		fd = open(srv_ssd_cache_file, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
+    		ssd_cache_fd = open(srv_ssd_cache_file, O_RDWR | O_CREAT | O_DIRECT, S_IRUSR | S_IWUSR);
 
-        	invalid_page = static_cast<byte*>(mem_alloc(UNIV_PAGE_SIZE));
-            
+            assert(!posix_memalign((void**) &invalid_page, 4096, UNIV_PAGE_SIZE));
+
         	if (memset(invalid_page, 0x00, UNIV_PAGE_SIZE) == NULL) {
         		fprintf(stderr, "Initializing invalid page with memset failed.\n");
                 ut_a(0);
@@ -1603,17 +1607,17 @@ buf_pool_init(
             mach_write_to_4(invalid_page + FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID, ULINT_MAX);
 
         	for (i = 0; i < ssd_cache_size; i++) {
-        		if (pwrite(fd, invalid_page, UNIV_PAGE_SIZE, i * UNIV_PAGE_SIZE) < 0) {
+        		if (pwrite(ssd_cache_fd, invalid_page, UNIV_PAGE_SIZE, i * UNIV_PAGE_SIZE) < 0) {
         			fprintf(stderr, "Can't initialize SSD cache file with invalid page.\n");
                     ut_a(0);
         		}
         	}
        
-        	mem_free(invalid_page);
+        	free(invalid_page);
         } else {
             fprintf(stderr, "SSD cache file already exists %s.\n", srv_ssd_cache_file);
 
-            if (rebuild_meta_and_hash_from_ssd_cache(fd)) {
+            if (rebuild_meta_and_hash_from_ssd_cache(ssd_cache_fd)) {
                 fprintf(stderr, "Rebuilding metadata directory and hash table from existing SSD cache succeeded!\n");
             } else {
                 fprintf(stderr, "Rebuilding metadata directory and hash table from existing SSD cache failed.\n");
@@ -1621,7 +1625,6 @@ buf_pool_init(
             }    
         }
         
-        close(fd);
     	fprintf(stderr, "Initializing SSD cache succeeded!\n");
     }
 #endif

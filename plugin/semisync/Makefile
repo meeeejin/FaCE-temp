@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -183,6 +173,11 @@ semisync_master/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_master.dir/build.make plugin/semisync/CMakeFiles/semisync_master.dir/build
 .PHONY : semisync_master/fast
 
+# Manual pre-install relink rule for target.
+semisync_master/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_master.dir/preinstall
+.PHONY : semisync_master/preinstall
+
 # Convenience name for target.
 plugin/semisync/CMakeFiles/semisync_slave.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_slave.dir/rule
@@ -196,6 +191,11 @@ semisync_slave: plugin/semisync/CMakeFiles/semisync_slave.dir/rule
 semisync_slave/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f plugin/semisync/CMakeFiles/semisync_slave.dir/build.make plugin/semisync/CMakeFiles/semisync_slave.dir/build
 .PHONY : semisync_slave/fast
+
+# Manual pre-install relink rule for target.
+semisync_slave/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
+.PHONY : semisync_slave/preinstall
 
 semisync.o: semisync.cc.o
 .PHONY : semisync.o
@@ -329,7 +329,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... package"
 	@echo "... package_source"

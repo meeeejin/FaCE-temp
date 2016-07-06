@@ -174,6 +174,39 @@ extra/innochecksum: extra/CMakeFiles/innochecksum.dir/link.txt
 extra/CMakeFiles/innochecksum.dir/build: extra/innochecksum
 .PHONY : extra/CMakeFiles/innochecksum.dir/build
 
+# Object files for target innochecksum
+innochecksum_OBJECTS = \
+"CMakeFiles/innochecksum.dir/innochecksum.cc.o" \
+"CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o" \
+"CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o" \
+"CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o"
+
+# External object files for target innochecksum
+innochecksum_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/innochecksum: extra/CMakeFiles/innochecksum.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/innochecksum"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/innochecksum.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/innochecksum.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/innochecksum
+.PHONY : extra/CMakeFiles/innochecksum.dir/preinstall
+
 extra/CMakeFiles/innochecksum.dir/requires: extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o.requires
 extra/CMakeFiles/innochecksum.dir/requires: extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o.requires
 extra/CMakeFiles/innochecksum.dir/requires: extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o.requires

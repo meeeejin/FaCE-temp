@@ -79,7 +79,7 @@ me=`get_full_path $0`
 # Script might have been renamed but assume mysql_<something>config<something>
 basedir=`echo $me | sed -e 's;/bin/mysql_.*config.*;;'`
 
-ldata='/home/mijin/mysql_bin_face/data'
+ldata='/home/mijin/mysql-5.6.26/data'
 execdir='/home/mijin/mysql-5.6.26/bin'
 bindir='/home/mijin/mysql-5.6.26/bin'
 

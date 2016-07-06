@@ -183,4 +183,6 @@
 /home/mijin/mysql-5.6.26/bin/mysqld_multi
 /home/mijin/mysql-5.6.26/bin/mysqld_safe
 /home/mijin/mysql-5.6.26/bin/mysql_secure_installation
+/home/mijin/mysql-5.6.26/mysql-test/lib/My/SafeProcess/my_safe_process
+/home/mijin/mysql-5.6.26/mysql-test/lib/My/SafeProcess/my_safe_process
 /home/mijin/mysql-5.6.26/share/aclocal/mysql.m4

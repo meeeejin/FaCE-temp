@@ -90,6 +90,24 @@ tests/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/link.txt
 tests/CMakeFiles/mysql_client_test.dir/build: tests/mysql_client_test
 .PHONY : tests/CMakeFiles/mysql_client_test.dir/build
 
+# Object files for target mysql_client_test
+mysql_client_test_OBJECTS = \
+"CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o"
+
+# External object files for target mysql_client_test
+mysql_client_test_EXTERNAL_OBJECTS =
+
+tests/CMakeFiles/CMakeRelink.dir/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o
+tests/CMakeFiles/CMakeRelink.dir/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/build.make
+tests/CMakeFiles/CMakeRelink.dir/mysql_client_test: libmysql/libmysqlclient.a
+tests/CMakeFiles/CMakeRelink.dir/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_client_test"
+	cd /home/mijin/mysql-5.6.26/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_client_test.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+tests/CMakeFiles/mysql_client_test.dir/preinstall: tests/CMakeFiles/CMakeRelink.dir/mysql_client_test
+.PHONY : tests/CMakeFiles/mysql_client_test.dir/preinstall
+
 tests/CMakeFiles/mysql_client_test.dir/requires: tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o.requires
 .PHONY : tests/CMakeFiles/mysql_client_test.dir/requires
 

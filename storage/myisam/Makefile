@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -211,6 +201,11 @@ myisam_ftdump/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f storage/myisam/CMakeFiles/myisam_ftdump.dir/build.make storage/myisam/CMakeFiles/myisam_ftdump.dir/build
 .PHONY : myisam_ftdump/fast
 
+# Manual pre-install relink rule for target.
+myisam_ftdump/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisam_ftdump.dir/preinstall
+.PHONY : myisam_ftdump/preinstall
+
 # Convenience name for target.
 storage/myisam/CMakeFiles/myisamchk.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisamchk.dir/rule
@@ -224,6 +219,11 @@ myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/rule
 myisamchk/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f storage/myisam/CMakeFiles/myisamchk.dir/build.make storage/myisam/CMakeFiles/myisamchk.dir/build
 .PHONY : myisamchk/fast
+
+# Manual pre-install relink rule for target.
+myisamchk/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+.PHONY : myisamchk/preinstall
 
 # Convenience name for target.
 storage/myisam/CMakeFiles/myisamlog.dir/rule:
@@ -239,6 +239,11 @@ myisamlog/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f storage/myisam/CMakeFiles/myisamlog.dir/build.make storage/myisam/CMakeFiles/myisamlog.dir/build
 .PHONY : myisamlog/fast
 
+# Manual pre-install relink rule for target.
+myisamlog/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisamlog.dir/preinstall
+.PHONY : myisamlog/preinstall
+
 # Convenience name for target.
 storage/myisam/CMakeFiles/myisampack.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisampack.dir/rule
@@ -252,6 +257,11 @@ myisampack: storage/myisam/CMakeFiles/myisampack.dir/rule
 myisampack/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f storage/myisam/CMakeFiles/myisampack.dir/build.make storage/myisam/CMakeFiles/myisampack.dir/build
 .PHONY : myisampack/fast
+
+# Manual pre-install relink rule for target.
+myisampack/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 storage/myisam/CMakeFiles/myisampack.dir/preinstall
+.PHONY : myisampack/preinstall
 
 ft_boolean_search.o: ft_boolean_search.c.o
 .PHONY : ft_boolean_search.o
@@ -1789,7 +1799,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... myisam"
 	@echo "... myisam_embedded"

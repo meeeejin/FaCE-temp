@@ -37,9 +37,6 @@ BISON_EXECUTABLE:FILEPATH=BISON_EXECUTABLE-NOTFOUND
 //path to the executable
 CAT_EXECUTABLE:FILEPATH=/bin/cat
 
-//Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
-
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 //\n CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel
 CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
@@ -109,9 +106,6 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 CMAKE_INSTALL_PREFIX:PATH=/home/mijin/mysql-5.6.26
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld
-
-//Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules.
@@ -129,20 +123,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
-
-//Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
-
-//Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
-
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=MySQL
-
-//Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -180,9 +162,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
-
-//Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -351,7 +330,7 @@ LIBTOOLIZE_EXECUTABLE:FILEPATH=LIBTOOLIZE_EXECUTABLE-NOTFOUND
 MANUFACTURER:STRING=Built from Source
 
 //default MySQL data directory
-MYSQL_DATADIR:PATH=/home/mijin/mysql_bin_face/data
+MYSQL_DATADIR:PATH=/home/mijin/mysql-5.6.26/data
 
 //Location from where documentation is copied
 MYSQL_DOCS_LOCATION:PATH=
@@ -372,7 +351,7 @@ MySQL_SOURCE_DIR:STATIC=/home/mijin/mysql-5.6.26
 OPTIMIZER_TRACE:BOOL=ON
 
 //config directory (for my.cnf)
-SYSCONFDIR:PATH=/home/mijin/mysql_bin_face/etc
+SYSCONFDIR:PATH=/home/mijin/mysql-5.6.26/etc
 
 //path to the executable
 TAR_EXECUTABLE:FILEPATH=/bin/tar
@@ -663,8 +642,6 @@ BISON_EXECUTABLE-ADVANCED:INTERNAL=1
 CAT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Functions exported by client API
 CLIENT_API_FUNCTIONS:INTERNAL=get_tty_password;handle_options;load_defaults;mysql_thread_end;mysql_thread_init;myodbc_remove_escape;mysql_affected_rows;mysql_autocommit;mysql_stmt_bind_param;mysql_stmt_bind_result;mysql_change_user;mysql_character_set_name;mysql_close;mysql_commit;mysql_data_seek;mysql_debug;mysql_dump_debug_info;mysql_eof;mysql_errno;mysql_error;mysql_escape_string;mysql_hex_string;mysql_stmt_execute;mysql_stmt_fetch;mysql_stmt_fetch_column;mysql_fetch_field;mysql_fetch_field_direct;mysql_fetch_fields;mysql_fetch_lengths;mysql_fetch_row;mysql_field_count;mysql_field_seek;mysql_field_tell;mysql_free_result;mysql_get_client_info;mysql_get_host_info;mysql_get_proto_info;mysql_get_server_info;mysql_get_client_version;mysql_get_ssl_cipher;mysql_info;mysql_init;mysql_insert_id;mysql_kill;mysql_set_server_option;mysql_list_dbs;mysql_list_fields;mysql_list_processes;mysql_list_tables;mysql_more_results;mysql_next_result;mysql_num_fields;mysql_num_rows;mysql_options;mysql_stmt_param_count;mysql_stmt_param_metadata;mysql_ping;mysql_stmt_result_metadata;mysql_query;mysql_read_query_result;mysql_real_connect;mysql_real_escape_string;mysql_real_query;mysql_refresh;mysql_rollback;mysql_row_seek;mysql_row_tell;mysql_select_db;mysql_stmt_send_long_data;mysql_send_query;mysql_shutdown;mysql_ssl_set;mysql_stat;mysql_stmt_affected_rows;mysql_stmt_close;mysql_stmt_reset;mysql_stmt_data_seek;mysql_stmt_errno;mysql_stmt_error;mysql_stmt_free_result;mysql_stmt_num_rows;mysql_stmt_row_seek;mysql_stmt_row_tell;mysql_stmt_store_result;mysql_store_result;mysql_thread_id;mysql_thread_safe;mysql_use_result;mysql_warning_count;mysql_stmt_sqlstate;mysql_sqlstate;mysql_get_server_version;mysql_stmt_prepare;mysql_stmt_init;mysql_stmt_insert_id;mysql_stmt_attr_get;mysql_stmt_attr_set;mysql_stmt_field_count;mysql_set_local_infile_default;mysql_set_local_infile_handler;mysql_embedded;mysql_server_init;mysql_server_end;mysql_set_character_set;mysql_get_character_set_info;mysql_stmt_next_result;my_init;mysql_client_find_plugin;mysql_client_register_plugin;mysql_load_plugin;mysql_load_plugin_v;mysql_options4;mysql_plugin_options
-//ADVANCED property for variable: CMAKE_AR
-CMAKE_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_BUILD_TOOL
 CMAKE_BUILD_TOOL-ADVANCED:INTERNAL=1
 //What is the target build tool cmake is generating for.
@@ -685,8 +662,6 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -697,8 +672,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -709,8 +682,6 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Executable file format
-CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -740,8 +711,6 @@ CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/mijin/mysql-5.6.26
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
-//ADVANCED property for variable: CMAKE_LINKER
-CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -754,16 +723,8 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_NM
-CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=58
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RANLIB
-CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-2.8
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -792,10 +753,6 @@ CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_STRIP
-CMAKE_STRIP-ADVANCED:INTERNAL=1
-//uname command
-CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_USE_RELATIVE_PATHS
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE

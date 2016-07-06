@@ -41,35 +41,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Develop
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
-  FOREACH(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so.18.1.0"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so.18"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so"
-      )
-    IF(EXISTS "${file}" AND
-       NOT IS_SYMLINK "${file}")
-      FILE(RPATH_CHECK
-           FILE "${file}"
-           RPATH "")
-    ENDIF()
-  ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/mijin/mysql-5.6.26/libmysql/libmysqlclient.so.18.1.0"
-    "/home/mijin/mysql-5.6.26/libmysql/libmysqlclient.so.18"
-    "/home/mijin/mysql-5.6.26/libmysql/libmysqlclient.so"
+    "/home/mijin/mysql-5.6.26/libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18.1.0"
+    "/home/mijin/mysql-5.6.26/libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so.18"
+    "/home/mijin/mysql-5.6.26/libmysql/CMakeFiles/CMakeRelink.dir/libmysqlclient.so"
     )
-  FOREACH(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so.18.1.0"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so.18"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmysqlclient.so"
-      )
-    IF(EXISTS "${file}" AND
-       NOT IS_SYMLINK "${file}")
-      IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
-      ENDIF(CMAKE_INSTALL_DO_STRIP)
-    ENDIF()
-  ENDFOREACH()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "SharedLibraries")

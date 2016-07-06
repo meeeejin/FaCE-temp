@@ -161,12 +161,13 @@ struct buf_dblwr_t{
 /**************************************************************//**
 Create a new metadata entry for SSD cache hash table. */
 UNIV_INTERN
-ssd_meta_dir_t*
+void
 create_new_ssd_metadata(
 /*====================*/
     ulint space,            /*!< in: space id */
     ulint offset,           /*!< in: page number */
-    lsn_t lsn);             /*!< in: lsn */
+    lsn_t lsn,              /*!< in: lsn */
+    ulint meta_idx);        /*!< in: metadata index */
 
 /**************************************************************//**
 Insert metadata entry into the metadata directory. */
@@ -174,7 +175,6 @@ UNIV_INTERN
 void
 insert_ssd_metadata(
 /*================*/
-    ssd_meta_dir_t* metadata_entry, /*!< in: metadata entry */
     ulint           fold,           /*!< in: fold value */
     ulint           meta_idx);      /*!< in: metadata index */
 
@@ -194,8 +194,8 @@ UNIV_INTERN
 void
 update_ssd_cache_info(
 /*==================*/
-    buf_page_t* bpage,	/*!< in: buffer block used to update SSD cache information */
-    ulint zip_size);    /*!< in: zip size */
+    buf_page_t* bpage,  /*!< in: buffer block used to update SSD cache information */
+    ulint meta_idx);    /*!< in: metadata index */
 
 /**************************************************************//**
 Insert a page into the SSD cache. */
@@ -203,9 +203,9 @@ UNIV_INTERN
 void
 insert_page_in_ssd_cache(
 /*=====================*/
-    buf_page_t* bpage,		        /*!< in: buffer block */
-    ssd_meta_dir_t* metadata_entry, /*!< in: metadata entry */
-    ulint zip_size);                /*!< in: zipsize */
+    ulint first_idx,    /*!< in: metadata index of the first page to write */
+    ulint page_num,     /*!< in: total number of pages to write */
+    byte* buf);         /*!< in: buffer used in writing to the SSD cache */
 
 #endif /*END OF SSD_CACHE_FACE*/
 

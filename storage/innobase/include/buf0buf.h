@@ -93,6 +93,7 @@ extern const int	WAIT_FOR_READ;
 /* Flags for buffer descriptors */
 #define BM_DIRTY 		(1 << 0)	/* data needs writing */
 #define BM_VALID 		(1 << 1)	/* data is valid */
+#define BM_VICTIM       (1 << 2)    /* data is a victim page */
 
 extern	hash_table_t*	ssd_cache;
 extern	ssd_meta_dir_t* ssd_meta_dir;
@@ -101,6 +102,7 @@ extern	ulint		    ssd_cache_meta_free_idx;
 extern	rw_lock_t*	    ssd_cache_hash_lock;
 extern  rw_lock_t*      ssd_cache_meta_idx_lock;
 extern  bool            ssd_cache_size_over;
+extern  int             ssd_cache_fd;
 #endif  /*END OF SSD_CACHE_FACE*/
 
 #ifdef UNIV_DEBUG

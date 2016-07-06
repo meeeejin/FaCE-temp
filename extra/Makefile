@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Client\" \"DataFiles\" \"DebugBinaries\" \"Development\" \"Documentation\" \"Embedded\" \"Info\" \"IniFiles\" \"ManPages\" \"Readme\" \"Server\" \"Server_Scripts\" \"SharedLibraries\" \"SqlBench\" \"SupportFiles\" \"Test\" \"Unspecified\""
@@ -211,6 +201,11 @@ innochecksum/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/innochecksum.dir/build.make extra/CMakeFiles/innochecksum.dir/build
 .PHONY : innochecksum/fast
 
+# Manual pre-install relink rule for target.
+innochecksum/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/innochecksum.dir/preinstall
+.PHONY : innochecksum/preinstall
+
 # Convenience name for target.
 extra/CMakeFiles/my_print_defaults.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/my_print_defaults.dir/rule
@@ -224,6 +219,11 @@ my_print_defaults: extra/CMakeFiles/my_print_defaults.dir/rule
 my_print_defaults/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/my_print_defaults.dir/build.make extra/CMakeFiles/my_print_defaults.dir/build
 .PHONY : my_print_defaults/fast
+
+# Manual pre-install relink rule for target.
+my_print_defaults/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/my_print_defaults.dir/preinstall
+.PHONY : my_print_defaults/preinstall
 
 # Convenience name for target.
 extra/CMakeFiles/mysql_waitpid.dir/rule:
@@ -239,6 +239,11 @@ mysql_waitpid/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/mysql_waitpid.dir/build.make extra/CMakeFiles/mysql_waitpid.dir/build
 .PHONY : mysql_waitpid/fast
 
+# Manual pre-install relink rule for target.
+mysql_waitpid/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/mysql_waitpid.dir/preinstall
+.PHONY : mysql_waitpid/preinstall
+
 # Convenience name for target.
 extra/CMakeFiles/perror.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/perror.dir/rule
@@ -252,6 +257,11 @@ perror: extra/CMakeFiles/perror.dir/rule
 perror/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/perror.dir/build.make extra/CMakeFiles/perror.dir/build
 .PHONY : perror/fast
+
+# Manual pre-install relink rule for target.
+perror/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/perror.dir/preinstall
+.PHONY : perror/preinstall
 
 # Convenience name for target.
 extra/CMakeFiles/replace.dir/rule:
@@ -267,6 +277,11 @@ replace/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/replace.dir/build.make extra/CMakeFiles/replace.dir/build
 .PHONY : replace/fast
 
+# Manual pre-install relink rule for target.
+replace/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/replace.dir/preinstall
+.PHONY : replace/preinstall
+
 # Convenience name for target.
 extra/CMakeFiles/resolve_stack_dump.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/resolve_stack_dump.dir/rule
@@ -281,6 +296,11 @@ resolve_stack_dump/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/resolve_stack_dump.dir/build.make extra/CMakeFiles/resolve_stack_dump.dir/build
 .PHONY : resolve_stack_dump/fast
 
+# Manual pre-install relink rule for target.
+resolve_stack_dump/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/resolve_stack_dump.dir/preinstall
+.PHONY : resolve_stack_dump/preinstall
+
 # Convenience name for target.
 extra/CMakeFiles/resolveip.dir/rule:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/resolveip.dir/rule
@@ -294,6 +314,11 @@ resolveip: extra/CMakeFiles/resolveip.dir/rule
 resolveip/fast:
 	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f extra/CMakeFiles/resolveip.dir/build.make extra/CMakeFiles/resolveip.dir/build
 .PHONY : resolveip/fast
+
+# Manual pre-install relink rule for target.
+resolveip/preinstall:
+	cd /home/mijin/mysql-5.6.26 && $(MAKE) -f CMakeFiles/Makefile2 extra/CMakeFiles/resolveip.dir/preinstall
+.PHONY : resolveip/preinstall
 
 __/storage/innobase/buf/buf0checksum.o: __/storage/innobase/buf/buf0checksum.cc.o
 .PHONY : __/storage/innobase/buf/buf0checksum.o
@@ -571,7 +596,6 @@ help:
 	@echo "... innochecksum"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... my_print_defaults"
 	@echo "... mysql_waitpid"

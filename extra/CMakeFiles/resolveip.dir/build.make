@@ -99,6 +99,33 @@ extra/resolveip: extra/CMakeFiles/resolveip.dir/link.txt
 extra/CMakeFiles/resolveip.dir/build: extra/resolveip
 .PHONY : extra/CMakeFiles/resolveip.dir/build
 
+# Object files for target resolveip
+resolveip_OBJECTS = \
+"CMakeFiles/resolveip.dir/resolveip.c.o"
+
+# External object files for target resolveip
+resolveip_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/resolveip: extra/CMakeFiles/resolveip.dir/resolveip.c.o
+extra/CMakeFiles/CMakeRelink.dir/resolveip: extra/CMakeFiles/resolveip.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/resolveip: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/resolveip: extra/CMakeFiles/resolveip.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/resolveip"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resolveip.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/resolveip.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/resolveip
+.PHONY : extra/CMakeFiles/resolveip.dir/preinstall
+
 extra/CMakeFiles/resolveip.dir/requires: extra/CMakeFiles/resolveip.dir/resolveip.c.o.requires
 .PHONY : extra/CMakeFiles/resolveip.dir/requires
 

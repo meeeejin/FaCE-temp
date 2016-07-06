@@ -90,6 +90,24 @@ client/mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/link.txt
 client/CMakeFiles/mysqlbinlog.dir/build: client/mysqlbinlog
 .PHONY : client/CMakeFiles/mysqlbinlog.dir/build
 
+# Object files for target mysqlbinlog
+mysqlbinlog_OBJECTS = \
+"CMakeFiles/mysqlbinlog.dir/mysqlbinlog.cc.o"
+
+# External object files for target mysqlbinlog
+mysqlbinlog_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/mysqlbinlog.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqlbinlog: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqlbinlog: client/CMakeFiles/mysqlbinlog.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqlbinlog"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqlbinlog.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqlbinlog.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqlbinlog
+.PHONY : client/CMakeFiles/mysqlbinlog.dir/preinstall
+
 client/CMakeFiles/mysqlbinlog.dir/requires: client/CMakeFiles/mysqlbinlog.dir/mysqlbinlog.cc.o.requires
 .PHONY : client/CMakeFiles/mysqlbinlog.dir/requires
 

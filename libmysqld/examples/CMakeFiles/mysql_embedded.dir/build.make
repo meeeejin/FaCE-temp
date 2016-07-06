@@ -142,6 +142,30 @@ libmysqld/examples/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/build: libmysqld/examples/mysql_embedded
 .PHONY : libmysqld/examples/CMakeFiles/mysql_embedded.dir/build
 
+# Object files for target mysql_embedded
+mysql_embedded_OBJECTS = \
+"CMakeFiles/mysql_embedded.dir/__/__/client/completion_hash.cc.o" \
+"CMakeFiles/mysql_embedded.dir/__/__/client/mysql.cc.o" \
+"CMakeFiles/mysql_embedded.dir/__/__/client/readline.cc.o"
+
+# External object files for target mysql_embedded
+mysql_embedded_EXTERNAL_OBJECTS =
+
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/completion_hash.cc.o
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/mysql.cc.o
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/readline.cc.o
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/build.make
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/libmysqld.a
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: cmd-line-utils/libedit/libedit.a
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: /usr/lib/x86_64-linux-gnu/libcurses.so
+libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded: libmysqld/examples/CMakeFiles/mysql_embedded.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_embedded"
+	cd /home/mijin/mysql-5.6.26/libmysqld/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_embedded.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall: libmysqld/examples/CMakeFiles/CMakeRelink.dir/mysql_embedded
+.PHONY : libmysqld/examples/CMakeFiles/mysql_embedded.dir/preinstall
+
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/requires: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/completion_hash.cc.o.requires
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/requires: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/mysql.cc.o.requires
 libmysqld/examples/CMakeFiles/mysql_embedded.dir/requires: libmysqld/examples/CMakeFiles/mysql_embedded.dir/__/__/client/readline.cc.o.requires

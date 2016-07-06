@@ -1,5 +1,5 @@
 ===== Information about the build process: =====
-Build was run at 2016-06-24 17:53:14 on host 'mijin-desktop'
+Build was run at 2016-07-06 16:29:53 on host 'mijin-desktop'
 
 Build was done on  Linux-3.16.0-45-generic using x86_64
 Build was done using cmake 2.8.12 
@@ -17,6 +17,8 @@ Pointer size: 8
 ===== Feature flags used: =====
 -- Cache values
 CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 CMAKE_INSTALL_PREFIX:PATH=/home/mijin/mysql-5.6.26
 COMMUNITY_BUILD:BOOL=ON
 ENABLED_PROFILING:BOOL=ON
@@ -28,7 +30,7 @@ ENABLE_MEMCACHED_SASL:BOOL=OFF
 ENABLE_MEMCACHED_SASL_PWDB:BOOL=OFF
 FEATURE_SET:STRING=community
 INSTALL_LAYOUT:STRING=STANDALONE
-MYSQL_DATADIR:PATH=/home/mijin/mysql_bin_face/data
+MYSQL_DATADIR:PATH=/home/mijin/mysql-5.6.26/data
 MYSQL_MAINTAINER_MODE:BOOL=OFF
 OPTIMIZER_TRACE:BOOL=ON
 TMPDIR:PATH=P_tmpdir

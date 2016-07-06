@@ -140,6 +140,28 @@ plugin/semisync/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir
 plugin/semisync/CMakeFiles/semisync_slave.dir/build: plugin/semisync/semisync_slave.so
 .PHONY : plugin/semisync/CMakeFiles/semisync_slave.dir/build
 
+# Object files for target semisync_slave
+semisync_slave_OBJECTS = \
+"CMakeFiles/semisync_slave.dir/semisync.cc.o" \
+"CMakeFiles/semisync_slave.dir/semisync_slave.cc.o" \
+"CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o"
+
+# External object files for target semisync_slave
+semisync_slave_EXTERNAL_OBJECTS =
+
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir/build.make
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: libservices/libmysqlservices.a
+plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so: plugin/semisync/CMakeFiles/semisync_slave.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module CMakeFiles/CMakeRelink.dir/semisync_slave.so"
+	cd /home/mijin/mysql-5.6.26/plugin/semisync && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/semisync_slave.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall: plugin/semisync/CMakeFiles/CMakeRelink.dir/semisync_slave.so
+.PHONY : plugin/semisync/CMakeFiles/semisync_slave.dir/preinstall
+
 plugin/semisync/CMakeFiles/semisync_slave.dir/requires: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync.cc.o.requires
 plugin/semisync/CMakeFiles/semisync_slave.dir/requires: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave.cc.o.requires
 plugin/semisync/CMakeFiles/semisync_slave.dir/requires: plugin/semisync/CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o.requires

@@ -99,6 +99,33 @@ extra/mysql_waitpid: extra/CMakeFiles/mysql_waitpid.dir/link.txt
 extra/CMakeFiles/mysql_waitpid.dir/build: extra/mysql_waitpid
 .PHONY : extra/CMakeFiles/mysql_waitpid.dir/build
 
+# Object files for target mysql_waitpid
+mysql_waitpid_OBJECTS = \
+"CMakeFiles/mysql_waitpid.dir/mysql_waitpid.c.o"
+
+# External object files for target mysql_waitpid
+mysql_waitpid_EXTERNAL_OBJECTS =
+
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: extra/CMakeFiles/mysql_waitpid.dir/mysql_waitpid.c.o
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: extra/CMakeFiles/mysql_waitpid.dir/build.make
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: mysys_ssl/libmysys_ssl.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: mysys/libmysys.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: dbug/libdbug.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: strings/libstrings.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: zlib/libzlib.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: extra/yassl/libyassl.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: extra/yassl/taocrypt/libtaocrypt.a
+extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid: extra/CMakeFiles/mysql_waitpid.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql_waitpid"
+	cd /home/mijin/mysql-5.6.26/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql_waitpid.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+extra/CMakeFiles/mysql_waitpid.dir/preinstall: extra/CMakeFiles/CMakeRelink.dir/mysql_waitpid
+.PHONY : extra/CMakeFiles/mysql_waitpid.dir/preinstall
+
 extra/CMakeFiles/mysql_waitpid.dir/requires: extra/CMakeFiles/mysql_waitpid.dir/mysql_waitpid.c.o.requires
 .PHONY : extra/CMakeFiles/mysql_waitpid.dir/requires
 

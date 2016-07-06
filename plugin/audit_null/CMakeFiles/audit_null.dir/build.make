@@ -90,6 +90,24 @@ plugin/audit_null/adt_null.so: plugin/audit_null/CMakeFiles/audit_null.dir/link.
 plugin/audit_null/CMakeFiles/audit_null.dir/build: plugin/audit_null/adt_null.so
 .PHONY : plugin/audit_null/CMakeFiles/audit_null.dir/build
 
+# Object files for target audit_null
+audit_null_OBJECTS = \
+"CMakeFiles/audit_null.dir/audit_null.c.o"
+
+# External object files for target audit_null
+audit_null_EXTERNAL_OBJECTS =
+
+plugin/audit_null/CMakeFiles/CMakeRelink.dir/adt_null.so: plugin/audit_null/CMakeFiles/audit_null.dir/audit_null.c.o
+plugin/audit_null/CMakeFiles/CMakeRelink.dir/adt_null.so: plugin/audit_null/CMakeFiles/audit_null.dir/build.make
+plugin/audit_null/CMakeFiles/CMakeRelink.dir/adt_null.so: libservices/libmysqlservices.a
+plugin/audit_null/CMakeFiles/CMakeRelink.dir/adt_null.so: plugin/audit_null/CMakeFiles/audit_null.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared module CMakeFiles/CMakeRelink.dir/adt_null.so"
+	cd /home/mijin/mysql-5.6.26/plugin/audit_null && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/audit_null.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+plugin/audit_null/CMakeFiles/audit_null.dir/preinstall: plugin/audit_null/CMakeFiles/CMakeRelink.dir/adt_null.so
+.PHONY : plugin/audit_null/CMakeFiles/audit_null.dir/preinstall
+
 plugin/audit_null/CMakeFiles/audit_null.dir/requires: plugin/audit_null/CMakeFiles/audit_null.dir/audit_null.c.o.requires
 .PHONY : plugin/audit_null/CMakeFiles/audit_null.dir/requires
 

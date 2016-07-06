@@ -432,7 +432,7 @@ then
   DATADIR=$MY_BASEDIR_VERSION/var
 # Or just give up and use our compiled-in default
 else
-  DATADIR=/home/mijin/mysql_bin_face/data
+  DATADIR=/home/mijin/mysql-5.6.26/data
 fi
 
 if test -z "$MYSQL_HOME"

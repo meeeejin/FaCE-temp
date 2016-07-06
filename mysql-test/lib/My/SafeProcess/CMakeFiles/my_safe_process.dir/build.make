@@ -89,6 +89,23 @@ mysql-test/lib/My/SafeProcess/my_safe_process: mysql-test/lib/My/SafeProcess/CMa
 mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build: mysql-test/lib/My/SafeProcess/my_safe_process
 .PHONY : mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build
 
+# Object files for target my_safe_process
+my_safe_process_OBJECTS = \
+"CMakeFiles/my_safe_process.dir/safe_process.cc.o"
+
+# External object files for target my_safe_process
+my_safe_process_EXTERNAL_OBJECTS =
+
+mysql-test/lib/My/SafeProcess/CMakeFiles/CMakeRelink.dir/my_safe_process: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/safe_process.cc.o
+mysql-test/lib/My/SafeProcess/CMakeFiles/CMakeRelink.dir/my_safe_process: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/build.make
+mysql-test/lib/My/SafeProcess/CMakeFiles/CMakeRelink.dir/my_safe_process: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/my_safe_process"
+	cd /home/mijin/mysql-5.6.26/mysql-test/lib/My/SafeProcess && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_safe_process.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall: mysql-test/lib/My/SafeProcess/CMakeFiles/CMakeRelink.dir/my_safe_process
+.PHONY : mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/preinstall
+
 mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/requires: mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/safe_process.cc.o.requires
 .PHONY : mysql-test/lib/My/SafeProcess/CMakeFiles/my_safe_process.dir/requires
 

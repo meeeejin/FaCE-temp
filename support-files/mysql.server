@@ -67,7 +67,7 @@ then
   bindir=/home/mijin/mysql-5.6.26/bin
   if test -z "$datadir"
   then
-    datadir=/home/mijin/mysql_bin_face/data
+    datadir=/home/mijin/mysql-5.6.26/data
   fi
   sbindir=/home/mijin/mysql-5.6.26/bin
   libexecdir=/home/mijin/mysql-5.6.26/bin

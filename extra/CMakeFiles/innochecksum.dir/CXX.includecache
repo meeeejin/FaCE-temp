@@ -48,52 +48,6 @@ mach0data.ic
 ut0rnd.ic
 /home/mijin/mysql-5.6.26/extra/ut0rnd.ic
 
-/home/mijin/mysql-5.6.26/storage/innobase/buf/buf0checksum.cc
-univ.i
-/home/mijin/mysql-5.6.26/storage/innobase/buf/univ.i
-fil0fil.h
-/home/mijin/mysql-5.6.26/storage/innobase/buf/fil0fil.h
-ut0crc32.h
-/home/mijin/mysql-5.6.26/storage/innobase/buf/ut0crc32.h
-ut0rnd.h
-/home/mijin/mysql-5.6.26/storage/innobase/buf/ut0rnd.h
-srv0srv.h
-/home/mijin/mysql-5.6.26/storage/innobase/buf/srv0srv.h
-buf0types.h
-/home/mijin/mysql-5.6.26/storage/innobase/buf/buf0types.h
-
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0crc32.cc
-univ.i
-/home/mijin/mysql-5.6.26/storage/innobase/ut/univ.i
-ut0crc32.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0crc32.h
-string.h
--
-
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0ut.cc
-ut0ut.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0ut.h
-ut0sort.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0sort.h
-os0thread.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/os0thread.h
-ut0ut.ic
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ut0ut.ic
-stdarg.h
--
-string.h
--
-ctype.h
--
-trx0trx.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/trx0trx.h
-ha_prototypes.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/ha_prototypes.h
-mysql_com.h
-/home/mijin/mysql-5.6.26/storage/innobase/ut/mysql_com.h
-stdarg.h
--
-
 include/big_endian.h
 
 include/byte_order_generic.h
@@ -343,8 +297,6 @@ mysql/service_my_plugin_log.h
 -
 mysql/service_mysql_string.h
 -
-
-include/mysql_com.h
 
 include/t_ctype.h
 
@@ -1175,10 +1127,6 @@ ut0rnd.ic
 storage/innobase/include/ut0rnd.ic
 
 storage/innobase/include/ut0rnd.ic
-
-storage/innobase/include/ut0sort.h
-univ.i
-storage/innobase/include/univ.i
 
 storage/innobase/include/ut0ut.h
 univ.i

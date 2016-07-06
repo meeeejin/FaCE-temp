@@ -90,6 +90,24 @@ client/mysqlimport: client/CMakeFiles/mysqlimport.dir/link.txt
 client/CMakeFiles/mysqlimport.dir/build: client/mysqlimport
 .PHONY : client/CMakeFiles/mysqlimport.dir/build
 
+# Object files for target mysqlimport
+mysqlimport_OBJECTS = \
+"CMakeFiles/mysqlimport.dir/mysqlimport.c.o"
+
+# External object files for target mysqlimport
+mysqlimport_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqlimport: client/CMakeFiles/mysqlimport.dir/mysqlimport.c.o
+client/CMakeFiles/CMakeRelink.dir/mysqlimport: client/CMakeFiles/mysqlimport.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqlimport: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqlimport: client/CMakeFiles/mysqlimport.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqlimport"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqlimport.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqlimport.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqlimport
+.PHONY : client/CMakeFiles/mysqlimport.dir/preinstall
+
 client/CMakeFiles/mysqlimport.dir/requires: client/CMakeFiles/mysqlimport.dir/mysqlimport.c.o.requires
 .PHONY : client/CMakeFiles/mysqlimport.dir/requires
 

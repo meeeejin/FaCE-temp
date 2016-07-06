@@ -90,6 +90,24 @@ client/mysqlshow: client/CMakeFiles/mysqlshow.dir/link.txt
 client/CMakeFiles/mysqlshow.dir/build: client/mysqlshow
 .PHONY : client/CMakeFiles/mysqlshow.dir/build
 
+# Object files for target mysqlshow
+mysqlshow_OBJECTS = \
+"CMakeFiles/mysqlshow.dir/mysqlshow.c.o"
+
+# External object files for target mysqlshow
+mysqlshow_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqlshow: client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o
+client/CMakeFiles/CMakeRelink.dir/mysqlshow: client/CMakeFiles/mysqlshow.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqlshow: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqlshow: client/CMakeFiles/mysqlshow.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqlshow"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqlshow.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqlshow.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqlshow
+.PHONY : client/CMakeFiles/mysqlshow.dir/preinstall
+
 client/CMakeFiles/mysqlshow.dir/requires: client/CMakeFiles/mysqlshow.dir/mysqlshow.c.o.requires
 .PHONY : client/CMakeFiles/mysqlshow.dir/requires
 

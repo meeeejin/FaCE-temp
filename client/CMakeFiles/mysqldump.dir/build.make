@@ -115,6 +115,26 @@ client/mysqldump: client/CMakeFiles/mysqldump.dir/link.txt
 client/CMakeFiles/mysqldump.dir/build: client/mysqldump
 .PHONY : client/CMakeFiles/mysqldump.dir/build
 
+# Object files for target mysqldump
+mysqldump_OBJECTS = \
+"CMakeFiles/mysqldump.dir/mysqldump.c.o" \
+"CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o"
+
+# External object files for target mysqldump
+mysqldump_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysqldump: client/CMakeFiles/mysqldump.dir/mysqldump.c.o
+client/CMakeFiles/CMakeRelink.dir/mysqldump: client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o
+client/CMakeFiles/CMakeRelink.dir/mysqldump: client/CMakeFiles/mysqldump.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysqldump: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysqldump: client/CMakeFiles/mysqldump.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysqldump"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqldump.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysqldump.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysqldump
+.PHONY : client/CMakeFiles/mysqldump.dir/preinstall
+
 client/CMakeFiles/mysqldump.dir/requires: client/CMakeFiles/mysqldump.dir/mysqldump.c.o.requires
 client/CMakeFiles/mysqldump.dir/requires: client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o.requires
 .PHONY : client/CMakeFiles/mysqldump.dir/requires

@@ -99,6 +99,33 @@ storage/myisam/myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/link.txt
 storage/myisam/CMakeFiles/myisamchk.dir/build: storage/myisam/myisamchk
 .PHONY : storage/myisam/CMakeFiles/myisamchk.dir/build
 
+# Object files for target myisamchk
+myisamchk_OBJECTS = \
+"CMakeFiles/myisamchk.dir/myisamchk.c.o"
+
+# External object files for target myisamchk
+myisamchk_EXTERNAL_OBJECTS =
+
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/myisamchk.c.o
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/build.make
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: storage/myisam/libmyisam.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: mysys_ssl/libmysys_ssl.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: mysys/libmysys.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: dbug/libdbug.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: strings/libstrings.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: extra/yassl/libyassl.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: extra/yassl/taocrypt/libtaocrypt.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: zlib/libzlib.a
+storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk: storage/myisam/CMakeFiles/myisamchk.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/myisamchk"
+	cd /home/mijin/mysql-5.6.26/storage/myisam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myisamchk.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+storage/myisam/CMakeFiles/myisamchk.dir/preinstall: storage/myisam/CMakeFiles/CMakeRelink.dir/myisamchk
+.PHONY : storage/myisam/CMakeFiles/myisamchk.dir/preinstall
+
 storage/myisam/CMakeFiles/myisamchk.dir/requires: storage/myisam/CMakeFiles/myisamchk.dir/myisamchk.c.o.requires
 .PHONY : storage/myisam/CMakeFiles/myisamchk.dir/requires
 

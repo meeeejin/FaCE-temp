@@ -167,6 +167,32 @@ client/mysql: client/CMakeFiles/mysql.dir/link.txt
 client/CMakeFiles/mysql.dir/build: client/mysql
 .PHONY : client/CMakeFiles/mysql.dir/build
 
+# Object files for target mysql
+mysql_OBJECTS = \
+"CMakeFiles/mysql.dir/completion_hash.cc.o" \
+"CMakeFiles/mysql.dir/mysql.cc.o" \
+"CMakeFiles/mysql.dir/readline.cc.o" \
+"CMakeFiles/mysql.dir/sql_string.cc.o"
+
+# External object files for target mysql
+mysql_EXTERNAL_OBJECTS =
+
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/completion_hash.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/mysql.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/readline.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/sql_string.cc.o
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/build.make
+client/CMakeFiles/CMakeRelink.dir/mysql: libmysql/libmysqlclient.a
+client/CMakeFiles/CMakeRelink.dir/mysql: cmd-line-utils/libedit/libedit.a
+client/CMakeFiles/CMakeRelink.dir/mysql: /usr/lib/x86_64-linux-gnu/libcurses.so
+client/CMakeFiles/CMakeRelink.dir/mysql: client/CMakeFiles/mysql.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/mysql"
+	cd /home/mijin/mysql-5.6.26/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysql.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+client/CMakeFiles/mysql.dir/preinstall: client/CMakeFiles/CMakeRelink.dir/mysql
+.PHONY : client/CMakeFiles/mysql.dir/preinstall
+
 client/CMakeFiles/mysql.dir/requires: client/CMakeFiles/mysql.dir/completion_hash.cc.o.requires
 client/CMakeFiles/mysql.dir/requires: client/CMakeFiles/mysql.dir/mysql.cc.o.requires
 client/CMakeFiles/mysql.dir/requires: client/CMakeFiles/mysql.dir/readline.cc.o.requires
