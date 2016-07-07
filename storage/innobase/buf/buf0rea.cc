@@ -211,12 +211,11 @@ buf_read_page_low(
                         entry->space == bpage->space && entry->offset == bpage->offset);
             rw_lock_s_unlock(ssd_cache_hash_lock);
 
-            srv_ssd_cache_total_ref += 1;
-
             /* If the page to read is in the SSD cache and the page is valid, retrieve the page from SSD cache.
             Else, retrieve the page from the storage. */
             if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID) && !(ssd_meta_dir[entry->ssd_offset].flags & BM_VICTIM)) {
                 ut_a((entry->space == bpage->space) && (entry->offset == bpage->offset));
+                srv_ssd_cache_total_ref += 1;
 
                 fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
 
