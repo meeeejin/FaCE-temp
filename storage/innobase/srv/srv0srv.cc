@@ -182,11 +182,12 @@ UNIV_INTERN ibool	srv_created_new_raw	= FALSE;
 
 #include "face0face.h"
 #ifdef SSD_CACHE_FACE
-UNIV_INTERN ibool               srv_use_ssd_cache = FALSE;
-UNIV_INTERN char*               srv_ssd_cache_file = NULL;
-UNIV_INTERN ulint               srv_ssd_cache_size = ULINT_MAX;
-UNIV_INTERN ulint               srv_ssd_cache_total_ref = 0;
-UNIV_INTERN ulint               srv_ssd_cache_hit_ref = 0;
+UNIV_INTERN ibool   srv_use_ssd_cache = FALSE;
+UNIV_INTERN char*   srv_ssd_cache_file = NULL;
+UNIV_INTERN ulint   srv_ssd_cache_size = ULINT_MAX;
+UNIV_INTERN ulint   srv_ssd_cache_total_ref = 0;
+UNIV_INTERN ulint   srv_ssd_cache_hit_ref = 0;
+UNIV_INTERN ulint   srv_ssd_cache_scan_depth = 0;
 #endif
 
 UNIV_INTERN char*	srv_log_group_home_dir	= NULL;

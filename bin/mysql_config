@@ -117,8 +117,8 @@ libs_r=" $ldflags -L$pkglibdir  -lmysqlclient   -lpthread -lm -ldl   "
 embedded_libs=" $ldflags -L$pkglibdir  -lmysqld    -lpthread -lm -lcrypt -ldl -laio    "
 embedded_libs="$embedded_libs "
 
-cflags="-I$pkgincludedir   -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF " #note: end space!
-cxxflags="-I$pkgincludedir   -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF " #note: end space!
+cflags="-I$pkgincludedir  -fPIC  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF " #note: end space!
+cxxflags="-I$pkgincludedir  -fPIC  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF " #note: end space!
 include="-I$pkgincludedir"
 
 # Remove some options that a client doesn't have to care about

@@ -39,7 +39,7 @@ CAT_EXECUTABLE:FILEPATH=/bin/cat
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 //\n CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel
-CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -336,7 +336,7 @@ MYSQL_DATADIR:PATH=/home/mijin/mysql-5.6.26/data
 MYSQL_DOCS_LOCATION:PATH=
 
 //MySQL maintainer-specific development environment
-MYSQL_MAINTAINER_MODE:BOOL=OFF
+MYSQL_MAINTAINER_MODE:BOOL=ON
 
 //MySQL project name
 MYSQL_PROJECT_NAME:STRING=MySQL
@@ -381,7 +381,7 @@ WITH_ATOMIC_LOCKS:STRING=
 WITH_BLACKHOLE_STORAGE_ENGINE:BOOL=ON
 
 //Use dbug/safemutex
-WITH_DEBUG:BOOL=OFF
+WITH_DEBUG:BOOL=1
 
 //Use flags from cmake/build_configurations/compiler_options.cmake
 WITH_DEFAULT_COMPILER_OPTIONS:BOOL=ON
@@ -431,7 +431,7 @@ WITH_PARTITION_STORAGE_ENGINE:BOOL=ON
 WITH_PERFSCHEMA_STORAGE_ENGINE:BOOL=ON
 
 //Generate PIC objects
-WITH_PIC:BOOL=OFF
+WITH_PIC:BOOL=ON
 
 //bundled (use yassl), yes (prefer os library if present, otherwise
 // use bundled), system (use os library), </path/to/custom/installation>
@@ -447,9 +447,6 @@ WITH_ZLIB:STRING=bundled
 
 //Dependencies for the target
 archive_LIB_DEPENDS:STATIC=general;-lpthread;general;zlib;
-
-//Dependencies for the target
-archive_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 audit_null_LIB_DEPENDS:STATIC=general;-lpthread;general;mysqlservices;
@@ -470,16 +467,10 @@ binlog_LIB_DEPENDS:STATIC=general;-lpthread;
 blackhole_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
-blackhole_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
-
-//Dependencies for the target
 clientlib_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 csv_LIB_DEPENDS:STATIC=general;-lpthread;
-
-//Dependencies for the target
-csv_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 daemon_example_LIB_DEPENDS:STATIC=general;-lpthread;general;mysqlservices;
@@ -494,9 +485,6 @@ edit_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libc
 federated_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
-federated_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
-
-//Dependencies for the target
 ftexample_LIB_DEPENDS:STATIC=general;-lpthread;general;mysqlservices;
 
 //Dependencies for the target
@@ -507,9 +495,6 @@ heap_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 innobase_LIB_DEPENDS:STATIC=general;-lpthread;general;aio;general;zlib;
-
-//Dependencies for the target
-innobase_embedded_LIB_DEPENDS:STATIC=general;-lpthread;general;aio;
 
 //Dependencies for the target
 libmysql_LIB_DEPENDS:STATIC=general;-lpthread;general;clientlib;general;dbug;general;strings;general;vio;general;mysys;general;mysys_ssl;general;zlib;general;yassl;general;taocrypt;general;dl;
@@ -558,9 +543,6 @@ partition_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 perfschema_LIB_DEPENDS:STATIC=general;-lpthread;
-
-//Dependencies for the target
-perfschema_embedded_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Dependencies for the target
 pfs_server_stubs_LIB_DEPENDS:STATIC=general;-lpthread;
@@ -1601,7 +1583,7 @@ MYSQL_DOCS_LOCATION-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MYSQL_PROJECT_NAME
 MYSQL_PROJECT_NAME-ADVANCED:INTERNAL=1
 OLD_INSTALL_LAYOUT:INTERNAL=STANDALONE
-OLD_WITH_DEBUG:INTERNAL=0
+OLD_WITH_DEBUG:INTERNAL=1
 ONETIME_GTEST_WARNING:INTERNAL=1
 //Test QSORT_TYPE_IS_VOID
 QSORT_TYPE_IS_VOID:INTERNAL=1

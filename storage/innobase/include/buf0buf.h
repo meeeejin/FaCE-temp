@@ -93,7 +93,9 @@ extern const int	WAIT_FOR_READ;
 /* Flags for buffer descriptors */
 #define BM_DIRTY 		(1 << 0)	/* data needs writing */
 #define BM_VALID 		(1 << 1)	/* data is valid */
-#define BM_VICTIM       (1 << 2)    /* data is a victim page */
+#define BM_WB           (1 << 2)    /* data will be written back to the storage */
+#define BM_REF          (1 << 3)    /* data is referenced recently */
+#define BM_GSC          (1 << 4)    /* data will receive the second chance */
 
 extern	hash_table_t*	ssd_cache;
 extern	ssd_meta_dir_t* ssd_meta_dir;

@@ -124,10 +124,6 @@ buf_read_page_low(
 	buf_page_t*	bpage;
 	ulint		wake_later;
 	ibool		ignore_nonexistent_pages;
-#ifdef SSD_CACHE_FACE
-	ssd_meta_dir_t* entry = NULL;
-	ulint           fold;
-#endif	
 
 	*err = DB_SUCCESS;
 
@@ -203,7 +199,13 @@ buf_read_page_low(
 
 #ifdef SSD_CACHE_FACE
         if (srv_use_ssd_cache) {
+	        ssd_meta_dir_t* entry = NULL;
+	        ulint           fold;
+
             fold = buf_page_address_fold(bpage->space, bpage->offset);
+
+            fprintf(stderr, "READ REQUEST: %lu, (space, offset) = (%u, %u)\n",
+                    fold, bpage->space, bpage->offset);
 
             /* Search SSD cache hash table. */
             rw_lock_s_lock(ssd_cache_hash_lock);
@@ -211,13 +213,20 @@ buf_read_page_low(
                         entry->space == bpage->space && entry->offset == bpage->offset);
             rw_lock_s_unlock(ssd_cache_hash_lock);
 
+            srv_ssd_cache_total_ref += 1;
+
             /* If the page to read is in the SSD cache and the page is valid, retrieve the page from SSD cache.
             Else, retrieve the page from the storage. */
-            if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID) && !(ssd_meta_dir[entry->ssd_offset].flags & BM_VICTIM)) {
+            if (entry && (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID) && !((ssd_meta_dir[entry->ssd_offset].flags & BM_WB))) {
                 ut_a((entry->space == bpage->space) && (entry->offset == bpage->offset));
-                srv_ssd_cache_total_ref += 1;
 
-                fprintf(stderr, "The page is found in SSD cache! (space, offset) = (%u, %u)\n", entry->space, entry->offset);
+                if (ssd_meta_dir[entry->ssd_offset].flags & BM_GSC) {
+                    fprintf(stderr, "second chance read! (metadata index) = (%lu), (space, offset) = (%u, %u)\n",
+                                    entry->ssd_offset, entry->space, entry->offset);
+                }
+
+                fprintf(stderr, "The page is found in SSD cache! (metadata index) = (%lu), (space, offset) = (%u, %u)\n",
+                                entry->ssd_offset, entry->space, entry->offset);
 
                 /* Wait until the IO in progress is finished. */
                 for (;;) {
@@ -235,8 +244,14 @@ buf_read_page_low(
                         ulint ssd_offset = entry->ssd_offset * UNIV_PAGE_SIZE;
 
                         if ((ulint) pread(ssd_cache_fd, ((buf_block_t*) bpage)->frame, UNIV_PAGE_SIZE, ssd_offset) == UNIV_PAGE_SIZE) {
-                            fprintf(stderr, "Reading SSD cache file succeeded! (metadata index) = (%lu)\n", entry->ssd_offset);
+                            fprintf(stderr, "Reading SSD cache file succeeded! (metadata index) = (%lu), (prev, next, space, offset) = (%lu, %lu, %lu, %lu)\n",
+                                            entry->ssd_offset,
+                                            mach_read_from_4(((buf_block_t*) bpage)->frame + FIL_PAGE_PREV),
+                                            mach_read_from_4(((buf_block_t*) bpage)->frame + FIL_PAGE_NEXT),
+                                            mach_read_from_4(((buf_block_t*) bpage)->frame + FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID),
+                                            mach_read_from_4(((buf_block_t*) bpage)->frame + FIL_PAGE_OFFSET));
                             srv_ssd_cache_hit_ref += 1;
+                            ssd_meta_dir[entry->ssd_offset].flags |= BM_REF;
                             *err = DB_SUCCESS;
                         } else {
                             fprintf(stderr, "Reading SSD cache file failed.\n");
@@ -251,10 +266,29 @@ buf_read_page_low(
 
                         break;
                     } else {
+                        fprintf(stderr, "read sleep..(metadata index) = (%lu), (space, offset) = (%u, %u)\n",
+                                        entry->ssd_offset, entry->space, entry->offset);
                         os_thread_sleep(WAIT_FOR_READ);
                     }
                 }
             } else {
+                fprintf(stderr, "Read from storage (%lu), (%u, %u)\n", fold, bpage->space, bpage->offset);
+                
+                if (entry) {
+                    fprintf(stderr, "mijin = ssd cache search loop..%lu\n", entry->ssd_offset);
+                    if (ssd_meta_dir[entry->ssd_offset].flags & BM_VALID) {
+                        fprintf(stderr, "mijin: valid %lu\n", entry->ssd_offset);
+                    } else {
+                        fprintf(stderr, "mijin: invalid %lu\n", entry->ssd_offset);
+                    }
+
+                    if (ssd_meta_dir[entry->ssd_offset].flags & BM_REF) {
+                        fprintf(stderr, "mijin: ref %lu\n", entry->ssd_offset);
+                    } else {
+                        fprintf(stderr, "mijin: no ref %lu\n", entry->ssd_offset);
+                    }
+                }
+
                 *err = fil_io(OS_FILE_READ | wake_later
                         | ignore_nonexistent_pages,
                         sync, space, 0, offset, 0, UNIV_PAGE_SIZE,

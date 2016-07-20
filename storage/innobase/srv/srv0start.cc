@@ -1969,15 +1969,15 @@ innobase_start_or_create_for_mysql(void)
 
 #ifdef SSD_CACHE_FACE
     if (srv_use_ssd_cache) {
-        ut_print_timestamp(stderr);
-        fprintf(stderr, "InnoDB: Note: The innodb_use_ssd_cache option has been specified.\n");
+        ib_logf(IB_LOG_LEVEL_INFO,
+            "The innodb_use_ssd_cache option has been specified.");
     
-        ut_print_timestamp(stderr);
-        fprintf(stderr, "InnoDB: This option is for experts only. Don't use it unless you understand WELL what it is.\n");
+        ib_logf(IB_LOG_LEVEL_INFO,
+            "This option is for experts only. Don't use it unless you understand WELL what it is.");
 
-        ut_print_timestamp(stderr);
-        fprintf(stderr, "InnoDB: SSD cache size = %lu, SSD cache file = %s\n",
-                        srv_ssd_cache_size, srv_ssd_cache_file);
+        ib_logf(IB_LOG_LEVEL_INFO,
+            "SSD cache size = %lu, SSD cache file = %s",
+            srv_ssd_cache_size, srv_ssd_cache_file);
     }
 #endif
 

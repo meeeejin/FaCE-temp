@@ -270,6 +270,13 @@ btr_cur_latch_leaves(
 #ifdef UNIV_BTR_DEBUG
 			ut_a(page_is_comp(get_block->frame)
 			     == page_is_comp(page));
+            if (btr_page_get_next(get_block->frame, mtr) != page_get_page_no(page)) {
+                fprintf(stderr, "mijin: (%lu: %lu, %lu), (%lu, %lu)\n",
+                        btr_page_get_next(get_block->frame, mtr),
+                        mach_read_from_4(get_block->frame + FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID),
+                        mach_read_from_4(get_block->frame + FIL_PAGE_OFFSET),
+                        page_get_space_id(page), page_get_page_no(page));
+            }
 			ut_a(btr_page_get_next(get_block->frame, mtr)
 			     == page_get_page_no(page));
 #endif /* UNIV_BTR_DEBUG */
@@ -293,6 +300,13 @@ btr_cur_latch_leaves(
 #ifdef UNIV_BTR_DEBUG
 			ut_a(page_is_comp(get_block->frame)
 			     == page_is_comp(page));
+            if (btr_page_get_prev(get_block->frame, mtr) != page_get_page_no(page)) {
+                fprintf(stderr, "mijin: (%lu: %lu, %lu), (%lu, %lu)\n",
+                        btr_page_get_prev(get_block->frame, mtr),
+                        mach_read_from_4(get_block->frame + FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID),
+                        mach_read_from_4(get_block->frame + FIL_PAGE_OFFSET),
+                        page_get_space_id(page), page_get_page_no(page));
+            }
 			ut_a(btr_page_get_prev(get_block->frame, mtr)
 			     == page_get_page_no(page));
 #endif /* UNIV_BTR_DEBUG */
@@ -697,6 +711,13 @@ retry_page_get:
 			? SYNC_IBUF_TREE_NODE : SYNC_TREE_NODE);
 	}
 
+    if (fil_page_get_type(page) != FIL_PAGE_INDEX) {
+        fprintf(stderr, "mijin: %lu, (%lu, %lu) / (%lu, %lu)\n",
+                    fil_page_get_type(page),
+                    mach_read_from_4(page + FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID),
+                    mach_read_from_4(page + FIL_PAGE_OFFSET),
+                    space, page_no);
+    }
 	ut_ad(fil_page_get_type(page) == FIL_PAGE_INDEX);
 	ut_ad(index->id == btr_page_get_index_id(page));
 

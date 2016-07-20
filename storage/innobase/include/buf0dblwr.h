@@ -194,7 +194,9 @@ UNIV_INTERN
 void
 update_ssd_cache_info(
 /*==================*/
-    buf_page_t* bpage,  /*!< in: buffer block used to update SSD cache information */
+    ulint   space,      /*!< in: space id */
+    ulint   offset,     /*!< in: page number */
+    lsn_t   lsn,        /*!< in: lsn */
     ulint meta_idx);    /*!< in: metadata index */
 
 /**************************************************************//**
@@ -207,6 +209,19 @@ insert_page_in_ssd_cache(
     ulint page_num,     /*!< in: total number of pages to write */
     byte* buf);         /*!< in: buffer used in writing to the SSD cache */
 
+/**************************************************************//**
+Rebuild write buffer to distinguish three types of pages such
+as invalid pages, pages which receive second chance and pages
+which should be written back to the storage (write-back). */
+UNIV_INTERN
+byte*
+rebuild_write_buf_for_ssd_cache(
+/*============================*/
+    ulint first_idx,        /*!< in: metadata index of the first page to write */
+    ulint total_page_num,   /*!< in: the number of total pages to write */
+    ulint gsc_page_num,     /*!< in: the number of pages to give second chance */
+    byte* buf,              /*!< in: buffer used in writing to the SSD cache */
+    bool    ssd_cache_size_over_first);
 #endif /*END OF SSD_CACHE_FACE*/
 
 #endif /* UNIV_HOTBACKUP */

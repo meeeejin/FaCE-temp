@@ -160,6 +160,7 @@ static char*	innobase_reset_all_monitor_counter	= NULL;
 static my_bool      innobase_use_ssd_cache  = FALSE;
 static char*        innobase_ssd_cache_file = NULL;
 static long long    innobase_ssd_cache_size = 0;
+static ulong        innobase_ssd_cache_scan_depth = 0;
 #endif
 
 /* The highest file format being used in the database. The value can be
@@ -2935,6 +2936,7 @@ mem_free_and_error:
     srv_use_ssd_cache = (ibool) innobase_use_ssd_cache;
     srv_ssd_cache_file = innobase_ssd_cache_file;
     srv_ssd_cache_size = (ulint) innobase_ssd_cache_size;
+    srv_ssd_cache_scan_depth = (ulint) innobase_ssd_cache_scan_depth;
 #endif
 
 	/* -------------- All log files ---------------------------*/
@@ -15723,6 +15725,11 @@ static MYSQL_SYSVAR_LONGLONG(ssd_cache_size, innobase_ssd_cache_size,
   PLUGIN_VAR_RQCMDARG | PLUGIN_VAR_READONLY,
   "The size of SSD cache InnoDB uses to cache data.",
   NULL, NULL, 2*1024*1024*1024L, 2*1024*1024*1024L, LONGLONG_MAX, 1024*1024L);
+
+static MYSQL_SYSVAR_ULONG(ssd_cache_scan_depth, innobase_ssd_cache_scan_depth,
+  PLUGIN_VAR_RQCMDARG,
+  "How deep to scan SSD cache to keep it clean",
+    NULL, NULL, 1024, 100, ~0UL, 0);
 #endif
 
 
@@ -16526,9 +16533,10 @@ static struct st_mysql_sys_var* innobase_system_variables[]= {
   MYSQL_SYSVAR(data_file_path),
   MYSQL_SYSVAR(data_home_dir),
 #if SSD_CACHE_FACE
-    MYSQL_SYSVAR(use_ssd_cache),
-    MYSQL_SYSVAR(ssd_cache_file),
-    MYSQL_SYSVAR(ssd_cache_size),
+  MYSQL_SYSVAR(use_ssd_cache),
+  MYSQL_SYSVAR(ssd_cache_file),
+  MYSQL_SYSVAR(ssd_cache_size),
+  MYSQL_SYSVAR(ssd_cache_scan_depth),
 #endif
   MYSQL_SYSVAR(doublewrite),
   MYSQL_SYSVAR(api_enable_binlog),

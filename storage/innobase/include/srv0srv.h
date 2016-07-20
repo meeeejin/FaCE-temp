@@ -244,11 +244,12 @@ extern ulint	srv_last_file_size_max;
 extern char*	srv_log_group_home_dir;
 
 #ifdef SSD_CACHE_FACE
-extern ibool                srv_use_ssd_cache;
-extern char*                srv_ssd_cache_file;
-extern ulint                srv_ssd_cache_size;
-extern ulint                srv_ssd_cache_total_ref;
-extern ulint                srv_ssd_cache_hit_ref;
+extern ibool    srv_use_ssd_cache;
+extern char*    srv_ssd_cache_file;
+extern ulint    srv_ssd_cache_size;
+extern ulint    srv_ssd_cache_total_ref;
+extern ulint    srv_ssd_cache_hit_ref;
+extern ulint    srv_ssd_cache_scan_depth;    
 #endif
 
 #ifndef UNIV_HOTBACKUP

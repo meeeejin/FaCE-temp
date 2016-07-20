@@ -203,8 +203,8 @@ $flags->{embedded_libs} =
   [@ldflags,@lib_e_opts,'','',' -lpthread -lm -lcrypt -ldl -laio ','',''];
 
 $flags->{include} = ["-I$pkgincludedir"];
-$flags->{cflags}  = [@{$flags->{include}},split(" ",'  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF')];
-$flags->{cxxflags}= [@{$flags->{include}},split(" ",'  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF')];
+$flags->{cflags}  = [@{$flags->{include}},split(" ",' -fPIC  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF')];
+$flags->{cxxflags}= [@{$flags->{include}},split(" ",' -fPIC  -O3 -g -fabi-version=2 -fno-omit-frame-pointer -fno-strict-aliasing -DDBUG_OFF')];
 
 # ----------------------------------------------------------------------
 # Remove some options that a client doesn't have to care about
